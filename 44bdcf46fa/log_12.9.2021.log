@@ -1,0 +1,44 @@
+September 12, 2021, 2:43 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 7a096d9f-27cf-4f96-a0e6-9ce2a7448ed6
+    [fio] => test
+    [phone] => 123123123
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/44bdcf46fa/limon.php
+    [ip] => 5.138.158.165
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+September 12, 2021, 2:44 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 7a096d9f-27cf-4f96-a0e6-9ce2a7448ed6
+    [fio] => test
+    [phone] => 123123123
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/44bdcf46fa/limon.php
+    [ip] => 5.138.158.165
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

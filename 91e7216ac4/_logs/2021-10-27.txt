@@ -1,0 +1,43 @@
+2021-10-27 09:10:45 
+Request:
+Array
+(
+    [tel] => 123123123
+    [client] => test
+    [ip] => 85.174.207.159
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => xNgfsMoI
+    [lead_id] => 13260332
+    [lead_key] => 7290700014628303
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-10-27 10:20:38 
+Request:
+Array
+(
+    [tel] => 3213213211
+    [client] => test
+    [ip] => 162.158.88.77
+    [subid] => 5c4e9ikrnusg6f2b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => EFutrgoX
+    [lead_id] => 13260595
+    [lead_key] => 7290700014628571
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

@@ -1,0 +1,88 @@
+July 29, 2021, 3:44 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Gerry fajardo
+    [phone] => 09129490253
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 112.198.68.205
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => d6f94myqeqeqq1eb
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 29, 2021, 3:48 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Bad
+    [phone] => 544
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 110.54.137.95
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => e4282myqe1na79c1
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 29, 2021, 3:48 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Bad
+    [phone] => 544
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 110.54.137.95
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => e4282myqe1na79c1
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 29, 2021, 3:49 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Gerry fajardo
+    [phone] => 09129490253
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 112.198.68.205
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => d6f94myqeqeqq1eb
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

@@ -1,0 +1,22 @@
+December 11, 2021, 1:46 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Giovanni H Elli
+    [phone] => 09658641931
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.184.116
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 129b2qn7sfnbzca4
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

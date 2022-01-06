@@ -1,0 +1,44 @@
+December 28, 2021, 12:37 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => DANILO BATISTIS
+    [phone] => 09914501855
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 2405:8d40:cd0:daeb:ad73:c36e:68c8:71b7
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 8c398gxa7ximyvr7bb
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"84578ef1-f8ef-4380-93f1-df5188feaa17"}
+----------- END --------------
+December 28, 2021, 4:39 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Sonny
+    [phone] => 09532976943
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 110.54.145.227
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 0dd0fgxa8lpfn8nd87
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"55ffd8d7-7323-45f8-a4b6-a0979c41e946"}
+----------- END --------------

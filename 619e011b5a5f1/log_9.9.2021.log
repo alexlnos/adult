@@ -1,0 +1,22 @@
+September 9, 2021, 4:27 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] =>  Benjie
+    [phone] => 09096306788
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/ph_lim_maxup_cream_sm_12_mens_secrets/limon.php
+    [ip] => 175.176.81.253
+    [utm_campaign] => 160
+    [utm_content] => 5
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 96e4a1mzwq5xs657
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

@@ -1,0 +1,92 @@
+2021-12-06 23:03:08 
+Request:
+Array
+(
+    [tel] => 0540875132
+    [client] => حميد كلفيا
+    [ip] => 162.158.90.27
+    [subid] => 08ad9slibpm522f2
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 439
+    [error_msg] => Превышен лимит запросов (1 запрос в секунду)
+    [request_params] => Array
+        (
+            [action] => order.add
+            [api_key] => b9ac07a8a9f29604ea2ef26bd998d265
+            [format] => json
+        )
+
+)
+
+
+2021-12-06 23:03:08 
+Request:
+Array
+(
+    [tel] => 0540875132
+    [client] => حميد كلفيا
+    [ip] => 162.158.90.27
+    [subid] => 08ad9slibpm522f2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ukreDRnK
+    [lead_id] => 13425711
+    [lead_key] => 7442100014797290
+    [profit] => 4.00
+    [currency] => USD
+)
+
+
+2021-12-06 23:03:08 
+Request:
+Array
+(
+    [tel] => 0540875132
+    [client] => حميد كلفيا
+    [ip] => 162.158.90.27
+    [subid] => 08ad9slibpm522f2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => vxzksFIX
+    [lead_id] => 13425712
+    [lead_key] => 7442100014797291
+    [profit] => 4.00
+    [currency] => USD
+)
+
+
+2021-12-06 23:03:08 
+Request:
+Array
+(
+    [tel] => 0540875132
+    [client] => حميد كلفيا
+    [ip] => 162.158.90.27
+    [subid] => 08ad9slibpm522f2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CtPcsfSl
+    [lead_id] => 13425713
+    [lead_key] => 7442100014797292
+    [profit] => 4.00
+    [currency] => USD
+)
+
+

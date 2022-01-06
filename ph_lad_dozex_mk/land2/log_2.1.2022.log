@@ -1,0 +1,88 @@
+January 2, 2022, 4:45 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Erika may marcial
+    [phone] => 09657664036
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 136.158.35.7
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 13e8bgx4kejj60687
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"e59f4e22-f174-4715-8935-f5da4d9b8c9f"}
+----------- END --------------
+January 2, 2022, 7:41 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Mark
+    [phone] => 09488189547
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 161.49.226.68
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 1080dgxtwocqqdz191
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"a0d2b4d0-156d-420e-b46a-462af1bd71bb"}
+----------- END --------------
+January 2, 2022, 5:43 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Usop G. malaguial
+    [phone] => 0906 831 52 23
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 2405:8d40:b60:38e5:16c6:7bdf:ee82:adcc
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => a839fgxirh9qe8ne43
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"e34e8eb1-c741-41d5-b595-b02ba9ce7d2e"}
+----------- END --------------
+January 2, 2022, 5:43 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Usop G. malaguial
+    [phone] => 0906 831 52 23
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 2405:8d40:b60:38e5:16c6:7bdf:ee82:adcc
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => a839fgxirh9qe8ne43
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"a011f6c8-7e5f-48c5-8f49-ee5c6ea01f4d"}
+----------- END --------------

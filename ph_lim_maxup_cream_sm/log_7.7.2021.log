@@ -1,0 +1,66 @@
+July 7, 2021, 12:07 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => SMtest
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltracker.site/landers/ph_lim_maxup_cream_sm/limon.php
+    [ip] => 62.217.184.84
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 7, 2021, 12:11 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Testing
+    [phone] => 0640000000123
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/ph_lim_maxup_cream_sm/limon.php
+    [ip] => 5.62.61.89
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 7, 2021, 12:32 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => NameTest
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/ph_lim_maxup_cream_sm/limon.php
+    [ip] => 5.62.61.89
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

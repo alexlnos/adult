@@ -1,0 +1,66 @@
+December 8, 2021, 12:32 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Shawn
+    [phone] => 09756972406
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/542e03094f/61a5f996637e6/limon.php
+    [ip] => 136.158.120.64
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 33009duhoktuqe27
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 8, 2021, 12:33 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Shawn
+    [phone] => 09756972406
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/542e03094f/61a5f996637e6/limon.php
+    [ip] => 136.158.120.64
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 33009duhoktuqe27
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 8, 2021, 7:41 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Angela panganiban
+    [phone] => 09118425682
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/542e03094f/61a5f996637e6/limon.php
+    [ip] => 136.158.65.88
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 797cadum7hq16168
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

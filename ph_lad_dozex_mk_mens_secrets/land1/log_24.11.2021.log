@@ -1,0 +1,22 @@
+November 24, 2021, 3:48 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => gderghrsdtgh
+    [phone] => h546563
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/ph_lad_dozex_mk_mens_secrets/land1/limon.php
+    [ip] => 46.180.149.88
+    [utm_campaign] => {campaign}
+    [utm_content] => {trafficsource}
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => {clickid}
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

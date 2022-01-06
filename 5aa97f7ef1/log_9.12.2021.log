@@ -1,0 +1,110 @@
+December 9, 2021, 2:18 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Jayson
+    [phone] => 09206221262
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 175.176.58.234
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 4068eg6g5b417a18
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 9, 2021, 4:27 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] =>  Felix A
+    [phone] => Malacad.09279603917
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 112.211.35.225
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 88d82g6uqgm8w67b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 9, 2021, 6:50 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Maui
+    [phone] => Bumbay
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 120.29.69.92
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 21e50g6eja29raf3
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 9, 2021, 9:05 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Brandy Jocson
+    [phone] => 0512961351
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 180.191.109.105
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 37ba4g63v3zy98a9
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 9, 2021, 9:05 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Brandy Jocson
+    [phone] => 09512961351
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 180.191.109.105
+    [utm_campaign] => {campaign}
+    [utm_content] => {trafficsource}
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => {clickid}
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

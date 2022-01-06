@@ -1,0 +1,66 @@
+December 11, 2021, 12:20 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Angelito Natividad chua
+    [phone] => 0961 788 58 25
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 136.158.56.195
+    [utm_campaign] => 896
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 530d1qn8p4pxo60b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 11, 2021, 12:26 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => arnel fernandez
+    [phone] => 098121075
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 2001:4455:21a:a300:a595:7ac5:cb4b:38d9
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => d89f5qn8p4p9z555
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 11, 2021, 8:21 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Lee
+    [phone] => 09635044273
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 203.177.193.51
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 5bef2qnuoa8ftea0
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

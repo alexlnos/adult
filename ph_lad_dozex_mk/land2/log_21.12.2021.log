@@ -1,0 +1,44 @@
+December 21, 2021, 3:36 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => melvin pay ao 
+    [phone] => 09752228318
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 49.149.75.85
+    [utm_campaign] => 894
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => e2d842t9rk2sli4584
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"c5a529bc-91c5-4bd0-a90c-4b5714bdd1b9"}
+----------- END --------------
+December 21, 2021, 3:04 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Man
+    [phone] => +639770859412
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 136.158.78.68
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => affa12tmya3a3dz576
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"c94d3d65-4119-465a-a4a5-ff2022c059e6"}
+----------- END --------------

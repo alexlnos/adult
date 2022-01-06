@@ -1,0 +1,17 @@
+(function() {
+  var btn = document.querySelector('.header__menu-btn');
+  var menu = document.querySelector('.header__nav');
+  
+  function showMenu(evt) {
+    evt.preventDefault();
+    menu.classList.toggle('show');
+  }
+  
+  btn.addEventListener('click', showMenu);
+})();
+
+(function() {
+  // --------------------------stick---------------------------- //
+  var elements = document.querySelectorAll('.sticky');
+  Stickyfill.add(elements);
+})()

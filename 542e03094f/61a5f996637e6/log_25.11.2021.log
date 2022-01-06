@@ -1,0 +1,66 @@
+November 25, 2021, 3:15 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Roldan griego
+    [phone] => 09756552176
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.135.149
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 68009whqe4ka8e98
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+November 25, 2021, 3:55 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Junriy
+    [phone] => 09659309930
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.246.98
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => eb171whyd8w1m691
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+November 25, 2021, 4:45 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => jakejcalvo
+    [phone] => 09506988631
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 175.176.68.220
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 59ec1wh6jgxa8aa9
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

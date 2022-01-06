@@ -1,0 +1,22 @@
+August 17, 2021, 8:17 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => मेरी मुनेंद्र नाम है मेरा महेंद्र मिश्रा
+    [phone] => +919761338286
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4053:2091:724c:3703:e804:8620:ee6
+    [utm_campaign] => 340
+    [utm_content] => 22
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => a8f3advx9e2tw5be
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

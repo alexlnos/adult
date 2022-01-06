@@ -1,0 +1,22 @@
+January 5, 2022, 3:20 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Carl
+    [phone] => 09912263266
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 2405:8d40:ce0:a532:16c7:61a7:ff69:2bd4
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => cca76gx1nqdp20805
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"9358965c-f52d-4933-895b-39b011dead0e"}
+----------- END --------------

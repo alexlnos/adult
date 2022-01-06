@@ -1,0 +1,22 @@
+December 5, 2021, 3:06 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Rolly aldea 
+    [phone] => 09127486135
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/ph_lad_dozex_mk/61a5f13d522bf/limon.php
+    [ip] => 175.176.43.89
+    [utm_campaign] => 919
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 5a2ea9zik9rsyaac
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

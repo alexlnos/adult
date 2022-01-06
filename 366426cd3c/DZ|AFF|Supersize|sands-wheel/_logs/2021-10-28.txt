@@ -1,0 +1,22 @@
+2021-10-28 19:40:18 
+Request:
+Array
+(
+    [tel] => 27858587587587
+    [client] => nuujujujuyjuy
+    [ip] => 77.235.110.194
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => bEPEevnV
+    [lead_id] => 13268105
+    [lead_key] => 7290700014636203
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

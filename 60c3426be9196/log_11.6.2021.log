@@ -1,0 +1,44 @@
+June 11, 2021, 10:11 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Тест
+    [phone] => +911321313213
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/c3031fd1fc/limon.php
+    [ip] => 5.62.34.9
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => aa6fc5m3v8wej9cc
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+June 11, 2021, 11:15 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => SMtest
+    [phone] => +915281151521
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60c3426be9196/limon.php
+    [ip] => 5.62.34.15
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => f1ad85mm7rndu1c3
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

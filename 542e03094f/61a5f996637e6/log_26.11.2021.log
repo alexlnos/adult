@@ -1,0 +1,22 @@
+November 26, 2021, 1:38 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => ben ilustri
+    [phone] => 0965
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 2001:4453:2c2:2800:7d07:dde5:e37:8de4
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => c1d04whwhqeu3efc
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

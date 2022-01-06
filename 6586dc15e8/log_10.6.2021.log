@@ -1,0 +1,22 @@
+June 10, 2021, 9:08 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => test
+    [phone] => +911111111111
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/6586dc15e8/limon.php
+    [ip] => 89.175.101.102
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

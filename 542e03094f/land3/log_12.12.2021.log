@@ -1,0 +1,66 @@
+December 12, 2021, 6:37 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Gilbert Estiaga
+    [phone] => 09702278760
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.175.200
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => b4617qqa0vcy94c5
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 12, 2021, 6:39 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Gilbert Estiaga
+    [phone] => 09702278760
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.175.200
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => b4617qqa0vcy94c5
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 12, 2021, 2:46 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Zoe 
+    [phone] => 09755544331
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.207.184
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => fac54qqghbzvcd5b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

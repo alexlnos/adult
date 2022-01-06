@@ -1,0 +1,44 @@
+July 31, 2021, 10:43 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Arnel samaniego 
+    [phone] => 09356221147
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efd016da8e5/limon.php
+    [ip] => 110.54.216.147
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => a7e15myqna4q5b4a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 31, 2021, 10:45 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Arnel samaniego 
+    [phone] => 09356221147
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efd016da8e5/limon.php
+    [ip] => 110.54.216.147
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => a7e15myqna4q5b4a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

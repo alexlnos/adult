@@ -1,0 +1,1498 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i');
+
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/efd6FGWWGX5Z3ztwLBrG9U2k4ogKuXZ6cvJ9G6hiscg.eot);
+}
+
+@font-face {
+	font-family: 'Madelinette';
+	src: url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/32F084_0_0.eot');
+	src: url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/32F084_0_0.eot?#iefix') format('embedded-opentype'),
+		url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/32F084_0_0.woff2') format('woff2'),
+		url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/32F084_0_0.woff') format('woff'),
+		url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/32F084_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nadia';
+    src: url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/nadisn__-webfont.woff2') format('woff2'),
+         url('https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/fonts/nadisn__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*----------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------*/
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, img,
+a, b, abbr, acronym, big, cite, code, del, em, i, ins, small, strike, strong, sub, sup, u,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	font-size: 100%;
+	vertical-align: baseline;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	margin: 0;
+}
+
+
+/*----------------------------------------------------------------------
+    Base
+----------------------------------------------------------------------*/
+
+body {
+	color: #555;
+	font: .625em/1.5em "Quattrocento Sans", Helvetica, Arial, sans-serif; 
+        padding-bottom: 63px;
+    background: #fff8f6;
+}
+
+a {
+	color: #daa585;
+	text-decoration: none;
+	outline: none;
+}
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#footer {
+	clear: both;
+}
+	
+
+
+/*----------------------------------------------------------------------
+    Layout
+----------------------------------------------------------------------*/
+
+body {
+	
+	text-align: center;
+}
+
+#page {
+        padding-top: 300px;
+}
+
+#container-inner {
+	width: 960px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#header-container {
+	margin-bottom: 110px;
+    background: #fff url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/bg-layered.jpg") no-repeat center top;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+	#header {
+		padding: 57px 0 6px 0;
+	}
+	
+		#header a {
+			display: block;
+			height: 67px;
+			background: transparent url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/logo-2x.png") no-repeat center top;
+			background-size: 420px auto;
+			text-indent: -5000px;
+		}
+		
+		#header .description {
+			display: none;
+		}
+	
+	#menu {
+		width: 960px;
+		font: 1.3em/1em "Nadia", serif;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+		list-style: none;
+        padding-bottom: 88px;
+        margin: 0 auto;
+	}
+	
+	.home #menu {
+	}
+	
+		#menu ul {
+			display: inline-block;
+			width: 1px;
+			text-align: center;
+			list-style: none;
+			white-space: nowrap;
+			margin: 0 auto;
+		}
+		
+		#menu > ul {
+			display: table;
+			width: auto;
+		}
+		
+		*:first-child+html #menu > ul {
+			display: inline-block;
+		}
+	
+			#menu ul li {
+				display: inline;
+			}
+			
+			#menu ul > li {
+				display: inline-block;
+			}
+			
+			*:first-child+html #menu ul > li {
+				display: inline;
+			}
+	
+				#menu ul li a {
+					display: inline-block;
+					background: transparent none no-repeat center -100px;
+					color: rgba(255, 255, 255, .7);
+					padding: 45px 12px 0 12px;
+				}
+				
+				#menu ul li > a {
+					display: block;
+				}
+				
+				*:first-child+html #menu ul li > a {
+					display: inline-block;
+				}
+				
+				#menu ul li.current_page_item a {
+					text-decoration: underline;
+				}
+			
+				#menu ul li a:hover,
+				#menu ul li.current_page_item a {
+					color: #fff;
+					background-position: center top;
+				}
+				
+				#menu ul li.bridal a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-white.png");
+				}
+	
+				#menu ul li.boudoir a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-burst.png");
+				}
+	
+				#menu ul li.lessons-occasions a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-sprig.png");
+				}
+	
+				#menu ul li.tanning a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-rose.png");
+				}
+	
+				#menu ul li.about a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-leaf.png");
+				}
+	
+				#menu ul li.clients-say a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-tan.png");
+				}
+	
+				#menu ul li.contact a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-fern.png");
+				}
+	
+				#menu ul li.blog a {
+					background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/flower-bud.png");
+				}
+
+								
+#content {
+	position: relative;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	padding-bottom: 50px;
+}
+
+.home #content {
+}
+
+	#main {
+		float: left;
+		width: 600px;
+	}
+	
+	#sidebar {
+		float: right;
+		width: 240px;
+		text-align: center;
+	}
+	
+		#sidebar .widget {
+			margin-bottom: 3em;
+		}
+	
+	.contact-sidebar {
+		float: right;
+		width: 350px;
+		margin: 0 0 1.5em 2em;
+	}
+	
+		.contact-sidebar img.wp-image-903 {
+			padding: 10px 25px 0 0;
+		}
+	
+		#content .contact-sidebar ul.badges {
+			padding-left: 20px;
+			list-style: none;
+			margin-left: 0;
+			margin-bottom: 2em;
+		}
+		
+			#content .contact-sidebar ul.badges li {
+				margin-bottom: 1em;
+			}
+			
+				#content .contact-sidebar ul.badges li a:hover {
+					background-color: transparent;
+				}
+
+#footer-container {
+	margin: 0 auto;
+}
+
+#footer {
+	background: transparent url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/bg-layered.jpg") no-repeat center -242px;
+	color: #999;
+	font: 1.1em/1em "Nadia", serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: right;
+	padding: 30px 0;
+}
+
+	#footer .copyright {
+		display: block;
+		float: left;
+		width: 450px;
+		text-align: left;
+	}
+	
+	#footer a {
+		color: #817f75;
+		text-decoration: underline;
+	}
+
+
+/*----------------------------------------------------------------------
+    Generic text styles
+----------------------------------------------------------------------*/
+
+#content a {
+	text-decoration: underline;
+}
+
+#content #sidebar a {
+	text-decoration: none;
+}
+
+#content a:hover {
+	color: #798d5b;
+}
+
+#content #sidebar a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+#content .post {
+	margin-bottom: 4em;
+}
+
+#content .page-heading {
+	height: 74px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #efefef;
+	margin-bottom: 45px;
+}
+
+.about #content .page-heading {
+	border-bottom: none;
+}
+
+#content div.portfolio,
+#content .last-section,
+#content .section {
+	clear: both;
+	padding-top: 30px;
+	border-top: 2px solid #efefef;
+	margin-top: 30px;
+}
+
+#content h1 {
+/*	font: 4em/1em "Madelinette", cursive;*/
+    font-family: 'Marck Script';
+    line-height: 46px;
+    font-size: 50px;
+	padding-right: 35px;
+	margin-bottom: .5em;
+}
+
+	#content h1 a {
+		text-decoration: none;
+	}
+
+#content .post h1,
+.about #content h1 {
+	margin-bottom: .2em;
+}
+
+.bridal #content h1,
+.boudoir #content h1,
+.lessons-occasions #content h1,
+.tanning #content h1 {
+	float: left;
+	margin: 0;
+}
+
+#content h2,
+#content h3 {
+	color: #666;
+	font: 1.3em/1.5em "Nadia", serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 1.5em;
+}
+
+#content h2 {
+	text-align: center;
+}
+
+#content h3 {
+	font-size: 1em;
+	margin-top: 2.5em;
+}
+
+#content #sidebar h2 {
+	font-size: 1em;
+	margin-bottom: .5em;
+}
+
+#content p,
+#content blockquote,
+#content ul,
+#content ol,
+#content dd {
+	margin-bottom: 1.25em;
+}
+
+.home #content p {
+	margin: 0;
+}
+
+#content p.timestamp {
+	color: #999;
+	font: .9em/1.3em Nadia, serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#content p.details {
+	color: #999;
+	font: .9em/1.3em Nadia, serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 8px 0;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+	#content p.details em {
+		font-style: normal;
+	}
+
+#content .byline {
+	display: block;
+	color: #999;
+	font: .9em/1.3em Nadia, serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+	#content .byline em {
+		text-transform: none;
+		letter-spacing: 0;
+	}
+
+#content blockquote p {
+	margin-bottom: 0;
+}
+
+#content ul {
+	margin-left: 14px;
+}
+
+	#content ul li {
+		margin-bottom: .3em;
+	}
+
+#content #sidebar ul {
+	list-style: none;
+	margin-left: 0;
+}
+	
+#content ul.sub-nav {
+	float: left;
+	font: 1em/1em "Nadia", serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	list-style: none;
+	padding-top: 17px;
+	margin-left: 0;
+}
+
+.about #content ul.sub-nav {
+	float: none;
+	padding-top: 0;
+}
+
+	#content ul.sub-nav li {
+		float: left;
+		padding-right: 20px;
+	}
+	
+		#content ul.sub-nav li a {
+			text-decoration: none;
+		}
+		
+		#content ul.sub-nav li a:hover {
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+#content ul.three-by {
+	clear: both;
+	list-style: none;
+	margin-left: 0;
+}
+
+	#content ul.three-by li {
+		float: left;
+		width: 31%;
+		padding-right: 3%;
+		padding-bottom: 30px;
+	}
+	
+	#content ul.three-by li.last-child {
+		padding-right: 0;
+	}
+	
+		#content ul.three-by li img {
+			width: 100%;
+			height: auto;
+			margin-bottom: .5em;
+		}
+		
+		#content ul.three-by li h3 {
+			text-align: center;
+			margin-top: 0;
+		}
+
+#content #sidebar ul.connect {
+	list-style: none;
+	margin-left: 0;
+}
+
+	#content #sidebar ul.connect li a {
+		background: transparent none no-repeat left top;
+		padding-left: 22px;
+	}
+	
+	#content #sidebar ul.connect li.rss a {
+		background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/rss.gif");
+	}
+
+	#content #sidebar ul.connect li.facebook a {
+		background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/facebook.gif");
+	}
+
+	#content #sidebar ul.connect li.twitter a {
+		background-image: url("https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/twitter.gif");
+	}
+
+hr {
+	height: 1px;
+	color: #ddd;
+	background-color: #ddd;
+	border: none;
+	margin: 2em 0;
+}
+
+.amp {
+	font: italic 1em Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+}
+
+
+/*----------------------------------------------------------------------
+    Comments
+----------------------------------------------------------------------*/
+
+#content .commentlist img {
+	display: inline;
+	border: none;
+	padding: 0 0 0 4px;
+}
+
+#content h2.comments {
+	margin-left: 170px;
+	text-align: left;
+}
+
+#content ol.commentlist {
+	list-style: none;
+	margin-bottom: 2em;
+}
+
+	#content ol.commentlist li {
+		clear: both;
+		overflow: auto;
+		border-bottom: 1px dotted #ccc;
+	}
+	
+	#content ol.commentlist li.alt {
+		background-color: #f7f7f7;
+		padding: 8px 0;
+		margin-bottom: 1em;
+	}
+	
+		#content ol.commentlist .who-when {
+			overflow: hidden;
+			float: left;
+			width: 150px;
+			font-size: .8125em;
+			line-height: 1.3em;
+			text-align: right;
+			padding-bottom: 1.2em;
+		}
+		
+		#content ol.commentlist li.alt .who-when {
+			padding-left: 8px;
+			width: 142px;
+		}
+		
+			#content ol.commentlist .when {
+				color: #999;
+				font-variant: small-caps;
+				font-size: .923em;
+				letter-spacing: .1em;
+			}
+			
+			#content ol.commentlist .when a {
+				color: #999;
+				text-decoration: none;
+			}
+						
+			#content ol.commentlist .when a:hover {
+				background-color: transparent;
+				text-decoration: underline;
+			}
+			
+			#content ol.commentlist cite {
+				font-style: italic;
+				font-weight: bold;
+			}
+		
+		#content ol.commentlist .what {
+			margin-left: 170px;
+		}
+
+		#content ol.commentlist li.alt .what {
+			padding-right: 8px;
+		}
+
+#content form#commentform dl {
+	padding-top: .7em;
+}
+
+	#content form#commentform dl dt {
+		float: left;
+		width: 150px;
+		text-align: right;
+	}
+	
+	#content form#commentform dl dt,
+	#content form#commentform dl dd {
+		line-height: 1.3em;
+		padding-top: .3em;
+	}
+	
+		#content form dl dt small {
+			color: #999;
+			font: italic .923em/1em Georgia, "Times New Roman", Times, serif;
+		}
+		
+		#content form dl.error dt label {
+			color: #bc2809;
+		}
+	
+	#content form#commentform dl dd {
+		margin-left: 170px;
+	}
+
+#content form#commentform p {
+	padding-top: .7em;
+	margin-left: 170px;
+}
+
+#content #commentform input,
+#content #commentform textarea,
+#content #commentform select {
+	width: 230px;
+	font: .923em Verdana, Tahoma, sans-serif;
+	padding: 1px 3px;
+}
+
+#content #commentform textarea {
+	width: 350px;
+	height: 200px;
+}
+
+#content #submit,
+#content .buttons input {
+	width: auto;
+	padding: 0;
+}
+
+#content p.error {
+	line-height: 1.3em;
+}
+
+	#content p.error strong {
+		color: #bc2809;
+	}
+
+#content p.success {
+	line-height: 1.3em;
+}
+
+	#content p.success strong {
+		color: #608e24;
+	}
+
+#content form.wpcf7-form dt label,
+#content .newsletter-signup dt label {
+	font-weight: bold;
+}
+
+
+/*----------------------------------------------------------------------
+    Images
+----------------------------------------------------------------------*/
+
+.wp-caption {
+}
+
+	.wp-caption img {
+	}
+	
+	.wp-caption img p.wp-caption-text {
+		font-style: italic;
+		font-size: .9em;
+	}
+
+#content img.alignright {
+	margin-right: -20px;
+}
+
+#content div.alignright {
+	margin-right: -30px;
+}
+
+#content .wp-caption-text {
+	font-style: italic;
+	font-size: .857em;
+}
+
+
+/*----------------------------------------------------------------------
+    Specific formatting and other styles
+----------------------------------------------------------------------*/
+
+.aligncenter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 2em 1.5em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 1.5em 2em;
+}
+
+#content img.wp-image-906 {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	margin-right: -50px;
+}
+
+
+/*----------------------------------------------------------------------
+    Slideshow
+----------------------------------------------------------------------*/
+
+#content ul#photos-container {
+	position: relative;
+	height: 600px;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+
+	#content #photos-container li {
+		height: 600px;
+		width: 100%;
+		background: transparent none no-repeat center top;
+		position: absolute;
+		left: 0;
+	}
+	
+	#content #photos-container li img {
+		height: 600px;
+		width: auto;
+		margin: 0 auto;
+	}
+	
+
+/*----------------------------------------------------------------------
+    Gallery
+----------------------------------------------------------------------*/
+
+#content .gallery {
+}
+
+	#content .gallery .gallery-row {
+		padding-bottom: 25px;
+	}
+
+	#content .gallery dl {
+		padding-right: 27px;
+	}
+	
+	#content .gallery dl.last-child {
+		padding-right: 0;
+	}
+	
+	#content .gallery dt {
+	}
+	
+	#content .gallery a img {
+		border: 1px solid #efefef;
+	}
+	
+	#content .gallery a:hover img {
+		border-color: #daa585;
+	}
+	
+	#content .gallery a:hover {
+		background-color: transparent;
+	}
+	
+
+/*----------------------------------------------------------------------
+    Lightview
+----------------------------------------------------------------------*/
+
+#lightview {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 150px;
+	width: 150px;
+	margin: -75px 0 0 -75px;
+	padding: 0;
+}
+
+
+.lv_Container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+.lv_Button {
+	cursor: pointer;
+	text-decoration: none;
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.lv_Sides {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.lv_Sides * { padding: 0; margin: 0; }
+.lv_Sides li {
+	list-style-type: none;
+	position: relative;
+	overflow: hidden;
+}
+
+.lv_PrevSide { float: left; }
+.lv_NextSide { float: right; }
+.lv_Sides .lv_Wrapper {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.lv_Sides .lv_Button {
+	float: left;
+	background: none;
+}
+
+/* The frames above and below the center, that hold the corners.
+   It's recommended not to change anything here, a lot is done in
+   javascript to build further upon this based on your settings.
+*/
+.lv_Frames {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.lv_Frames li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.lv_Frame {
+	width: 100%;
+	display: block;
+}
+.lv_Frame * { padding: 0; margin: 0; }
+.lv_FrameTop {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	display: block;
+}
+.lv_FrameBottom {
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+.lv_Liquid {
+	position: relative;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+.lv_Liquid .lv_Filler {
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	top: 0;
+	left: 50%;
+}
+
+.lv_Half {
+	display: block;
+	height: 100%;
+	clear: both;
+	line-height: 0px;
+}
+.lv_Half li { list-style-type: none; }
+.lv_Corner {
+	float: left;
+	position: relative;
+}
+.lv_CornerTr, .lv_CornerBr { float: right; }
+
+.lv_Fill {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.lv_Half .lv_CornerWrapper {
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.lv_HalfRight .lv_CornerWrapper { float: right; }
+
+.lv_Corner { position: relative; }
+.lv_Corner canvas { position: relative; }
+.lv_HalfLeft .lv_Corner { float: left; }
+.lv_HalfRight .lv_Corner {
+	position: relative;
+	float: right;
+}
+
+/* To position content correctly in the center with correct
+   rounded corner display we need a few wrappers.
+   This is to get it right on all browsers.
+*/
+.lv_Center {
+	position: relative;
+	clear: both;
+	height: 100%;
+	overflow: hidden;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.lv_WrapUp {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.lv_WrapDown {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.lv_WrapCenter {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+
+.lv_Loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.lv_Loading .lv_Button {
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+.lv_MediaWrapper {
+	position: relative;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+.lv_MediaWrapper img {
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+
+.lv_PrevNext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.lv_PrevNext * { padding: 0; margin: 0; }
+.lv_PrevNext .lv_Button {
+	position: relative;
+	height: 100%;
+}
+.lv_PrevButton { float: left; }
+.lv_NextButton { float: right; }
+
+
+.lv_MenuBar {
+	clear: both;
+	position: relative;
+	width: 100%;
+	float: left;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #808080;
+	padding: 0;
+	margin: 0;
+}
+.lv_MenuBar * { padding: 0; margin: 0; }
+
+/* When the Menubar is at the top, on (ajax/iframe/inline) content,
+   it will also have this style.
+   The margins are removed here for better alignment, and since it's
+   at the top we switch the inner margins to the other side.
+*/
+
+.lv_MenuTop .lv_DataText div,
+.lv_MenuTop .lv_ImgNumber div { margin: 0; padding: 0; }
+#lightview .lv_MenuTop .lv_Close, 
+#lightview .lv_MenuTop .lv_Data { margin: 0 0 6px 0; }
+
+.lv_Close, .lv_Data { margin: 6px 0 0 0; }
+.lv_Close { float: right; overflow: hidden; }
+.lv_Close .lv_Button {
+	float: right;
+	width: 100%;
+	height: 100%;
+}
+
+.lv_Data {
+	position: relative;
+	float: left;
+	padding-bottom: 3px;
+	line-height: 13px;
+}
+
+
+.lv_DataText div, .lv_ImgNumber div { margin-left: 3px; }
+
+.lv_Data li {
+	list-style-type: none;
+	float: left;
+	margin-top: 3px;
+}
+.lv_DataText { width: 100%; }
+.lv_DataText .lv_Title {
+	float: left;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.lv_DataText .lv_Caption { float:left; clear: both; }
+.lv_Data .lv_ImgNumber {
+	color: #b8b8b8;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.lv_Data .lv_Slideshow {
+	border-left: 1px solid #efefef;
+	padding-left: 5px;
+	margin-top: 5px;
+	vertical-align: middle;
+}
+.lv_Data .lv_Slideshow .lv_Button { 
+	float: left;
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+.lv_Media,
+.lv_External {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#lightview iframe {
+	border: 0;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+
+.lv_topButtons {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.lv_topcloseButtonImage { cursor: pointer; }
+
+
+/* The error/warning/download message that will appear when
+   a required plugin is not installed.
+*/
+#lightviewError p { padding: 0 0 10px 0; }
+#lightviewError div {
+	padding: 6px;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+#lightviewError .message {
+	background: #fcb5b5;
+	color: #dd1f1f;
+	margin-bottom: 3px;
+}
+#lightviewError .type { font-weight: bold; }
+#lightviewError .pluginspage {
+	background: #b5fcbd;
+	color: #21be30;
+}
+#lightviewError a,
+#lightviewError a:hover,
+#lightviewError a:visited {
+	color: #21be30;
+	text-decoration: none;
+	background: none;
+	font-weight: bold;
+	border-bottom: 1px solid #7de689;
+}
+#lightviewError p {
+	margin-left: 0;
+	padding: 0;
+}
+
+#overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+* html #lightview { 
+	position: absolute;
+	margin-top: expression( -1 * this.offsetHeight / 2 + (document.documentElement ? document.documentElement.scrollTop : 0) + 'px');
+	margin-left: expression( -1 * this.offsetWidth / 2 + (document.documentElement ? document.documentElement.scrollLeft : 0) + 'px');
+}
+
+
+html #overlay {
+	position: absolute;
+	height: expression(((window.Enumerable && window.Enumerable.max) ? [document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight].max() : document.documentElement.scrollHeight) + 'px' );
+	width: expression(((window.Enumerable && window.Enumerable.max) ? [document.body.scrollWidth, document.documentElement.scrollWidth, document.body.offsetWidth, document.documentElement.clientHeight].max() : document.documentElement.scrollWidth) + 'px' );
+}
+.fl{
+    float: left;
+    padding-right: 15px;
+    border-radius: 0!important;
+    
+    
+}
+#content .post img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+p{
+    text-align: justify;
+}
+.ord_button {
+    color:black;
+    padding: 80px 30px 80px;
+    font-size: 25px;
+    text-decoration: none !important;
+    margin: 20px 0px 30px;
+    line-height: 27px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background: url(https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/knopka1.png) top center no-repeat;
+        background-size: contain;
+    display: block;
+    max-width: 334px;
+    width: 100%;
+    position: relative;
+    opacity: .9;
+}
+.ord_button:hover {
+    text-decoration: none !important;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+    opacity: 1;
+}
+.ord_button span{
+    background: url(https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/knopka2.png) bottom center no-repeat;
+        background-size: contain;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    line-height: 164px;
+}
+.block-comments {
+    margin: 0 0 30px;
+    border-top: 1px solid #ececec;
+    padding-top: 15px;
+}
+.comment {
+    margin: 0 0 20px 0;
+    width: 100%;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #e2e2e2;
+}
+.left-comment {
+    float: left;
+    width: 60px;
+}
+.our-authors-item-pic {
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.our-authors-item-pic img {
+    width: 50px;
+    height: 50px;
+}
+.right-comment {
+    margin: 0 0 0 70px;
+}
+.comment-name {
+    display: block;
+    margin: 0 0 5px;
+    line-height: 1;
+    font-weight: 700;
+}
+.right-comment .date {
+    color: #808080;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    line-height: 1;
+}
+.cl b i{
+        color: #ae435d!important;
+}
+p b{
+    color: #a26e4f
+}
+.prdct{
+    max-width: 170px!important;
+    width: 100%;
+    border-radius: 0!important;
+}
+
+#ftr {
+    position: fixed;
+    color: #000;
+    font-size: 16px;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    background: #c5e2af;
+    text-align: center;
+    display: none;
+    z-index: 10;
+    padding: 10px 0;
+}
+#hdr {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ae435d;
+    color: white;
+    padding: 10px 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    z-index: 10;
+        line-height: 25px;
+}
+.btn3 {
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    color: #fff;
+    background-color: #ae435d;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.right-comment>div>center>img{
+    border-radius: 0!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#content .post img.sup_width{
+	max-width: 300px;
+	width: 100%;
+}
+#content .comment img{
+	max-width: 400px;
+	width: 100%;
+}
+@media screen and (max-width:980px){
+    #sidebar{
+        display: none;
+    }
+    #main{
+        float: none;
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #container-inner,#menu{
+        max-width: 960px;
+        width: 100%;
+    }
+    #menu ul > li.blog {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:780px){
+    #menu ul > li.contact {
+        display: none;
+    }
+    #main{
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:690px){
+    #menu ul > li.clients-say  {
+        display: none;
+    }
+}
+@media screen and (max-width:580px){
+    #menu ul > li.about  {
+        display: none;
+    }
+}
+#menu ul > li.menu{
+    display: none;
+}
+@media screen and (max-width:620px){
+    #menu ul > li.menu{
+        display: block;
+        font-size: 40px;
+        
+    }
+    #menu ul > li.menu a{
+        padding-top: 0px;
+    }
+    #menu ul > li{
+        display: none;
+    }
+    #header a{
+        margin-left: 10px;
+    margin-right: 10px;
+        background-size: contain;
+    }
+    
+    #header {
+    padding: 23px 0 6px 0;
+}
+    #header-container {
+    margin-bottom: 0px;
+    background: #fff url(https://viposidn.com/content/PF_nativebustie_Bustelle_MY_my1/img/bg-layered.jpg) no-repeat center -80px;
+    }
+    #menu{
+        padding-bottom: 55px!important;
+    }
+    #page {
+    padding-top: 195px;
+}
+    .ord_button{
+            box-sizing: border-box;
+    }
+    #footer .copyright{
+        max-width: 450px;
+        width: 100%;
+            text-align: center;
+    }
+    #footer .linkback{
+        display: block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    }
+    #content{
+        padding-bottom: 0;
+    }
+    #content h1{
+            line-height: 39px;
+    font-size: 39px;
+    }
+    .fl{
+        padding-right: 0;
+        float: none;
+        display: block;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+}
+.entry>center>img{
+    border-radius: 0!important;
+    padding-bottom: 10px;
+}
+.tag-link-13{
+    font-size: 22pt;
+}

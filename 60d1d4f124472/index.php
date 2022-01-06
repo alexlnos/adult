@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;display=swap" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    
+    <title></title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper clearfix">
+            <div class="header__logo logo mytable">
+                <div class="mytable-cell"><img alt="" class="header__menu-btn"
+                        src="assets/icon1.png"></div>
+                <a class="logo__container mytable-cell" href="#"><img alt="" class="logo__img"
+                        src="assets/Logo.png"></a>
+            </div>
+            <ul class="header__social social clearfix">
+                <li class="social__item">
+                    <a class="social__link" href="#"><img alt="" class="social__img"
+                            src="assets/icon-fb.png"></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#"><img alt="" class="social__img"
+                            src="assets/icon-tw.png"></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#"><img alt="" class="social__img"
+                            src="assets/icon-pn.png"></a>
+                </li>
+            </ul>
+            <nav class="header__nav nav">
+                <ul class="nav__list clearfix">
+                    <li class="nav__item"><a class="nav__link" href="#">विषय</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">कंपनियों</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">शीर्ष</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">पत्रिका</a></li>
+                    <li class="nav__item nav__item--input">
+                        <form action="" class="header__form form nav__link">
+                            <div class="form__input-container">
+                                <input class="form__input">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper clearfix">
+            <div class="column column--left doc sticky">
+                <h2 class="doc__name">निर्मित मेहता<span>एंड्रोलॉजिस्ट</span></h2>
+                <div class="doc__photo">
+                    <div class="img__container"><img alt="" class="doc__img"
+                            src="assets/doc.jpg"></div>
+                </div>
+            </div>
+            <div class="column column--right">
+                <h1 class="main__title">एक बड़ा लिंग ऐसी चीज होती है जिस पर हर मर्द को गर्व होना चाहिए!</h1>
+                <div class="main__img-container"><img alt="" class="main__img"
+                        src="assets/pic1.jpg"></div>
+                <p class="main__txt">साइज़ से फर्क तो पड़ता है – अमेरिकन वैज्ञानिकों ने शोध किया है कि छोटे लिंग वाले
+                    मर्दों को लड़कियां नहीं मिलती और वे दुखी रहते हैं। ये नतीजे डेनवर, अमेरिका में एक कॉन्फ्रेंस में
+                    प्रस्तुत किए गए थे।</p>
+                <p class="main__txt"><span>निर्मित मेहता, एंड्रोलॉजिस्ट</span> “पिछले दस सालों में लिंग के साइज़ के बारे
+                    में प्रश्न बहुत आम हो चुके हैं। आधुनिक शोध और विकास के कारण मैं और मेरे दोस्तों ने एक ऐसा प्राकृतिक
+                    प्रोडक्ट तैयार कर लिया है जो खड़ापन बहुत अच्छा कर देता है और साथ ही काफी बिगड़े हुए मामलों में भी
+                    नामर्दी की समस्या ठीक कर देता है।“</p>
+                <p class="main__txt">सेक्स, अंतरंग सम्बन्धों या पूरे अलग विषयों के लगभग हर फोरम में लिंग के साइज़ पर
+                    प्रश्न उठता ही है। छोटा लिंग मर्दों की अकेली समस्या नहीं है, क्योंकि 40 से अधिक उम्र के 10 में से 8
+                    लोगों की सेक्स इच्छा कम हो जाती है।</p>
+                <p class="main__txt">“मैंने कभी सोचा भी नहीं था कि मुझे 38 की उम्र में ही नामर्दी की समस्या हो जाएगी। ये
+                    बहुत धीमे-धीमे शुरू हुई थी और हर साल बिगड़ती गई। लेकिन <a class="main__lnk" href="#"><span class="offer-name"></span></a> की मदद से मैंने इस समस्या को बड़ी जल्दी हल कर लिया। मैं तो पहली बार इसे लगाने के बाद
+                    इसके असर को देखकर ही दंग रह गया था। मेरा न सिर्फ 20 साल पहले जितनी कड़ाई से खड़ा होता है, ये अब बड़ा भी
+                    हो गया है (+3 सेमी)। अब मुझे बिस्तर में मेरी बीवी के साथ कोई समस्या नहीं होती और मुझे नहीं लगता आगे
+                    भी कभी होगी। मैं डॉक्टर निर्मित के प्रति अपना खास आभार व्यक्त करना चाहूँगा जिन्होने इतना बढ़िया काम
+                    किया है और दवाई के विकास में महत्वपूर्ण भूमिका निभाई है।“ <span>जस्सी, 38</span></p>
+                <div class="main__img-container"><img alt="" class="main__img"
+                        src="assets/pic2.jpg"></div>
+                <h2 class="main__title main__title--second">मर्दानगी वापस लाकर उसे बढ़ाया कैसे सकते हैं?</h2>
+                <p class="main__txt">आम तौर पर सेक्स में कई बार असफल रहने पर कई लॉग वायाग्रा या इसी तरह की अप्राकृतिक
+                    दवाओं का उपयोग शुरू कर देते हैं। यह सही नहीं है! इन दवाओं से समस्या दूर नहीं होती, इनसे सिर्फ कुछ
+                    समय के लिए ठीक से खड़ा हो जाता है बस। जल्दी ही इनकी लत लग जाती है और मर्दों का आत्म-विसवास खत्म हो
+                    जाता है क्योंकि इन “जादुई” दवाओं के बिना सेक्स लगभग असंभव हो जाता है।</p>
+                <p class="main__txt">क्या जल्दी से अपनी मर्दानगी वापस लाना संभव है, वह भी सुरक्षित तरीके से और डॉक्टर के
+                    पास जाए बिना?</p>
+                <p class="main__txt"></p>
+                <p class="main__txt">आज इंटरनेट में कई तरह की जैल और गोलियां आसानी से उपलब्ध हैं, लेकिन क्या ये विज्ञापन
+                    में बताए जितनी असरदार हैं? मेडिकल रिसर्च और प्रैक्टिस के आधार पर अधिकतर एंड्रोलॉजिस्ट <a
+                        class="main__lnk" href="#"><span class="offer-name"></span></a> की ही सलाह देते हैं।</p>
+                <h2 class="main__title main__title--second">एंड्रोलॉजिस्ट <a class="main__lnk" href="#"><span class="offer-name"></span></a> की सलाह क्यों देते हैं।</h2>
+                <div class="main__img-container"><img alt="" class="main__img"
+                        src="assets/pic3.jpg"></div>
+                <ul>
+                    <li class="main__txt">इसमें ऐसे प्राकृतिक घटक हैं इनसे कोई एलर्जी नहीं होती और न ही इनके कोई
+                        साइड-इफेक्ट होते हैं।</li>
+                    <li class="main__txt">इनसे खड़ापन बहुत बेहतर हो जाता है, नामर्दी जड़ से चली जाती है और स्वास्थ्य अच्छा
+                        होता है।</li>
+                    <li class="main__txt">इससे बिना दर्द या ऑपरेशन के लिंग बड़ा हो जाता है।</li>
+                    <li class="main__txt">इससे कामेच्छा बेहतर हो जाती है और सेक्स के समय बहुत ही बढ़िया अनुभव होता है।
+                    </li>
+                    <li class="main__txt">इससे सेक्स औसतन 5 गुना ज़्यादा चलता है।</li>
+                </ul>
+                <p class="main__txt"><span>हरमीत सिंह, मूत्र रोग विशेषज्ञ</span> “आज मार्केट में कई तरह के जैल और टैबलेट
+                    उपलब्ध हैं लेकिन अभी <a class="main__lnk" href="#"><span class="offer-name"></span></a> ही सबसे असरदार नुस्खा है।
+                    हमें रोज अपने मरीजों से धन्यवाद के कई पत्र आते हैं। आपको अंदाज़ नहीं है कि <a class="main__lnk"
+                        href="#"><span class="offer-name"></span></a> के उपयोग के बाद जोड़े कितने सुखी हो जाते हैं।“</p>
+                <h2 class="main__title main__title--second"><a class="main__lnk" href="#"><span class="offer-name"></span></a> से लिंग
+                    बड़ा कैसे हो जाता है?</h2>
+                <p class="main__txt">लिंग का साइज़ ही वह आधार है जिस पर मर्द की पर्सनलिटी और व्यवहार निर्भर होता है। जब
+                    आप बिस्तर में किसी नंगी औरत के साथ लेते हों तो केवल आपके लिंग का ही महत्व होता है। वह आपसे पूरी
+                    संतुष्टि की उम्मीद करती है और आप उसे यह दे पाएंगे कि नहीं यह सीधे-सीधे आपके साइज़ पर निर्भर करता है।
+                </p>
+                <div class="main__img-container"><img alt="" class="main__img"
+                        src="assets/pic4.jpg"></div>
+                <p class="main__txt">पुरुष शरीर में कैवर्नस प्रकोष्ठों की बढ़त 25 साल की उम्र तक पूरी हो जाती है। जब <a
+                        class="main__lnk" href="#"><span class="offer-name"></span></a> उपयोग किया जाता है तो यह प्रक्रिया फिर से चालू
+                    हो जाती है और रक्त धमनियाँ चौड़ी होने लगती हैं। कैवर्नस प्रकोष्ठों में रक्त भरने लगता है और लिंग
+                    ज़्यादा बड़ा होने लगता है। <a class="main__lnk" href="#"><span class="offer-name"></span></a> के निर्देशों के अनुसार
+                    उपयोग से मिलने वाले नतीजे स्थायी रहते हैं। इसका असर निजी गुण-धर्मों पर निर्भर करता है लेकिन पहले
+                    नतीजे एक हफ्ते में ही नज़र आने लगते हैं।</p>
+                <h2 class="main__title main__title--second">स्वास्थ्य को नुक्सान पहुंचाए बिना सख्त खड़ापन। सच्चाई या
+                    मिथक?</h2>
+                <p class="main__txt">वायाग्रा जैसी सभी आर्टिफ़िशियल दवाएँ बस लिंग में रक्त “पंप” कर देती है जिससे हृदय पर
+                    बहुत लोड पड़ता है। वहीं <a class="main__lnk" href="#"><span class="offer-name"></span></a> पुरुष सेक्स हॉरमोन बढ़ाना
+                    उत्प्रेरित करता है और लिंग में रक्त प्रवाह भी बढ़ाती है। एक मर्द को नियमित, सख्त और स्थायी खड़ापन पाने
+                    के लिए यही सबसे बड़ी चीज होती है और इसी से सबसे लंबे चलने वाले संभोग मिलते हैं। मर्द के शरीर में
+                    सेक्स हॉरमोन ज़्यादा बनने से आपकी क्षमता बढ़ जाती है और थकान नहीं होती। इससे जवानी का एहसास आ जाता है!
+                    60 साल की उम्र में भी मर्दानगी वापस लाना संभव है। <a class="main__lnk" href="#"><span class="offer-name"></span></a>
+                    से आप कई सेक्स कई घंटों तक चला सकते हैं!</p>
+                <p class="main__txt">मर्दानगी की समस्या होने ही न दें। याद रखे कि सेक्स और बिस्तर में संतुष्टि एक औरत के
+                    लिए बहुत अहम चीजें होती हैं, खासकर जवान औरतों के लिए। यदि आप नियमित रूप से अच्छा सेक्स नहीं कर पाते
+                    तो अंत में आपके पूरे जीवन पर इसका नकारात्मक असर पड़ने लगेगा।</p>
+                <h2 class="main__title main__title--second">अपने लिंग पर अभी तुरंत गर्व करना शुरू करें।</h2>
+                <div class="main__img-container"><img alt="" class="main__img"
+                        src="assets/pic5.jpg"></div>
+                <p class="main__txt">मैं भी इसी बात को लेकर कई साल से परेशान था कि मुझे सेक्स में मजा नहीं आता था। यह
+                    इतना बिगड़ गया कि मैं अपनी बीवी से महीने में एक बार ही सेक्स करता था, और कई बार तो दो-दो महीने निकल
+                    जाते थे। मैंने कई तरह के नुस्खे आज़माएँ हैं लेकिन <a class="main__lnk" href="#"><span class="offer-name"></span></a>
+                    से मुझे वाकई में बहुत आश्चर्य हुआ है। <a class="main__lnk" href="#"><span class="offer-name"></span></a> से मेरा
+                    लिंग अपनी संवेदना वापस पा गया है और मेरा सेक्स इतना बढ़िया हो गया है कि शब्द नहीं हैं। इसे 2 हफ्ते
+                    उपयोग करने के बाद मैंने देखा है कि मेरा लिंग 15 से 18 सेमी का हो गया और अब सेक्स बोरिंग नहीं है।
+                    <span>पार्थ. 42</span></p>
+                <p class="main__txt"><a class="main__lnk" href="#"><span class="offer-name"></span></a> को तीन शब्दों में बयां किया जा
+                    सकता है – संतुष्टि, स्थिरता और कार्यक्षमता।</p>
+                <p class="main__txt">आप कुछ ही हफ्तों में अपनी सेक्स समयाओं से पूरी तरह निजात पा सकते हैं। अब <a
+                        class="main__lnk" href="#"><span class="offer-name"></span></a> के कई नकली प्रोडक्ट बनने लगे हैं इसलिए इसे केवल
+                    सप्लायर की ऑफिशियल साइट से ही ऑर्डर करें। नीचे दी गई लिंक पर क्लिक करके आपको एक क्लीनिकली टेस्ट किया
+                    हुआ <a class="main__lnk" href="#"><span class="offer-name"></span></a> इसके एकमात्र ऑफिशियल सप्लायर से 50% छूट पर
+                    मिलेगा। दो बार सुनने से एक बार ट्राय करके देखना अच्छा होता है। एक नई ज़िंदगी की ओर पहला कदम बढ़ाएँ और
+                    अपने करीबियों को संतुष्ट कर दें।</p>
+                <p class="main__txt"></p>
+                <p class="main__txt"></p>
+                <div class="main__img-container">
+                    <a class="prod-link" href="#"><img alt="" class="main__img main__img--prod"
+                            src="assets/product.png" style="max-width:180px"></a>
+                    <br><br>
+                    <div class="toform"></div>
+                    <div id="fff" class="spin-wrapper">
+                        <p style="text-align:center">पता है कि!हमारी वेबसाइट <span class="offer-name"></span> उत्पादों की खरीद के लिए
+                            प्रचार प्रदान करती है। SPIN बटन पर क्लिक करके अपनी किस्मत आज़माएं। यदि आप भाग्यशाली हैं तो
+                            आप इस उत्पाद को सामान्य से कम कीमत पर खरीद पाएंगे! सौभाग्य!
+                            <div class="wheel-wrarpper">
+                                <center>
+                                    <div class="wheel"><img alt="" class="wheel-img" src="assets/prizewheel.png">
+                                        <div class="wheel-cursor"><img alt="" src="assets/wheel-cursor.png"><span
+                                                style="color:#000" class="cursor-text lt48" onclick="spin()">SPIN</span>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="order_block" style="display:none">
+                    <center>
+                        <div class="wp-caption aligncenter"></div>
+                    </center>
+                    <br>
+                    <br>
+                    <center>
+                        <h3 style="padding-top:15px;text-align:center;margin:-50px 0">इस ऑफ़र को अगले पाठक को भेजे जाने
+                            से पहले प्रचार मूल्य बुक करें!<br>आपकी छूट बाद में समाप्त होती है:<br><span
+                                class="time_remains" id="min">10</span> : <span class="time_remains" id="sec">00</span>
+                        </h3>
+                    </center>
+                    <div id="orderFormBorder">
+                        <br>
+                        <br>
+                        <br>
+                        <center>
+                            <form id="buyForm" class="toform orderForm x_order_form buyForm" action="order.php"
+                                method="POST">
+
+                                <input type='hidden' name='sub_id' value='<?= $_GET['sub_id'];?>'>
+                                <input type='hidden' name='sub_id_1' value='{clickid}'>
+                                <input type='hidden' name='sub_id_2' value='gvic'>
+                                <input type='hidden' name='sub_id_3' value='<?= $_GET['sub_id_3'];?>'>
+                                <input type='hidden' name='sub_id_4' value='<?= $_GET['sub_id_4'];?>'>
+                                
+                                <input type='hidden' name='country' value='IN'>
+                                <input type='hidden' name='address' value=''>
+
+                                <input type='hidden' name='utm_source' value='<?= $_GET['utm_source'];?>'>
+                                <input type='hidden' name='utm_medium' value='<?= $_GET['utm_medium'];?>'>
+                                <input type='hidden' name='utm_content' value='<?= $_GET['utm_content'];?>'>
+                                <input type='hidden' name='utm_campaign' value='<?= $_GET['utm_campaign'];?>'>
+                                <input type='hidden' name='utm_term' value='<?= $_GET['utm_term'];?>'>
+
+                                <input type='hidden' name='fbpxl' value='<?= $_GET['fbpxl'];?>'>
+                                <center>
+                                    <label for="name">आपका नाम:</label>
+                                </center>
+                                <input class="form-control input-form" name="name" id="name" style="color:#000"
+                                    placeholder="" required>
+                                <div>
+                                    <center>
+                                        <label for="phone">फ़ोन नंबर:</label>
+                                    </center>
+                                    <input class="form-control input-form mob1 val2" style="color:#000" name="phone"
+                                        id="phone" pattern="(?=.*[0-9+]).{7,}" placeholder="" type="tel" maxlength="13"
+                                        minlength="7" value="+91" title="+91XXXXXXXXXX" required>
+                                    <div class="error-box err2">+91XXXXXXXXXX</div>
+                                </div>
+                                <button type="submit" class="submit-form sub2">यहां एक कहें</button>
+                            </form>
+                            <script>
+                                $(document).ready(function () {
+                                    $("#phone").bind("change keyup input click", function () {
+                                        this.value.match(/[^0-9+]/g) && (this.value = this.value
+                                            .replace(/[^0-9+]/g, "")), this.value.length < 3 && (
+                                            this.value = "+91"), this.value.match(/^\+91/g) || (this
+                                            .value = "+91")
+                                    })
+                                });
+                            </script>
+                        </center>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="spin-result-wrapper">
+                <div class="pop-up-window">
+                    <div class="close-popup"></div><span style="color:#000" class="pop-up-heading">बधाई हो!</span>
+                    <p style="color:#000" class="pop-up-text">उत्पादों पर आपको -50% की छूट मिलती है।</p><span
+                        class="pop-up-button hhh">OK</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="assets/settings.js"></script>
+    <script src="assets/landWheel.js"></script>
+    <script src="assets/stickyfill.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script type="text/javascript" src="assets/9.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("a").click(function (t) {
+                t.preventDefault(), $("html, body").animate({
+                    scrollTop: $(".toform").offset().top
+                }, 1e3)
+            })
+        });
+    </script>
+</body>
+
+</html>

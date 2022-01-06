@@ -1,0 +1,85 @@
+2021-10-27 09:10:45 
+Request:
+Array
+(
+    [tel] => 123123123
+    [client] => test
+    [ip] => 85.174.207.159
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => xNgfsMoI
+    [lead_id] => 13260332
+    [lead_key] => 7290700014628303
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-10-27 09:49:31 
+Request:
+Array
+(
+    [tel] => 123132135
+    [client] => test
+    [ip] => 162.158.91.160
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => XlyRQFvi
+    [lead_id] => 13260466
+    [lead_key] => 7290700014628442
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-10-27 09:51:37 
+Request:
+Array
+(
+    [tel] => 12332144
+    [client] => test
+    [ip] => 162.158.88.23
+    [subid] => 35fdaikbg1m3v5f6
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => lWNqGbhz
+    [lead_id] => 13260477
+    [lead_key] => 7290700014628453
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-10-27 09:52:37 
+Request:
+Array
+(
+    [tel] => 3213213211111
+    [client] => test
+    [ip] => 162.158.91.2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => yWyDTXaM
+    [lead_id] => 13260482
+    [lead_key] => 7290700014628458
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

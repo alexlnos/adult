@@ -1,0 +1,66 @@
+December 5, 2021, 4:38 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Joesel villegas
+    [phone] => 09971454378
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.182.43
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => c94059z3vcia9671
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 5, 2021, 5:24 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Jimmy formentera
+    [phone] => 09091665958
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 110.54.251.2
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 82dec9zm7uqyd6f6
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 5, 2021, 5:24 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Jopie Vidal
+    [phone] => 09057385512
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 175.176.19.207
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 195b99zm7dvikb4b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

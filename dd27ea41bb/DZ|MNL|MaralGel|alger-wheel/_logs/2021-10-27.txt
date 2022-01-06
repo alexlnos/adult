@@ -1,0 +1,41 @@
+2021-10-27 12:18:45 
+Request:
+Array
+(
+    [tel] => 123123123
+    [client] => test
+    [ip] => 162.158.88.205
+    [subid] => 590eaikik377v87f
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-10-27 12:19:04 
+Request:
+Array
+(
+    [tel] => 123123123a
+    [client] => test
+    [ip] => 162.158.88.205
+    [subid] => 590eaikik377v87f
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => aJBSqhoa
+    [lead_id] => 13260999
+    [lead_key] => 7290700014628983
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

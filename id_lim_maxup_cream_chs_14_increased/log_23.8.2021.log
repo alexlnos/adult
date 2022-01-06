@@ -1,0 +1,22 @@
+August 23, 2021, 10:55 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 66051897-12ea-469c-b96f-b6559aeed2c0
+    [fio] => SMtest
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltracker.site/landers/id_lim_maxup_cream_chs_14_increased/limon.php
+    [ip] => 62.217.184.49
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

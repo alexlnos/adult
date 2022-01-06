@@ -1,0 +1,22 @@
+2021-11-24 22:03:28 
+Request:
+Array
+(
+    [tel] => 2468
+    [client] => 
+    [ip] => 162.158.89.46
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => QhVyIvwf
+    [lead_id] => 13373708
+    [lead_key] => 7442100014744122
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

@@ -1,0 +1,22 @@
+January 6, 2022, 2:20 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => lorenz
+    [phone] => 09108277251
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/542e03094f/land3/limon.php
+    [ip] => 2001:fd8:17cb:6f27:6304:73de:85bd:48ab
+    [utm_campaign] => 897
+    [utm_content] => 35
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 02d62gx1nfndv6o11b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"8d331450-126c-4c47-955a-5daaa2f88336"}
+----------- END --------------

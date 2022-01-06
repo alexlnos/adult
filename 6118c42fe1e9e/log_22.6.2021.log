@@ -1,0 +1,44 @@
+June 22, 2021, 3:48 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => S B.R
+    [phone] => +919448114573
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/c3031fd1fc/limon.php
+    [ip] => 103.78.19.30
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => 9abcb6jd5ibqd175
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+June 22, 2021, 3:50 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Sultan ail
+    [phone] => +919569955419
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/c3031fd1fc/limon.php
+    [ip] => 2405:205:c84e:b886::161d:10b0
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => 446db6jd59zxr973
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

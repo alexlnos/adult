@@ -1,0 +1,22 @@
+2021-12-11 21:24:37 
+Request:
+Array
+(
+    [tel] => 0671144862
+    [client] => عاشور
+    [ip] => 162.158.94.119
+    [subid] => eaa089zgmq5e2ca0
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => eXOhsmhE
+    [lead_id] => 13450276
+    [lead_key] => 7442100014822369
+    [profit] => 4.00
+    [currency] => USD
+)
+
+

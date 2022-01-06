@@ -1,0 +1,22 @@
+December 22, 2021, 7:24 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Robert
+    [phone] => 09101923661
+    [email] => admin@admin.com
+    [domain] => http://mansehealth.com/landers/ph_lad_dozex_mk/land2/limon.php
+    [ip] => 103.152.217.86
+    [utm_campaign] => 923
+    [utm_content] => 1
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => ee76e2tzwqnpmfe0d7
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok","localClickId":"aa49bb3e-5748-47eb-9a7d-1841bc63dd4b"}
+----------- END --------------

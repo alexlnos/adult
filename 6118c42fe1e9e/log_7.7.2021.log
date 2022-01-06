@@ -1,0 +1,22 @@
+July 7, 2021, 12:37 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Name
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/c3031fd1fc/limon.php
+    [ip] => 5.62.61.89
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => fa2d21nfnb7d5a2d
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

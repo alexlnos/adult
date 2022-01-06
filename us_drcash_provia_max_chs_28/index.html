@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Vialophin</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<style>
+.es .en,.en .es{display:none;}
+body{margin:0 auto;max-width:1920px;}
+header{display:block;overflow:hidden;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+b,strong{font-weight:700;}
+h1{font-size:2em;margin:.67em 0;}
+img{border:0;}
+svg:not(:root){overflow:hidden;}
+hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0;}
+button,input,select{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+@media print{
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" ("attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+h2,h3,p{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+}
+*:not(.domain-ss){-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+/* body{font-family:Arial, sans-serif;font-size:12px;line-height:1.5;color:#fff;background-color:#161616;} */
+button,input,select{font-family:inherit;font-size:inherit;line-height:inherit;}
+a{color:#fff;text-decoration:none;}
+a:focus,a:hover{color:#d9d9d9;text-decoration:underline;}
+a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+hr{margin-top:8px;margin-bottom:8px;border:0;border-top:1px solid rgba(255,255,255,.3);}
+h1,h2,h3,h4{font-family:inherit;font-weight:700;line-height:1.1;color:#fff;}
+h1,h2,h3{margin-top:18px;margin-bottom:9px;}
+h4{margin-top:9px;margin-bottom:9px;}
+h1{font-size:28px;}
+h2{font-size:22px;}
+h3{font-size:18px;}
+h4{font-size:15px;}
+p{margin:0 0 9px;}
+/* .mark{padding:.2em;background-color:#fcf8e3;} */
+.text-danger{color:#de2600;}
+/* ul{margin-top:0;margin-bottom:9px;} */
+/* .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+} */
+label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700;}
+.form-control{display:block;width:100%;height:32px;padding:6px 12px;font-size:12px;line-height:1.5;color:#aaa;background-color:#2e2e2e;background-image:none;border:1px solid #ccc;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);-webkit-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;-webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-moz-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;}
+.form-control:focus{border-color:#bfbfbf;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(191, 191, 191, .6);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(191, 191, 191, .6);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(191, 191, 191, .6);}
+.form-control::-moz-placeholder{color:#999;opacity:1;}
+.form-control:-ms-input-placeholder{color:#999;}
+.form-control::-webkit-input-placeholder{color:#999;}
+.form-control::-ms-expand{background-color:transparent;border:0;}
+.btn{display:inline-block;margin-bottom:0;font-weight:700;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;padding:6px 12px;font-size:12px;line-height:1.5;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn:active:focus,.btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+.btn:focus,.btn:hover{color:#fff;text-decoration:none;}
+.btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);-moz-box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);}
+.btn-default{color:#fff;background-color:#404040;border-color:#737373;}
+.btn-default:focus{color:#fff;background-color:#262626;border-color:#333;}
+.btn-default:hover{color:#fff;background-color:#262626;border-color:#545454;}
+.btn-default:active{color:#fff;background-color:#262626;background-image:none;border-color:#545454;}
+.btn-default:active:focus,.btn-default:active:hover{color:#fff;background-color:#141414;border-color:#333;}
+.input-group{position:relative;display:table;border-collapse:separate;}
+.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0;}
+.input-group .form-control:focus{z-index:3;}
+.input-group .form-control,.input-group-btn{display:table-cell;}
+.input-group-btn{width:1%;white-space:nowrap;vertical-align:middle;}
+.input-group .form-control:first-child{-webkit-border-top-right-radius:0;-moz-border-radius-topright:0;border-top-right-radius:0;-webkit-border-bottom-right-radius:0;-moz-border-radius-bottomright:0;border-bottom-right-radius:0;}
+.input-group-btn:last-child>.btn{-webkit-border-top-left-radius:0;-moz-border-radius-topleft:0;border-top-left-radius:0;-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomleft:0;border-bottom-left-radius:0;}
+.input-group-btn{position:relative;font-size:0;white-space:nowrap;}
+.input-group-btn>.btn{position:relative;}
+.input-group-btn>.btn:active,.input-group-btn>.btn:focus,.input-group-btn>.btn:hover{z-index:2;}
+.input-group-btn:last-child>.btn{z-index:2;margin-left:-1px;}
+/* .container:after,.container:before{display:table;content:" ";}
+.container:after{clear:both;} */
+.center-block{display:block;margin-right:auto;margin-left:auto;}
+.hidden{display:none!important;}
+.icon-f{font-family:iconfont!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;letter-spacing:0;-webkit-font-feature-settings:"liga";-moz-font-feature-settings:"liga=1";-moz-font-feature-settings:"liga";-ms-font-feature-settings:"liga"1;font-feature-settings:"liga";-webkit-font-variant-ligatures:discretionary-ligatures;-moz-font-variant-ligatures:discretionary-ligatures;font-variant-ligatures:discretionary-ligatures;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icf-close-thin:before{content:"\e94a";}
+.icf-cog:before{content:"\e947";}
+.icf-home:before{content:"\e928";}
+.icf-search:before{content:"\e938";}
+.flag-small{display:inline;*zoom:1;display:inline-block;width:16px;height:11px;line-height:11px;background-image:url(assets/flags-16.png);background-position:0 0;background-repeat:no-repeat;}
+.flag-small.flag-usa{background-position:0 -226px;}
+.flag-small.flag-es{background-position:-32px -66px;}
+.flag-small.flag-gb{background-position:-192px -66px;}
+::-moz-selection{background:#de2600;color:#fff;text-shadow:none;}
+::-moz-selection,::selection{background:#de2600;color:#fff;text-shadow:none;}
+/* ul{margin:0 0 3px;list-style-type:none;} */
+p{margin:0 0 3px;}
+h1{margin:10px 0;}
+h2{margin:8px 0;}
+h3{margin:6px 0;}
+h4{margin:4px 0;}
+.btn{margin:0 2px 4px 0;border-width:1px;-webkit-transition:background ease .2s, border ease .2s, -webkit-box-shadow ease .2s;transition:background ease .2s, border ease .2s, -webkit-box-shadow ease .2s;-o-transition:box-shadow ease .2s, background ease .2s, border ease .2s;-moz-transition:box-shadow ease .2s, background ease .2s, border ease .2s, -moz-box-shadow ease .2s;transition:box-shadow ease .2s, background ease .2s, border ease .2s;transition:box-shadow ease .2s, background ease .2s, border ease .2s, -webkit-box-shadow ease .2s, -moz-box-shadow ease .2s;}
+.input-group-btn .btn{margin-right:0;}
+a{text-decoration:underline;background-color:transparent;cursor:pointer;}
+a.btn{text-decoration:none;}
+.icon{display:inline-block;background-position:left top;background-repeat:no-repeat;background-image:url(assets/xv-icons-sprite.png);background-image:linear-gradient(transparent, transparent), url(assets/xv-icons-sprite.svg);}
+.icon.logo-bg{border-style:solid;border-color:#161616;background-color:#161616;}
+.icon.user{width:16px;height:16px;background-position:-2015px 0;}
+.icon.user:hover{background-position:-221px 0;}
+.icon.user.logo-bg{width:32px;height:32px;margin:3px;border-width:4px;background-position:-144px -40px;}
+.icon.user{font-family:iconfont!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:0 0;text-align:center;}
+.icon.user{font-size:24px;height:24px;line-height:24px;}
+.icon.user:before{content:"\e948";}
+.form-control{color:#ddd;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+select option{background:#fff;color:#000;}
+select option:active,select option:focus,select option:hover{background:#de2600;color:#fff;}
+input[type=text],input[type=text].form-control,select:focus{font-size:17px;}
+#site-logo-link{max-width:160px;}
+/* body{font-family:Arial, sans-serif;overflow-y:scroll;padding:4px 8px 8px;} */
+::-moz-selection{background:#de2600;color:#fff;}
+::selection{background:#de2600;color:#fff;}
+.stripe{overflow:hidden;}
+.stripe .icon{vertical-align:text-bottom;}
+#header{line-height:18px;font-size:13px;}
+#header .white-stripe{overflow:visible;padding:5px 10px}
+#header .white-stripe h2{font-size:14px;line-height:40px;overflow:hidden;margin:0;text-align:center;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;}
+#header .white-stripe h2 .pad{margin:0 14px;max-width:100%;display:block;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;font-weight:bold;}
+#header a.logo{position:relative;float:left;width:auto;height:40px;margin:0;padding:2px 0;z-index:1;}
+#header a.logo,#header a.logo image,#header a.logo svg{background:#161616;display:block;}
+#header .header-icons{height:40px;float:right;}
+#header .header-icons .btn{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;font-size:16px;vertical-align:text-bottom;}
+#header .header-icons #mobile-login-btn,#header .header-icons .menu-login-acct{background:#de2600;color:#fff;margin:4px 0 4px 4px;padding:4px 12px 3px;}
+#header .header-icons #mobile-login-btn:hover,#header .header-icons .menu-login-acct:hover{background:#c52200;}
+#header .header-icons .btn-login{background:0 0;color:#888;margin:4px 0 4px 4px;padding:4px 4px 3px;}
+#header .header-icons .btn-login:hover{background:0 0;text-decoration:underline;}
+#header .animated-hamburger{font-size:40px;float:left;margin:0 0 0 -4px;}
+#header .animated-hamburger.init-ok span{background:#888;}
+#header .animated-hamburger span{background:#404040;}
+.site-settings{position:relative;font-size:14px;color:#fff;background:#2e2e2e;font-weight:700;padding:2px 8px;vertical-align: middle;text-decoration:none;}
+.site-settings-menu{top:35px;right:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:absolute;font-size:14px;color:#fff;background:#2e2e2e;padding:10px 0;font-weight:700;vertical-align: middle;text-decoration:none;}
+.site-settings-menu-none{top:35px;right:0;display:none;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:absolute;font-size:14px;color:#fff;background:#2e2e2e;padding:10px 0;font-weight:700;vertical-align: middle;text-decoration:none;}
+.site-settings-menu .site-settings{font-size:15px;padding:3px 15px;}
+#site-settings-button{cursor:pointer;}
+#site-settings-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;}
+.site-settings .flag-small{vertical-align:baseline;}
+/* #site-settings.init-ok{opacity:1;cursor:pointer;}
+#site-settings:active,#site-settings:focus,#site-settings:focus:active{outline:0;}
+#site-settings .icon-f{display:block;font-size:20px;text-align:center;width:20px;}
+#site-settings .icf-close-thin{display:none;font-size:16px;} */
+/* #site-settings .flag-small{position:relative;right:2px;top:-12px;-webkit-transform:scale(.75);-moz-transform:scale(.75);-ms-transform:scale(.75);-o-transform:scale(.75);transform:scale(.75);} */
+#mobile-login-btn{opacity:.5;cursor:default;-webkit-transition:opacity .2s;-o-transition:opacity .2s;-moz-transition:opacity .2s;transition:opacity .2s;}
+#mobile-login-btn.init-ok{opacity:1;cursor:pointer;}
+#xv-search-form{float:left;height:40px;overflow:hidden;width:30%;}
+#home-search div.cont,#xv-search-form div.cont{padding:1px 0 1px 10px;overflow:hidden;}
+#home-search .search-input,#xv-search-form .search-input{background:#fff;border:2px solid #ddd;border-right:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;color:#000;font-size:18px;height:38px;margin:0;padding:4px 10px;}
+#home-search .search-input:focus,#xv-search-form .search-input:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#home-search .search-submit,#xv-search-form .search-submit{background:#ddd;border:2px solid #ddd;border-left:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:3px;color:#000;font-size:16px;font-weight:400;height:38px;margin:0;position:relative;-webkit-transition:background .2s;-o-transition:background .2s;-moz-transition:background .2s;transition:background .2s;}
+#home-search .search-submit:hover,#xv-search-form .search-submit:hover{background:#d0d0d0;}
+#home-search .search-submit:focus,#xv-search-form .search-submit:focus{outline:0;background:#c3c3c3;}
+#home-search .search-submit span,#xv-search-form .search-submit span{margin:0 3px;}
+.animated-hamburger{cursor:pointer;display:block;height:1em;position:relative;width:1em;}
+.animated-hamburger span{background:#000;-webkit-border-radius:.05em;-moz-border-radius:.05em;border-radius:.05em;display:block;height:.1em;left:.175em;position:absolute;top:.24em;-webkit-transform-origin:center bottom;-moz-transform-origin:center bottom;-ms-transform-origin:center bottom;-o-transform-origin:center bottom;transform-origin:center bottom;width:.625em;}
+.animated-hamburger .an-h-2,.animated-hamburger .an-h-3{top:.44em;-webkit-transform-origin:center;-moz-transform-origin:center;-ms-transform-origin:center;-o-transform-origin:center;transform-origin:center;}
+.animated-hamburger .an-h-4{-webkit-transform-origin:center top;-moz-transform-origin:center top;-ms-transform-origin:center top;-o-transform-origin:center top;transform-origin:center top;top:.64em;}
+@media (max-width:767px) and (min-aspect-ratio:1/1){
+body{overflow:auto;position:static;}
+}
+#footer{clear:both;font-size:13px;margin:20px 0 10px;overflow:hidden;}
+.mobile-show,.mobile-show-inline-block{display:none;}
+@media (min-width:1024px){
+#header .white-stripe h2{font-size:18px;}
+}
+@media (min-width:1120px){
+#header .white-stripe h2{font-size:20px;}
+}
+@media (min-width:1440px){
+body{padding-left:80px;padding-top:8px;padding-right:80px;}
+}
+@media (max-width:767px){
+.mobile-show{display:block;}
+.mobile-show-inline-block{display:inline-block;}
+.mobile-hide{display:none;}
+.icon.logo-bg{border-color:#161616;background-color:#161616;}
+#header{width:100%;z-index:200;}
+#header .white-stripe{color:#fff;background:#161616;border-bottom:1px solid #444;left:0;position:fixed;text-align:center;top:0;width:100%;z-index:200;padding:0;}
+#header #header-mobile-search-toggle{float:left;margin-right:0;}
+#header #header-mobile-search-toggle{color:#fff;font-size:22px;height:40px;line-height:38px;text-decoration:none;text-align:center;width:36px;}
+#header #header-mobile-search-toggle:hover{color:#de2600;}
+#header a.logo{float:none;display:inline-block;margin:0 auto;max-width:-webkit-calc(100% - 180px);max-width:-moz-calc(100% - 180px);max-width:calc(100% - 180px);overflow:hidden;vertical-align:text-top;-webkit-box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);-moz-box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;-o-transition:-o-transform .2s;-moz-transition:transform .2s, -moz-transform .2s;transition:transform .2s;transition:transform .2s, -webkit-transform .2s, -moz-transform .2s, -o-transform .2s;}
+#header a.logo,#header a.logo image,#header a.logo svg{background:#161616;}
+#header .animated-hamburger{margin-left:4px;}
+#header .animated-hamburger.init-ok span{background:#fff;}
+#header .animated-hamburger span{background:#aaa;}
+#header .header-icons .btn,#header .header-icons .btn#mobile-login-btn{background:0 0;margin:0;padding:0;}
+#header .header-icons .btn .icon{margin:0;}
+#header .header-icons .site-settings{color:#fff;padding:7px 8px;margin:3px 2px 3px 0;}
+h2#mobile-slogan{-o-text-overflow:ellipsis;text-overflow:ellipsis;color:#fff;}
+#mobile-slogan{background:#2e2e2e;border-bottom:1px solid #404040;font-size:12px;height:37px;margin:40px 0 0;overflow:hidden;padding:0;text-align:center;white-space:nowrap;font-weight:bold;}
+#mobile-slogan>*{font-size:12px;height:34px;line-height:34px;margin:0;padding-bottom:0;padding-top:0;}
+#home-search{overflow:hidden;padding:8px 0;margin-left:8px;margin-right:8px;}
+#home-search .icf-home{color:#ddd;float:left;font-size:30px;line-height:40px;text-align:center;width:30px;}
+#home-search form{float:left;width:-webkit-calc(100% - 30px);width:-moz-calc(100% - 30px);width:calc(100% - 30px);}
+#xv-search-form{background:#161616;float:none;height:54px;margin-bottom:0;overflow:hidden;position:relative;width:100%;}
+#xv-search-form.mobile-hide{display:block;height:0;}
+#xv-search-form.mobile-hide div.cont{opacity:0;}
+#xv-search-form div.cont{border-bottom:0;bottom:0;left:0;opacity:1;padding:0;position:absolute;-webkit-transition:all .5s;-o-transition:all .5s;-moz-transition:all .5s;transition:all .5s;width:100%;}
+#xv-search-form div.cont div{margin:0 auto;max-width:350px;padding:8px;}
+#home-search .search-input,#home-search .search-submit,#xv-search-form .search-input,#xv-search-form .search-submit{border-color:#ddd;}
+/* body{padding:8px;} */
+}
+@media (max-width:767px) and (min-aspect-ratio:1/1){
+#home-search{margin-left:8px;margin-right:8px;}
+}
+.btn,.btn:active,.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#header a.logo{-webkit-box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);-moz-box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);box-shadow:4px 0 8px -4px rgba(0, 0, 0, .0);}
+#header a.logo:hover{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+/*! CSS Used from: Embedded */
+h1,h2,h3{text-align:center;}
+#bottle{position:relative;}
+.clear{clear:both;}
+#wrapper,.wrapper{min-height:500px;}
+*{margin:0;padding:0;}
+/* body{background:#ebebeb;} */
+p{margin:10px 0;}
+a img{border:none;}
+h1,h2{margin:1em 0;font-weight:400;}
+h3{font-weight:bolder;}
+h3{margin:1em 0;}
+h1{font-size:40px;line-height:1em;}
+h2{margin-right:150px;margin-left:150px;font-size:28px;line-height:140%;}
+#wrapper{overflow:auto;margin:0 auto;padding:20px 10px;width:960px;border-left:1px solid #000;border-right:1px solid #000;color:#fff;font-size:16px;font-family:Cambria;line-height:25px;}
+.secret_box{background:#888;border:1px solid #000;padding:10px;width:75%;margin:30px auto;}
+.secret_box h3{color:red;text-decoration:underline;margin:5px 0 15px;text-align:center;}
+#footer{font-size:14px;}
+#bottle{width:100%;}
+#footer{margin-top:10px;text-align:center;}
+#footer a{color:#aaa;}
+#bottle{margin:20px auto;max-width:500px;text-align:center;}
+#bottle img{display:block;margin:0 auto 20px;max-height:400px;max-width:100%;}
+.wrapper{width:690px;margin:0 auto;font-family:verdana;font-size:16px;line-height:25px;color:#3d3d3d;}
+h3{font-size:20px;}
+.graph img{position:absolute;}
+.graph{margin-top:15px;border:1px solid #000;background-color:#2e2e2e;background-repeat-y:repeat;}
+.graph .txt{position:relative;text-align:left;background:#004586;color:#fff;padding:0;margin-bottom:2.5%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+.graph .beforetxt{position:relative;text-align:left;background:#0083b2;color:#fff;padding:0;margin-top:2.5%;}
+.graph .beforetxt span{text-align:left;display:block;padding:5px 10px;}
+.graph .txt span{text-align:left;display:block;padding:5px 10px;}
+.graph{width:100%;background-size:100% 108%;background-repeat:no-repeat;background-position:-15px 0;}
+.graph img{display:none;}
+.graph img{float:right;margin-left:5px;margin-top:-20px;}
+.graph img{display:none;}
+.graph{margin-top:15px;border:1px solid #000;background-size:100%;background-repeat-y:repeat;}
+.graph{width:100%;}
+.numbers div{display:inline-block;}
+.numbers{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%;overflow:hidden;}
+.numbers span{text-align:center;width:100%;display:block;margin-top:10px;padding-top:5px;}
+.halfborder{border-width:0 1px;margin:0;background:none;}
+@media (max-width:767px){
+.forfoto .rel,.forfoto img{max-width:300px;float:none;}
+.effects div.phot,.effects div.txt{width:100%;margin:0 auto 5%;min-width:auto;}
+.forfoto img{margin:auto;width:100%!important;}
+.forfoto{text-align:center;padding:10px 10px;}
+.forfoto p{text-align:left;margin:20px auto 0!important;padding-left:0!important;}
+.forfoto .rel{width:100%;}
+.relclear{clear:both;}
+.forfoto .txt{width:96%;text-align:center;float:none;margin:auto;padding:0;}
+#headertheme h1{font-size:17pt!important;}
+.halfborder{border-width:0 1px;margin:0;}
+#copyright,.legal_testim{font-size:16px!important;line-height:1.3em!important;}
+button,input,label,select{font-size:18px;}
+}
+@media (max-width:760px){
+.list0{width:90%;}
+}
+@media (max-width:385px){
+.list0{width:80%!important;}
+}
+body{margin:0 auto;padding:0;}
+body{background:#161616;font-family:Arial, Helvetica, sans-serif;}
+#wrapper{overflow:visible;margin:0 auto;padding:20px 10px;min-height:500px;max-width:770px;width:100%;border-left:none;border-right:none;color:#fff;font-size:16px;line-height:25px;font-family:Arial, Helvetica, sans-serif;}
+h1,h2{text-align:left;font-weight:400;margin:20px 0 0 0;line-height:40px;}
+h3{text-align:left;color:#0083b2;font-size:26px!important;}
+.typicallist{padding-left:30px;}
+#headertheme{height:auto;margin:0 auto;width:100%;background:url(assets/bg.jpg);padding:0 10px 30px 10px;box-sizing:border-box;-moz-box-sizing:border-box;}
+#headertheme h1{font-family:Tahoma, Helvetica, sans-serif;color:#fff;text-align:center;font-weight:700;font-size:46pt;margin-top:30px;line-height:1.17em;}
+.lefto{float:left;margin-right:5px;}
+.clear{clear:both;}
+.forfoto p{margin-left:7px!important;}
+.forfoto{padding:5px;background:#2e2e2e;margin-top:30px;overflow:auto;}
+#footer{width:auto!important;}
+@media (max-width:768px){
+#wrapper{padding:20px 0;}
+}
+.effects .phot img{max-width:300px;width:100%;margin:0;}
+.effects div.phot{width:39%;min-width:300px;}
+.effects div.txt{width:56%;margin-left:4%;max-width:520px;}
+.effects div{display:inline-block;vertical-align:top;margin:0 auto 5%;}
+.effects{text-align:center;}
+#bottle img{width:auto;max-width:100%;}
+.left_box{float:left;text-align:center;width:50%;margin-right:20px;border:1px solid #000;}
+.left_box img{max-width:100%;max-height:400px;margin:0 auto;}
+.left_box>p{text-align:left;}
+.left_box p{background:#2e2e2e;margin-bottom:0;padding:2px 10px;}
+.list0{padding-left:10%;display:inline-block;width:90%;}
+.list0 li{text-align:left;padding-left:10px;line-height:170%;}
+h4{font-size:1.2em;text-align:center;}
+.lefto{margin-right:15px;width:300px;}
+.forfoto{position:relative;}
+.forfoto b{text-align:right;display:block;margin-right:10px;}
+.forfoto p{margin:10px 0;}
+.forfoto p.kga{position:absolute;padding:10px 10px;margin-bottom:0;top:198px;left:204px;background-color:#d4d4d4;border:1px solid #000;color:#000;font-size:25px;font-weight:700;}
+.forfoto .txt{float:right;width:58%;padding-right:1%;}
+.forfoto .rel{float:left;width:40%;max-width:300px;position:relative;margin:auto;display:inline-block;vertical-align:top;}
+.forfoto p.kga{top:inherit;left:inherit;bottom:0;right:0;}
+.typicallist{padding-left:60px;}
+.typicallist li{list-style-image:url(assets/checked.png);margin-top:5px;padding-left:5px;}
+.layers{margin-top:20px;}
+.mark span{font-weight:700;}
+#headertheme h1{margin-top:0;padding-top:30px;}
+@media (max-width:768px){
+.list0{width:85%;}
+}
+@media (min-width:768px){
+#wrapper>h4:nth-child(42){margin-bottom:40px;}
+}
+@media (max-width:767px){
+#wrapper{width:93%;}
+.effects div.phot,.effects div.txt{width:100%;margin:0 auto 5%;min-width:auto;}
+.forfoto .rel{float:none;}
+.forfoto img{float:none;margin:auto;max-width:300px;width:100%!important;}
+.forfoto{text-align:center;padding:10px 10px;}
+.forfoto p{text-align:left;margin:20px auto 0!important;}
+.forfoto .rel{max-width:300px;width:100%;}
+.relclear{clear:both;}
+.forfoto .txt{width:96%;text-align:center;float:none;margin:auto;padding:0;}
+#headertheme h1{font-size:17pt!important;}
+.halfborder{border-width:0 1px 0 1px;margin:0;}
+#copyright,.legal_testim{font-size:16px!important;line-height:1.3em!important;}
+button,input,label,select{font-size:18px;}
+}
+.secret_box{background:#6f9550;border:0px solid #3b601d;border-radius:10px;padding:10px 25px;width:75%;margin:10px auto 20px;}
+.secret_box h3{color:#000;text-decoration:underline;margin:5px 0 15px;}
+@media (max-width: 450px){
+    .secret_box{width:100%;}
+}
+#ssbutton{margin:0 auto;display:block;position:static;text-decoration:underline;padding:12px 10px;background-color:#67bc16;color:#fff;text-align:center;-moz-border-radius:5px;-webkit-border-radius:5px;font-size:24px!important;border:none;box-shadow:inset 0 1px 0 0 #2e2e2e;font:700 20px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;text-shadow:0 -1px 1px #64799e;}
+#ssbutton:hover{background-color:#de2600;box-shadow:inset 0 1px 0 0 #2e2e2e;cursor:pointer;}
+/*! CSS Used from: Embedded */
+#footer{margin-bottom:32px;}
+#footer div{text-align:center;padding:5px 0;line-height:15px;font-family:Arial, Helvetica, sans-serif;font-size:11px;}
+#footer #copyright a{color:#aaa;font-weight:normal;text-decoration:none;}
+/*! CSS Used from: Embedded */
+.legal_testim{font-size:11px;text-align:center;color:#aaa;max-width:700px;margin:40px auto 0;line-height:1.5em;}
+/*! CSS Used from: Embedded */
+@media (max-width: 400px){
+/* .lefto-img{display:block;float:none;} */
+/* .p-lefto-img{clear:both;} */
+.hide-es-country{display:none;}
+#doktoro{width:160px!important;;}
+}
+/*! CSS Used from: Embedded */
+.comeback_layout{display:none;position:fixed;color:#000;left:0;top:0;width:100%;height:100%;z-index:20000000;background:rgba(0,0,0,.75);overflow-y:scroll;-ms-overflow-style:none;overflow:-moz-scrollbars-none;}
+.comeback_layout::-webkit-scrollbar{width:0;}
+.comeback_wrapper{width:100%;max-width:550px;margin:0 auto;}
+.comeback_container{background:#fff;background-image:url(assets/comebackground.jpg);padding:25px;margin-top:2%;text-align:center;border-radius:25px;background-size:100% 100%;}
+.comeback_container h1{font-size:40px;}
+.comeback_container .btn{display:block;width:240px;color:#fff;background:#f82a5e;text-transform:uppercase;padding:10px 0;font-size:19px;font-weight:400;line-height:1.42857143;text-align:center;vertical-align:middle;border:1px solid transparent;border-radius:4px;margin:0 auto;text-decoration:none;}
+.comeback_img{width:100%;margin:10px auto;max-width:200px;}
+.comeback_close{float:right;cursor:pointer;}
+#comeback p{font-size:16px;}
+@media (max-width:700px){
+.comeback_container h1{line-height:18px;font-size:16px;}
+.comeback_img{margin:5px auto;}
+.comeback_container p{line-height:14px;font-size:15px;}
+.comeback_container{padding:15px;}
+}
+#block1{float:left;display:block;width:130px;margin:2px;}
+#block2{float:left;display:block;width:165px;margin:2px;}
+/*! CSS Used fontfaces */
+@font-face{font-family:iconfont;src:url(assets/iconfont.eot);src:url(assets/iconfont2.eot) format('embedded-opentype'), url(assets/iconfont.woff2) format('woff2'), url(assets/iconfont.ttf) format('truetype'), url(assets/iconfont.woff) format('woff'), url(assets/iconfont.svg) format('svg');font-weight:400;font-style:normal;font-display:block;}
+.en .lang-switcher--en,.es .lang-switcher--es{cursor:default;background-color:#de2600;}
+.lang-switcher{cursor:pointer;}
+    </style>
+</head>
+
+<body class="en">
+    <div id="headertheme" class="domain-ss">
+        <h1 style="font-size: 26pt;">
+            <span class="en">
+                Enlarge your penis at least 1.6 inches in just 7 days, get rock hard erections and make your girl cum at least 5 times in a row<br>
+                - guaranteed effects, medically proved.
+            </span>
+            <span class="es">
+                Agrande su pene al menos 1.6 pulgadas en solo 7 días, obtenga erecciones duras como una roca y haga que su chica se corra al menos 5 veces seguidas - efectos garantizados, médicamente probados.
+            </span>
+        </h1>
+    </div>
+    <div id="wrapper" class="domain-ss">
+        <div id="site-settings-wrap">
+            <div style="font-size: 17px; font-style: italic; color: #888;">
+                <span class="en">
+                    Published:
+                </span>
+                <span class="es">
+                    Publicado:
+                </span>
+                Aug 8, 2021            </div>
+            <span id="site-settings-button" class="site-settings">
+                <span class="en">USA </span>
+                <span class="hide-es-country es">Estados Unidos </span> 
+                <span class="flag-small flag-usa" title="English"></span>
+                <span id="site-settings-cross"> ▼</span>
+            </span>
+            <div id="site-settings-menu" class="site-settings-menu-none">
+                <span class="site-settings en">
+                    <span class="flag-small flag-usa" title="English"></span>
+                    <span class="en" style="font-weight:normal;"> Country : </span> USA
+                </span>
+                <span class="site-settings es">
+                    <span class="flag-small flag-usa" title="English"></span>
+                    <span class="es" style="font-weight:normal;"> Pais : </span> Estados Unidos
+                </span>
+                <span class="site-settings en">
+                    <span class="flag-small flag-gb" title="English"></span>
+                    <span class="en" style="font-weight:normal;"> Language : </span> English
+                </span>
+                <span class="site-settings es">
+                    <span class="flag-small flag-es" title="English"></span>
+                    <span class="es" style="font-weight:normal;"> Idioma : </span> Español
+                </span>
+                <hr>
+                <span id="switcher-en" class="site-settings lang-switcher lang-switcher--en">
+                    <span class="flag-small flag-gb" title="English"></span>
+                     English
+                </span>
+                <span id="switcher-es" class="site-settings lang-switcher lang-switcher--es">
+                    <span class="flag-small flag-es" title="English"></span>
+                     Español
+                </span>
+            </div>
+        </div>
+        <h2 style="margin-top: 5px;text-transform:uppercase;">
+            <span class="en">
+                NOW WITH ISO 9001 CERTIFICATION
+            </span>
+            <span class="es">
+                AHORA CON CERTIFICACIÓN ISO 9001
+            </span>
+        </h2>
+        <a href="{offer_link}" target="_blank" rel="noopener">
+            <img alt="" id="doktoro" class="lefto lefto-img" style="
+                    background-image: url(&#39;assets/nophoto.jpg&#39;);
+                    background-position: 43% 4%;
+                    background-position: 43% 27%\0/ !important;
+                    background-size: 100%;
+                    width: 200px;
+                    margin-right: 20px;
+                " src="assets/doktoro.jpg">
+        </a>
+        <p class="p-lefto-img" style="margin-top:0">
+            <span class="en">
+                I'm professor Christopher Neal and I want to show you a scientific method to increase the size of the
+                cavernosa, enlarge your penis and get huge erections. The results of this method are clear: your penis will
+                be bigger and
+                thicker, your erections will last longer, you'll improve your sex life, providing your partner at least 5
+                continuous orgasms. Instead of giving promises, I offer you medical and lab results that prove that this
+                product will
+                increase your masculinity and enlarge your erection for up to 30 to 40 more minutes.
+            </span>
+            <span class="es">
+                Soy el profesor Christopher Neal y quiero mostrarte un método científico para aumentar el tamaño de los
+                cavernosos, agrandar tu pene y conseguir grandes erecciones. Los resultados de este método son claros: tu
+                pene será más grande y grueso, tus erecciones durarán más, mejorarás tu vida sexual, proporcionando a tu
+                pareja al menos 5 orgasmos continuos. En lugar de hacer promesas, le ofrezco resultados médicos y de
+                laboratorio que prueban que este producto aumentará su masculinidad y agrandará su erección por hasta 30 a
+                40 minutos más.
+            </span>
+        </p>
+        <div id="description-quest">
+            <p style="clear: both; margin-top: 35px; margin-bottom: -15px;"><strong>
+                                    <span class="en">Answer all the questions on the test and you will help with the current research and get a free trial bottle. Questions prepared by Professor Christopher Neal.</span>
+                                    <span class="es">Conteste todas las preguntas en la prueba y ayudará con la investigación actual y obtendrá una botella de prueba gratuita. Preguntas preparadas por el profesor Christopher Neal.</span>
+                                </strong></p>            <!-- <p style="clear: both; margin-top: 35px; margin-bottom: -15px;"><strong>Answer all the questions on the test and you will help with the current research and get a free trial bottle. Questions prepared by Professor Christopher Neal.</strong></p>
+            <p style="clear: both; margin-top: 20px; margin-bottom: -15px;">Answer all the questions on the test and you will help with the current research and get a free trial bottle. Questions prepared by Professor Christopher Neal.</p> -->
+        </div>
+
+
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 1 of 6</span>
+                <span class="es">Cuestión 1 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">How many inches do you want to enlarge your penis?</span>
+                <span class="es">¿Cuántas pulgadas quieres agrandar tu pene?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;&lt;span class=en&gt;5 inches&lt;/span&gt;&lt;span class=es&gt;5 pulgadas&lt;/span&gt;&quot;,&quot;&lt;span class=en&gt;3 inches&lt;/span&gt;&lt;span class=es&gt;3 pulgadas&lt;/span&gt;&quot;,&quot;&lt;span class=en&gt;1 inch&lt;/span&gt;&lt;span class=es&gt;1 pulgada&lt;/span&gt;&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+
+
+        <div class="clear"></div>
+        <p><strong>
+            <span class="en">
+                Doesn't matter if it's the first or tenth time you try to end this embarrassing problem: I have the
+                greatest news for you, better than any other thing you've read about other methods to enlarge your
+                penis.
+            </span>
+            <span class="es">
+                No importa si es la primera o la décima vez que intentas acabar con este vergonzoso problema: tengo
+                la mejor noticia para ti, mejor que cualquier otra cosa que hayas leído sobre otros métodos para
+                agrandar tu pene.
+            </span>
+        </strong></p>
+        <p>
+            <span class="en">
+                If you have tried to enlarge your penis or fix your erectile dysfunction you already know that the weights
+                and pumps are worthless, and everything is as embarrassing as it was before. But know I will help you end
+                this suffering whenever you take off your pants in front of a girl.
+            </span>
+            <span class="es">
+                Si ha intentado agrandar su pene o corregir su disfunción eréctil, ya sabe que las pesas y las bombas son
+                inútiles, y todo es tan vergonzoso como antes. Pero debes saber que te ayudaré a terminar con este
+                sufrimiento cada vez que te quites los pantalones frente a una chica.
+            </span>
+        </p>
+        <p>
+            <span class="en">
+                On the other hand, if it's your first time trying to enlarge your masculinity or fix ED, then you are going
+                to skip so much embarrassment and rejection from women. Because they will fall in love with your penis and
+                will want it inside of them.
+            </span>
+            <span class="es">
+                Por otro lado, si es la primera vez que intenta agrandar su masculinidad o corregir la disfunción eréctil,
+                entonces evitará tanta vergüenza y rechazo de las mujeres. Porque se enamorarán de tu pene y lo querrán
+                dentro de ellos.
+            </span>
+        </p>
+        <p>
+            <span class="en">
+                You will also save hundreds of dollars that you would end up wasting for useless products.
+            </span>
+            <span class="es">
+                También ahorrarás cientos de dólares que terminarías desperdiciando en productos inútiles.
+            </span>
+        </p>
+        <p class="mark">
+            <span class="en">
+                I want to show you real photos of Martin, who, with the help of my method, grew his penis up to
+                3.1 inches and prolonged his sexual relations up to 32 minutes.
+            </span>
+            <span class="es">
+                Quiero mostrarte fotos reales de Martin, quien, con la ayuda de mi método, hizo crecer su pene
+                hasta 3.1 pulgadas y prolongó sus relaciones sexuales hasta 32 minutos.
+            </span>
+        </p>
+        <div class="clear"></div>
+        <div class="effects">
+            <div class="phot">
+                <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/main.jpg"></a>
+            </div>
+            <div class="txt">
+                <h4>
+                    <span class="en">
+                        The documented results of Martin's 4-week treatment:
+                    </span>
+                    <span class="es">
+                        Los resultados documentados del tratamiento de 4 semanas de Martin:
+                    </span>
+                </h4>
+                <br>
+                <ul class="list0 en">
+                    <li><strong>He grew his penis 3.1 inches without using pumps or weights.</strong></li>
+                    <li>His penis grew thicker by a 63% and he can have sex at least 5 continuous times.</li>
+                    <li><strong>He achieved steel hard erections everytime he wanted to have sex.</strong></li>
+                    <li>Keeps a long-lasting powerful erection, providing his partner amazing orgasms.</li>
+                    <li><strong>His libido improved as well as his testosterone levels, including more energy and
+                            endurance in bed.</strong></li>
+                </ul>
+                <ul class="list0 es">
+                    <li><strong>Le creció el pene 3.1 pulgadas sin usar bombas ni pesas.</strong></li>
+                    <li>Su pene se hizo más grueso en un 63% y puede tener relaciones sexuales al menos 5 veces
+                        seguidas..</li>
+                    <li><strong>Logró erecciones duras como el acero cada vez que quería tener sexo.</strong></li>
+                    <li>Mantiene una poderosa erección duradera, proporcionando a su pareja orgasmos increíbles.</li>
+                    <li><strong>Su libido mejoró al igual que sus niveles de testosterona, incluida más energía y
+                            resistencia en la cama.</strong></li>
+                </ul>
+            </div>
+        </div>
+        
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 2 of 6</span>
+                <span class="es">Cuestión 2 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">How old are you?</span>
+                <span class="es">¿Qué edad tiene usted?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;18-30&quot;,&quot;31-45&quot;,&quot;46-60&quot;,&quot;60+&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+        <script>
+            function Howold(Value) {
+                let howold = Value;
+                let howoldCookie;
+                let howolddiv = document.querySelectorAll('.howold-div');
+                for (i = 0; i < howolddiv.length; i++) {
+                    if (howold == "18-30" || howold == "31-45") {
+                        howolddiv[i].innerHTML = "18-45";
+                        howoldCookie = "18-45";
+                    } else {
+                        howolddiv[i].innerHTML = "45+";
+                        howoldCookie = "45+";
+                    }
+                }
+                
+                // cookie
+                var expires = new Date();
+                expires.setDate(expires.getDate() + 7);
+                expires.toUTCString();
+                // var quizzPass = 'quizzpass';
+                document.cookie = [
+                    'howoldCookie=' + howoldCookie
+                    , '; expires=' + expires // используем expires, max-age не поддерживается в ИЕ
+                    // , '; path=/'
+                    , '; domain=' + document.location.host
+                ].join('');
+                // end cookie
+            }
+        </script>
+
+
+        <div class="clear"></div>
+        <h3>
+            <span class="en">
+                Martin's results aren't a miracle
+            </span>
+            <span class="es">
+                Los resultados de Martin no son un milagro
+            </span>
+        </h3>
+        <p>
+            <span class="en">
+                They are proved by many different medical tests. They measured the concentrations of testosterone and the
+                quantity and size of the inner tissue of the organism of the volunteers, before and after the treatment. In
+                the end, they
+                repeated the process but included more people. The effectiveness of this method wasn't only proved with the
+                volunteers of these tests, it was proved by real clients too. Their stories are always very emotive.
+            </span>
+            <span class="es">
+                Están comprobados por muchas pruebas médicas diferentes. Midieron las concentraciones de testosterona y la
+                cantidad y tamaño del tejido interno del organismo de los voluntarios, antes y después del tratamiento. Al
+                final, repitieron el proceso pero incluyeron más personas. La eficacia de este método no solo se demostró
+                con los voluntarios de estas pruebas, también lo demostraron clientes reales. Sus historias son siempre muy
+                emotivas.
+            </span>
+        </p>
+        <div class="en">
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot001.jpg" class="lefto"></a>
+                    <p class="kga">+2.7″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>With Vialophin he became really POWERFUL</strong></p>
+                    <p>There's no flame in bed? After taking this pill, I no longer have space for tiredness when in bed.
+                        I'm 38 years old, 7.9 inches and, just rediscovered sex!</p>
+                    <p class="mark">
+                        After a month of use I realized that they were just 100% confident in their product and after my
+                        thirty day course ended I ordered more to get an even
+                        better result and I never regret my decision. I've purchased many similar products without getting
+                        any results, and these are the only pills that have worked, proved by me and my friends.
+                    </p>
+                    <b>William Hurst, 38 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot002.jpg" class="lefto"></a>
+                    <p class="kga">+2.2″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>You must have it!</strong></p>
+                    <p class="mark">
+                        Vialophin is the best solution to get a powerful penis. If you take them, you'll have energy and
+                        will always want to do it. You will have supersex, no women will ever forget you. With my 7.7 inches
+                        huge dick, no women will
+                        ever say no. Fully recommended!
+                    </p>
+                    <center>
+                        <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/podyshka.jpg"></a>
+                    </center>
+                    <b>Daniel Read, 31 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot003.jpg" class="lefto"></a>
+                    <p class="kga">+2.8″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Can a man be happy with a 4 inch dick???</strong></p>
+                    <p>It was my tragedy. I felt embarrassed while talking with women, I was afraid of them laughing at me
+                        during sex</p>
+                    <p>I read about these penis enlargement pills on the bodybuilding forum. I decided to try them just out
+                        of curiosity and because they gave a good discount, so I had nothing to lose.</p>
+                    <p class="mark">The result: <span>2.8 extra inches of dick and no more depression.</span> I wasn't
+                        simply satisfied with this result I was really happy!!!</p>
+                    <p>All the girls get wet when they see my "pole"</p>
+                    <p>It's great that I ordered a bottle so cheap because it looks like the promotion will end soon</p>
+                    <b>Harvey Carroll, 23 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot004.jpg" class="lefto"></a>
+                    <p class="kga">+4.3″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>My wife wants to take me to bed</strong></p>
+                    <p>I'm not gonna lie, I felt terrible when my wife didn't want to do it with me, and when she finally
+                        agreed, I could see in her eyes that she was already bored.</p>
+                    <p>I finally took the decision to get these pills, because you don't have to follow a strict diet or any
+                        kind of exercise, so almost no one noted great changes in my lifestyle.</p>
+                    <p class="mark">
+                        Thanks to these pills my penis grew up to 4.3 extra inches and could last longer in bed. My
+                        erections were like rock. Now I can make her cum at least 5 times in a row and I can hear her scream
+                        with pleasure.
+                    </p>
+                    <b>Ethan Conway, 47 years</b>
+                </div>
+            </div>
+            <div class="clear" id="last"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot010.jpg" class="lefto"></a>
+                    <p class="kga">+3.2″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>It works!</strong></p>
+                    <p>
+                        My issue wasn't having a small penis because mine already was 5.6 inches long. But, what could I
+                        lose by trying? It was amazing how much it grew, up to 8.8 inches. Now, it's a real monster, I
+                        believe that even people
+                        from Africa don't have it as big as me. It barely fits in my pants, but women like to be
+                        relentlessly fucked.
+                    </p>
+                    <p class="mark">I believe it didn't grow that much because I already had a good length. But still, the
+                        results are impressive.</p>
+                    <center>
+                        <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/stoit.jpg"></a>
+                    </center>
+                    <b>Scott Skinner, 26 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot005.jpg" class="lefto"></a>
+                    <p class="kga">+2.4″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>The fastest method to enlarge your penis.</strong></p>
+                    <p class="mark">
+                        I like having everything in order, that's why every day I checked the results of the treatment. The
+                        first few days my penis grew 0.3 inch. A week later it grew an extra inch and in 14 days another 1.1
+                        inches. In total,
+                        my penis grew an extra 2.4 inches in 30 days, also, I got 60-minute erections. The results are
+                        impressive.
+                    </p>
+                    <b>Marcus Bonilla, 32 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot006.jpg" class="lefto"></a>
+                    <p class="kga">+4″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Goodbye to fake orgasms</strong></p>
+                    <p class="mark">
+                        Since I was a child, my friends laughed at my small penis in the pool. When I turned 18, I started
+                        flirting, but I felt insecure because I thought I was going to be rejected by my 4.8 inch penis. And
+                        that's what
+                        happened... By a struck of luck, Vialophin , made it grow faster. Before it was 4.8 inch during an
+                        erection, now it's 6.5 when flaccid! This really works.
+                    </p>
+                    <b>Donald Tatum, 29 years</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot007.jpg" class="lefto"></a>
+                    <p class="kga">+3.3″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>5 orgasms in 23 minutes</strong></p>
+                    <p class="mark">
+                        I never thought that for a few dollars I could increase my penis. Oh boy, it grew, and now my
+                        erections last 8 times longer. It's bigger and harder and my girl loves it. This product is amazing.
+                        Now all my sessions end
+                        with a big orgasm scream. It always gets hard and never fails me!<br>
+                    </p>
+                    <center>
+                        <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/stena.jpg"></a>
+                    </center>
+                    <b>Aaron Shores, 30 years</b>
+                </div>
+            </div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot008.jpg" class="lefto"></a>
+                    <p class="kga">+2.9″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>There's no better method to get a bigger dick</strong></p>
+                    <p>Before I started using Vialophin I had many failed attempts, so much that I started feeling awful. A
+                        friend of mine recommended me this product. It took a few moments just to recover my ability and
+                        self-confidence.</p>
+                    <p class="mark">They barely fit in their mouths and I'm always horny and looking for more. I'm no longer
+                        afraid of doing it, and I'm not ashamed of my 8 inch dick.</p>
+                    <br>
+                    <b>Shawn Elder, 33 years</b>
+                </div>
+            </div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot009.jpg" class="lefto"></a>
+                    <p class="kga">+2.8″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>A real python</strong></p>
+                    <p class="mark">
+                        I felt ashamed of having a small penis and now I can slap a huge dick on my girl's face. It's
+                        amazing! It penetrates her so hard, and it wasn't fully inserted, I can hear her scream. It's music
+                        to my ears. That's what I
+                        call sex.
+                    </p>
+                    <p>I would just like to thank Vialophin for finally showing me what real pleasure feels like!</p>
+                    
+                    <br>
+                    <b>Chris Williams, 27 years</b>
+                </div>
+            </div>    
+        </div>
+        <div class="es">
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot001.jpg" class="lefto"></a>
+                    <p class="kga">+2.7″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Con Vialophin se volvió realmente PODEROSO</strong></p>
+                    <p>¿No hay llama en la cama? Después de tomar esta píldora, ya no tengo espacio para el cansancio cuando
+                        estoy en la cama. ¡Tengo 38 años, mido 7.9 pulgadas y acabo de redescubrir el sexo!</p>
+                    <p class="mark">Al principio, no entendía por qué ofrecían una versión de muestra gratuita de su
+                        producto. Pero después de usarlo durante un mes, entendí que simplemente tienen un 100% de confianza
+                        en su producto y después de que terminó mi paquete de prueba, pedí más para obtener un resultado aún
+                        mejor y nunca me arrepiento de mi decisión. He comprado muchos productos similares sin obtener
+                        ningún resultado, y estas son las únicas píldoras que han funcionado, comprobado por mí y mis
+                        amigos. </p>
+                    <b>William Hurst, 38 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot002.jpg" class="lefto"></a>
+                    <p class="kga">+2.2″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Debes tenerlo!</strong></p>
+                    <p class="mark">Vialophin es la mejor solución para conseguir un pene potente. Si los toma, tendrá
+                        energía y siempre querrá hacerlo. Tendrás supersexualidad, ninguna mujer te olvidará jamás. Con mi
+                        enorme polla de 7.7 pulgadas, ninguna mujer dirá que no. ¡Totalmente recomendado!</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <center><a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px" src="assets/podyshka.jpg"></a>
+                    </center>
+                    <b>Daniel Read, 31 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot003.jpg" class="lefto"></a>
+                    <p class="kga">+2.8″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>¿Puede un hombre ser feliz con una polla de 4 pulgadas?</strong></p>
+                    <p>Fue mi tragedia. Me sentí avergonzado al hablar con mujeres, tenía miedo de que se rieran de mí
+                        durante el sexo.</p>
+                    <p class="mark">El resultado: <span>2.8 pulgadas extra de pene y no más depresión.</span> No estaba
+                        simplemente satisfecho con este resultado, ¡estaba realmente feliz!</p>
+                    <p>Todas las chicas se mojan cuando ven mi "polo"</p>
+                    <b>Harvey Carroll, 23 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot004.jpg" class="lefto"></a>
+                    <p class="kga">+4.3″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Mi esposa quiere llevarme a la cama</strong></p>
+                    <p>No voy a mentir, me sentí fatal cuando mi esposa no quiso hacerlo conmigo, y cuando finalmente
+                        accedió, pude ver en sus ojos que ya estaba aburrida.</p>
+                    <p>Finalmente tomé la decisión de tomar estas pastillas, porque no hay que seguir una dieta estricta ni
+                        ningún tipo de ejercicio, por lo que casi nadie notó grandes cambios en mi estilo de vida.</p>
+                    <p class="mark">Gracias a estas pastillas, mi pene creció hasta 4.3 pulgadas más y podía durar más en la
+                        cama. Mis erecciones eran como una roca. Ahora puedo hacer que se corra al menos 5 veces seguidas y
+                        puedo escucharla gritar de placer.</p>
+                    <b>Ethan Conway, 47 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot010.jpg" class="lefto"></a>
+                    <p class="kga">+3.2″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>¡Funciona!</strong></p>
+                    <p>Mi problema no era tener un pene pequeño porque el mío ya tenía 5.6 pulgadas de largo. Pero, ¿qué
+                        podría perder al intentarlo? Fue asombroso cuánto creció, hasta 8.8 pulgadas. Ahora, es un verdadero
+                        monstruo, creo que incluso la gente de África no lo tiene tan grande como yo. Apenas cabe en mis
+                        pantalones, pero a las mujeres les gusta que las follen sin descanso.</p>
+                    <p class="mark">Creo que no creció tanto porque ya tenía una buena longitud. Pero aún así, los
+                        resultados son impresionantes.</p>
+                    <center><a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px" src="assets/stoit.jpg"></a>
+                    </center>
+                    <b>Scott Skinner, 26 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot005.jpg" class="lefto"></a>
+                    <p class="kga">+2.4″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>El método más rápido para agrandar su pene.</strong></p>
+                    <p class="mark">Me gusta tener todo en orden, por eso todos los días revisaba los resultados del
+                        tratamiento. Los primeros días mi pene creció 0.3 pulgadas. Una semana más tarde creció una pulgada
+                        extra y en 14 días otras 1.1 pulgadas. En total, mi pene creció 2.4 pulgadas extra en 30 días,
+                        además, obtuve erecciones de 60 minutos. Los resultados son impresionantes.</p>
+                    <b>Marcus Bonilla, 32 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot006.jpg" class="lefto"></a>
+                    <p class="kga">+4″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Adiós a los orgasmos falsos</strong></p>
+                    <p class="mark">Desde que era niño, mis amigos se reían de mi pequeño pene en la piscina. Cuando cumplí
+                        18, comencé a coquetear, pero me sentí inseguro porque pensé que mi pene de 4.8 pulgadas me iba a
+                        rechazar. Y eso es lo que sucedió ... Por un golpe de suerte, Vialophin lo hizo crecer más rápido.
+                        Antes medía 4.8 pulgadas durante una erección, ¡ahora es 6.5 cuando está flácido! Esto realmente
+                        funciona.</p>
+                    <b>Donald Tatum, 29 años</b>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot007.jpg" class="lefto"></a>
+                    <p class="kga">+3.3″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>5 orgasmos en 23 minutos</strong></p>
+                    <p class="mark">Nunca pensé que por unos pocos dólares podría aumentar mi pene. Oh, vaya, creció y ahora
+                        mis erecciones duran 8 veces más. Es más grande y más difícil y a mi chica le encanta. Este producto
+                        es asombroso. Ahora todas mis sesiones terminan con un gran grito de orgasmo. ¡Siempre se pone
+                        difícil y nunca me falla!<br> </p>
+                    <center><a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px" src="assets/stena.jpg"></a>
+                    </center>
+                    <b>Aaron Shores, 30 años</b>
+                </div>
+            </div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot008.jpg" class="lefto"></a>
+                    <p class="kga">+2.9″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>No hay mejor método para conseguir una polla más grande</strong></p>
+                    <p>Antes de comenzar a usar Vialophin tuve muchos intentos fallidos, tanto que comencé a sentirme fatal.
+                        Un amigo me recomendó este producto. Me tomó unos momentos recuperar mi capacidad y la confianza en
+                        mí mismo.</p>
+                    <p class="mark">Apenas caben en sus bocas y siempre estoy cachonda y buscando más. Ya no tengo miedo de
+                        hacerlo, y no me avergüenzo de mi pene de 8 pulgadas.</p>
+                    <br><b>Shawn Elder, 33 años</b>
+                </div>
+            </div>
+            <div class="forfoto">
+                <div class="rel">
+                    <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/fot009.jpg" class="lefto"></a>
+                    <p class="kga">+2.8″</p>
+                    <div class="relclear"></div>
+                </div>
+                <div class="txt">
+                    <p><strong>Una pitón real</strong></p>
+                    <p class="mark">Tenía miedo de que la gente se riera de mí, así que pedí la versión de prueba de
+                        Vialophin. Me sentí avergonzado de tener un pene pequeño y ahora puedo abofetear una polla enorme en
+                        la cara de mi chica. ¡Es asombroso! La penetra tan fuerte, y no estaba completamente insertada,
+                        puedo escucharla gritar. Es música para mis oídos. Eso es lo que yo llamo sexo.</p>
+                    <p>¡Solo me gustaría agradecer a Vialophin por finalmente mostrarme cómo se siente el verdadero placer!
+                    </p>
+                    
+                    <br><b>Chris Williams, 27 años</b>
+                </div>
+            </div>    
+        </div>
+        <br>
+        <div class="secret_box en">
+            <h3>Try Before You Buy</h3>
+            <p>Because it is a scientific method, Professor Neal is concerned with results, not promises.</p>
+            <p>This is Professor Neal's personal guarantee, backed up by the manufacturer of the product - so you
+                have nothing to risk!</p>
+            <p>But there is a condition: when you get these results, tell your friends about it so that they also know
+                about Vialophin !</p>
+        </div>
+        <div class="secret_box es">
+            <h3>Pruebe antes de comprar</h3>
+            <p>Debido a que es un método científico, al profesor Harford le preocupan los resultados, no las promesas.</p>
+            <p>Esta es la garantía personal del profesor Harford, respaldada por el fabricante del producto, ¡así que no
+                tiene nada que arriesgar!</p>
+            <p>Pero hay una condición: cuando obtenga estos resultados, dígaselo a sus amigos para que ellos también
+                sepan sobre Vialophin.</p>
+        </div>
+        <div class="clear"></div>
+        <h3 style="text-transform: uppercase;">
+            <span class="en">
+                HOW TO INCREASE YOUR PENIS AN EXTRA 2.5 INCHES AND LAST LONGER, USING A
+                SCIENTIFIC METHOD?
+            </span>
+            <span class="es">
+                ¿CÓMO AUMENTAR SU PENE 2,5 PULGADAS ADICIONALES Y DURAR MÁS USANDO UN
+                MÉTODO CIENTÍFICO?
+            </span>
+        </h3>
+        <p>
+            <span class="en">
+                You won't even remember when you had a 4 inch penis and even when you felt ashamed when your partner saw it.
+                This is what you have to do to make your penis increase and to give her 5 orgasms in a row.
+            </span>
+            <span class="es">
+                Ni siquiera recordará cuando tenía un pene de 4 pulgadas e incluso cuando se sintió avergonzado cuando su
+                pareja lo vio. Esto es lo que tienes que hacer para hacer que tu pene aumente y darle 5 orgasmos seguidos.
+            </span>
+        </p>
+        <center>
+            <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/posilka.png"></a>
+        </center>
+        <p>
+            <span class="en">
+                it's easy, you just need to take a pill a day before sex, and to get better results, take one every day. One
+                during breakfast and another during dinner time. After doing that, continue your life as usual, but, you
+                will start feeling your organism functioning in a very different way. You won't have to change your diet, no more pumps
+                or special exercises; your organism will make your cavernosa grow in size.
+            </span>
+            <span class="es">
+                es fácil, solo necesita tomar una pastilla un día antes de tener relaciones sexuales, y para
+                obtener mejores resultados, tome una todos los días. Uno durante el desayuno y otro durante la cena. Después
+                de hacer eso, continúe su vida como de costumbre, pero comenzará a sentir que su organismo funciona de una
+                manera muy diferente. No tendrá que cambiar su dieta, no más bombas ni ejercicios especiales; tu organismo
+                hará que tus cavernosas crezcan en tamaño.
+            </span>
+        </p>
+
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 3 of 6</span>
+                <span class="es">Cuestión 3 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">Do you want your wife to experience orgasm every time?</span>
+                <span class="es">¿Quieres que tu esposa experimente el orgasmo cada vez?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;&lt;span class=en&gt;Yes&lt;/span&gt;&lt;span class=es&gt;Sí&lt;/span&gt;&quot;,&quot;No&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+
+        <p class="mark">
+            <span class="en">
+                This process isn't a miracle, it's simply a scientific method working to improve masculinity. The special,
+                scientific blend of herbs will increase your penis size and make it hard for up to 2 hours. Vialophin also
+                increases your testosterone, thickens your veins, improves blood flow and libido.
+            </span>
+            <span class="es">
+                Este proceso no es un milagro, es simplemente un método
+                científico que trabaja para mejorar la masculinidad. La mezcla científica y especial de hierbas aumentará el
+                tamaño de su pene y lo endurecerá hasta por 2 horas. Vialophin también aumenta su testosterona, espesa sus
+                venas, mejora el flujo sanguíneo y la libido.
+            </span>
+        </p>
+
+        <ul class="typicallist en">
+            <li>Your penis will grow at least an extra 1.6 inches in 7 days. Instead of feeling insecure in bed, you'll
+                feel horny, full of passion and desire, and ready to do anything.</li>
+            <li>Say goodbye to your flaccid erections! It's going to be so hard and ready to satisfy any kind of sexual
+                desire, ALWAYS and ANYWHERE.</li>
+            <li>All your sessions will end with big orgasms. The looks of deception will be over and also the dreadful
+                "That's it?". She will have several minutes of pleasure and will need even more time to fully recover...
+            </li>
+        </ul>
+        <ul class="typicallist es">
+            <li>Su pene crecerá al menos 1.6 pulgadas adicionales en 7 días. En lugar de sentirte inseguro en la cama,
+                te sentirás cachondo, lleno de pasión y deseo, y listo para hacer cualquier cosa.
+            </li>
+            <li>¡Dile adiós a tus erecciones flácidas! Va a ser tan difícil y listo para satisfacer cualquier tipo de
+                deseo sexual, SIEMPRE y EN CUALQUIER LUGAR.
+            </li>
+            <li>Todas tus sesiones terminarán con grandes orgasmos. Se acabarán las miradas de engaño y también el
+                espantoso "¿Eso es todo?". Tendrá varios minutos de placer y necesitará aún más tiempo para recuperarse
+                por completo ...
+            </li>
+        </ul>
+        <br>
+
+        <h4 style="font-size: 1.1em;">
+            <span class="en">
+                The effects of the treatment with the Vialophin pills were measured using statistic tests. The results are
+                represented by percentages.
+            </span>
+            <span class="es">
+                Los efectos del tratamiento con las píldoras Vialophin se midieron mediante pruebas estadísticas. Los
+                resultados están representados por porcentajes.
+            </span>
+        </h4>
+        <div class="graph en">
+            <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/graph.jpg" alt=""></a>
+            <div class="beforetxt" data="50.html" style="width: 34%;">
+                <span class="en">Erection time</span>
+            </div>
+            <div class="txt" data="93.html" style="width: 66%;">
+                <span class="en">Improvement</span>
+                <span style="font-weight: bold;">+93%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 43%;">
+                <span class="en">Orgasms your partner has</span>
+            </div>
+            <div class="txt" data="89.html" style="width: 82%;">
+                <span class="en">Number improvement</span>
+                <span style="font-weight: bold;">+89%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 41%;">
+                <span class="en">Levels of testosterone</span>
+            </div>
+            <div class="txt" data="69.html" style="width: 70%;">
+                <span class="en">Improvement</span>
+                <span style="font-weight: bold;">+69%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 36%;">
+                <span class="en">Penis length</span>
+            </div>
+            <div class="txt" data="84.html" style="width: 67%;">
+                <span class="en">Enlargement</span>
+                <span style="font-weight: bold;">+84%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 33%;">
+                <span class="en">Penis Thickness</span>
+            </div>
+            <div class="txt" data="65.html" style="width: 55%;">
+                <span class="en">Thickening</span>
+                <span style="font-weight: bold;">+65%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 40%;">
+                <span class="en">Time for sexual relations</span>
+            </div>
+            <div class="txt" data="49.html" style="width: 63%;">
+                <span class="en">Improved</span>
+                <span style="font-weight: bold;">+57%</span>
+            </div>
+        </div>
+        <div class="graph halfborder en">
+            <div class="numbers">
+                <div>
+                    <span class="en">min</span>
+                </div>
+                <div><hr color="#aaa" size="10px" style="border:none;margin:0 auto;width: 2px;">
+                    <span style="margin-top: 0" class="en">Statistic Norm</span>
+                </div>
+                <!-- <div><span>40</span></div>
+                <div><span>60</span></div>
+                <div><span>80</span></div>
+                <div><span>100</span></div>
+                <div><span>120</span></div>
+                <div><span>140</span></div>
+                <div><span>160</span></div>
+                <div><span>180</span></div> -->
+                <div>
+                    <span class="en">max</span>
+                </div>
+            </div>
+        </div>
+        <div class="graph es">
+            <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/graph.jpg" alt=""></a>
+            <div class="beforetxt" data="50.html" style="width: 34%;">
+                <span class="es">Tiempo de erección</span>
+            </div>
+            <div class="txt" data="93.html" style="width: 66%;">
+                <span class="es">Mejora</span>
+                <span style="font-weight: bold;">+93%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 43%;">
+                <span class="es">Orgasmos que tiene tu pareja</span>
+            </div>
+            <div class="txt" data="89.html" style="width: 82%;">
+                 <span class="es">Mejora del número</span>
+                <span style="font-weight: bold;">+89%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 41%;">
+                <span class="es">Niveles de testosterona</span>
+            </div>
+            <div class="txt" data="69.html" style="width: 70%;">
+                <span class="es">Mejora</span>
+                <span style="font-weight: bold;">+69%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 36%;">
+                <span class="es">Longitud del pene</span>
+            </div>
+            <div class="txt" data="84.html" style="width: 67%;">
+                <span class="es">Ampliación</span>
+                <span style="font-weight: bold;">+84%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 33%;">
+                <span class="es">Espesor del Pene</span>
+            </div>
+            <div class="txt" data="65.html" style="width: 55%;">
+                <span class="es">Engrosamiento</span>
+                <span style="font-weight: bold;">+65%</span>
+            </div>
+            <div class="beforetxt" data="50.html" style="width: 40%;">
+                <span class="es">Tiempo para las relaciones sexuales</span>
+            </div>
+            <div class="txt" data="49.html" style="width: 63%;">
+                <span class="es">Mejorar</span>
+                <span style="font-weight: bold;">+57%</span>
+            </div>
+        </div>
+        <div class="graph halfborder es">
+            <div class="numbers">
+                <div>
+                    <span class="es">mínimo</span>
+                </div>
+                <div><hr color="#aaa" size="10px" style="border:none;margin:0 auto;width: 2px;">
+                    <span style="margin-top: 0" class="es">Norma Estadística</span>
+                </div>
+                <!-- <div><span>40</span></div>
+                <div><span>60</span></div>
+                <div><span>80</span></div>
+                <div><span>100</span></div>
+                <div><span>120</span></div>
+                <div><span>140</span></div>
+                <div><span>160</span></div>
+                <div><span>180</span></div> -->
+                <div>
+                    <span class="es">máximo</span>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <h3>
+            <span class="en">The most important reason why you should order Vialophin right now</span>
+            <span class="es">La razón más importante por la que debe pedir Vialophin ahora mismo</span>
+        </h3>
+        <p class="en">
+            Now, you will believe that you just found the solution for your embarrassment and insecurity in bed due to
+            your small penis. I know, because I also felt that when I tried my method years ago. But I ask, don't order
+            Vialophin just yet.
+        </p>
+        <p class="es">
+            Ahora, creerás que acabas de encontrar la solución para tu vergüenza e inseguridad en la cama debido a tu
+            pene pequeño. Lo sé, porque también lo sentí cuando probé mi método hace años. Pero les pido que no pidan
+            Vialophin todavía.
+        </p>
+        <center>
+            <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/vannaya.jpg"></a>
+        </center>
+        <p class="en">I ask you this because I want you to see the powerful results that can be obtained with these pills.</p>
+        <p class="es">Te pregunto esto porque quiero que veas los poderosos resultados que se pueden obtener con estas pastillas.</p>
+        <p class="en">
+            You need to understand that the secret of the effectiveness of the Vialophin is in its special mix of four
+            ingredients that help enlarge the penis. Unlike other products that usually have at max two ingredients,
+            Vialophin mixed the
+            power of four substances that help thicken the cavernosa and each one of them helps in the enlargement
+            process in their own distinctive ways.
+        </p>
+        <p class="es">
+            Debe comprender que el secreto de la efectividad del Vialophin está en su mezcla especial de cuatro
+            ingredientes que ayudan a agrandar el pene. A diferencia de otros productos que generalmente tienen un
+            máximo de dos ingredientes, Vialophin mezcló el poder de cuatro sustancias que ayudan a espesar la cavernosa
+            y cada una de ellas ayuda en el proceso de agrandamiento en sus propias formas distintivas.
+        </p>
+
+
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 4 of 6</span>
+                <span class="es">Cuestión 4 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">Do you want your sex to last longer than 20 minutes?</span>
+                <span class="es">¿Quieres que tu sexo dure más de 20 minutos?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;&lt;span class=en&gt;Yes&lt;/span&gt;&lt;span class=es&gt;Sí&lt;/span&gt;&quot;,&quot;No&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+
+
+        <div class="layers en">
+            <div class="left_box">
+                <br>
+                <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/prod.png" alt=""></a>
+                <p>
+                    Vialophin won a prestigious award as the best treatment for penis enlargement in
+                    2021.
+                </p>
+            </div>
+            <p>
+                <strong>#1 Ingredient</strong> - Guarana <br>
+                Is the most important and required substance to quickly thicken the veins and enlarge the penis. This
+                natural ingredient turns the thin veins in wide highways to get more blood flowing to your penis. The
+                cavernosa are
+                stimulated and reinforced. If frequently consumed, you can increase your penis up to a 73.4 %.
+            </p>
+            <p>
+                <strong>#2 Ingredient</strong> - Peppermint extract <br>
+                It's used as an essential oil in Vialophin because its properties are unique. Contains great amounts of
+                oxygen particles that help improve the transportation of nutrients to the cavernosa. Also, it helps to
+                dilute the blood,
+                so it will make your testosterone filled penis to grow even more. Thanks to these substances you will
+                have a greater desire to have sex, and your sperm will have a better taste - all your partners will feel
+                the difference.
+            </p>
+            <p>
+                <strong>#3 Ingredient</strong> - Arctium extract - The plant known as the African viagra.
+                The Arctium extract increases the sensibility of your penis to stimuli. So it's guaranteed to give you
+                an instant and strong erection that will last for up to 30 - 40 min and will help you last longer in
+                bed.
+            </p>
+            <p>
+                <strong>#4 Ingredient</strong> - Ginseng extract - the root that increases libido<br>
+                They have been used for centuries in traditional medicine in China and India. Has many properties, among
+                them, it increases the vital energy, but above everything else, it increases the libido and improves
+                your erections,
+                making them last longer. Also, it helps improve the blood flow to your penis, giving your better and
+                faster erections, your penis won't go flaccid in the time of need. You'll make your partner have
+                multiple orgasms and you
+                won't have any problems.
+            </p>
+        </div>
+        <div class="layers es">
+            <div class="left_box">
+                <br>
+                <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/prod.png" alt=""></a>
+                <p>Vialophin ganó un prestigioso premio como el mejor tratamiento para la ampliación del pene en
+                    2021.
+                </p>
+            </div>
+            <p><strong>#1 Ingrediente </strong> - Guaraná <br>
+                Es la sustancia más importante y necesaria para engrosar rápidamente las venas y agrandar el pene. Este
+                ingrediente natural convierte las venas delgadas en carreteras anchas para que fluya más sangre a su
+                pene. Los cavernosos se estimulan y refuerzan. Si se consume con frecuencia, puede aumentar su pene
+                hasta un 73,4%.</p>
+            <p><strong>#2 Ingrediente</strong> - Extracto de menta <br>Se utiliza como aceite esencial en Vialophin
+                porque sus propiedades son únicas. Contiene grandes cantidades de partículas de oxígeno que ayudan a
+                mejorar el transporte de nutrientes a los cavernosos. Además, ayuda a diluir la sangre, por lo que hará
+                que su pene lleno de testosterona crezca aún más. Gracias a estas sustancias tendrás un mayor deseo de
+                tener relaciones sexuales, y tu esperma tendrá un mejor sabor, todas tus parejas sentirán la diferencia.
+            </p>
+            <p><strong>#3 Ingrediente</strong> - Extracto de Arctium: la planta conocida como viagra africana<br>El
+                extracto de Arctium aumenta la sensibilidad de su pene a los estímulos. Por lo tanto, está garantizado
+                que le brindará una erección instantánea y fuerte que durará entre 30 y 40 minutos y lo ayudará a durar
+                más en la cama.</p>
+            <p><strong>#4 Ingrediente</strong> - Extracto de ginseng: la raíz que aumenta la libido<br>Se han utilizado
+                durante siglos en la medicina tradicional en China e India. Tiene muchas propiedades, entre ellas,
+                aumenta la energía vital, pero sobre todo, aumenta la libido y mejora tus erecciones, haciéndolas durar
+                más. Además, ayuda a mejorar el flujo de sangre a su pene, brindando erecciones mejores y más rápidas,
+                su pene no se volverá flácido en el momento de necesidad. Harás que tu pareja tenga múltiples orgasmos y
+                no tendrás ningún problema.</p>
+        </div>
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 5 of 6</span>
+                <span class="es">Cuestión 5 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">Do you want your wife to lick your penis every morning?</span>
+                <span class="es">¿Quieres que tu esposa te lame el pene todas las mañanas?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;&lt;span class=en&gt;Yes&lt;/span&gt;&lt;span class=es&gt;Sí&lt;/span&gt;&quot;,&quot;No&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+        <div style="clear: both;"></div>
+        <div class="en">
+            <h3>Meet the only person who can free you from these embarrassing sexual issues.</h3>
+            <p>
+                The tests confirm it, that the first effects appear just in a few instants, in less time than it took you to
+                read this text. But I'm 100% sure that your penis won't grow if you don't start RIGHT NOW. This is the
+                moment when you
+                have to take the most important choice: do you decide this is too good to be true, or take the choice of
+                taking action and gaining a pleasurable sexual life, don't forget it comes with an extra 2.5 inches of
+                length.
+            </p>
+            <p>It doesn't matter if you believe or not if this is a scientific solution for your issues...</p>
+            <p>It doesn't matter that you have tried other products before...</p>
+            <p>It doesn't matter if you still believe or not that your partner has faked her orgasms...</p>
+            <p>Vialophin is the most secure, affordable and proved solution in existence to enlarge your penis.</p>
+            <p>But in the end, it's you who must take the choice.</p>
+            <center>
+                <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/chashka.jpg"></a>
+            </center>
+            <h3>Want to join thousands of men who can show off their 8 inch penis?</h3>
+            <p>
+                I've said it all about this method. You know how it works and how effective it can be, as said by real
+                consumers. But I know it's quite difficult to take the first step to enlarge your penis and improve your sex
+                life. That's why
+                I want to do something more for you. I'm offering my personal assistance. I want to remove any kind of risks
+                when trying the effectiveness of Vialophin . Simply put, I'll take care of all of it and I propose the
+                following:
+            </p>        
+        </div>
+        <div class="es">
+            <h3>Conoce a la única persona que puede liberarte de estos problemas sexuales embarazosos.</h3>
+            <p>Las pruebas lo confirman, que los primeros efectos aparecen en pocos instantes, en menos tiempo del que tardó
+                en leer este texto. Pero estoy 100% seguro de que su pene no crecerá si no comienza AHORA MISMO. Este es el
+                momento en el que debe tomar la decisión más importante: ¿decide que esto es demasiado bueno para ser
+                verdad, o toma la decisión de tomar medidas y obtener una vida sexual placentera? No olvide que viene con
+                2.5 pulgadas adicionales. de longitud.
+            </p>
+            <p>No importa si cree o no si esta es una solución científica para sus problemas ...</p>
+            <p>No importa que hayas probado otros productos antes ...</p>
+            <p>No importa si todavía crees o no que tu pareja ha fingido sus orgasmos ...</p>
+            <p>Vialophin es la solución más segura, asequible y probada que existe para agrandar su pene.</p>
+            <p>Pero al final, eres tú quien debe tomar la decisión.</p>
+            <center><a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px" src="assets/chashka.jpg"></a></center>
+            <h3>¿Quiere unirse a miles de hombres que pueden lucir su pene de 8 pulgadas?</h3>
+            <p>Lo he dicho todo sobre este método. Sabes cómo funciona y cuán efectivo puede ser, como dicen los
+                consumidores reales. Pero sé que es bastante difícil dar el primer paso para agrandar tu pene y mejorar tu
+                vida sexual. Por eso quiero hacer algo más por ti. Ofrezco mi asistencia personal. Quiero eliminar cualquier
+                tipo de riesgo al probar la eficacia de Vialophin. En pocas palabras, me ocuparé de todo y propongo lo
+                siguiente:
+            </p> 
+        </div>
+        <section data-quiz-item="" id="next-quest" class="dontUsed">
+            <div class="question-num">
+                <span class="en">Question 6 of 6</span>
+                <span class="es">Cuestión 6 de 6</span>
+            </div>
+            <div class="question">
+                <span class="en">Do you want to have sex every night with incredible pleasure?</span>
+                <span class="es">¿Quieres tener sexo todas las noches con un placer increíble?</span>
+            </div>
+            <div class="choices" data-choices="[&quot;&lt;span class=en&gt;Yes&lt;/span&gt;&lt;span class=es&gt;Sí&lt;/span&gt;&quot;,&quot;No&quot;]"></div>
+            <div class="stock stock-title"><b>
+                <span class="en">THANKS FOR ANSWERS</span>
+                <span class="es">GRACIAS POR LAS RESPUESTAS</span>
+            </b></div>
+            <div class="stock stock-text">
+                <span class="en">Your answers will help in the research of Professor Christopher Neal</span>
+                <span class="es">Sus respuestas ayudarán en la investigación del profesor Christopher Neal</span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">The priority in the study at the moment was given to the age group of <b><span class="howold-div"></span></b></span>
+                <span class="es">La prioridad en el estudio en este momento se dio al grupo de edad de <b><span class="howold-div"></span></b></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">You have reached the <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">target audience</span></span>
+                <span class="es">Ha llegado al <span style="background-color:#de2600;color:#fff;padding:3px 5px;border-radius:3px;">público objetivo</span></span>
+            </div>
+            <div class="stock stock-text">
+                <span class="en">This age group gets a <b>free trial bottle</b> of <b>Vialophin</b> with a payment of <b>$6.95</b> for delivery only</span>
+                <span class="es">Este grupo de edad recibe una <b>botella de prueba gratuita</b> de <b>Vialophin</b> con un pago de <b>$6.95</b> solo para la entrega</span>
+            </div>
+            <a href="{offer_link}" class="stock stock-button" target="_blank" rel="noopener">
+                <span class="en">Get your FREE trial bottle</span>
+                <span class="es">Obtener botella GRATIS</span>
+            </a>
+        </section>
+        <div class="en">
+            <h3>Try Vialophin at my own risk!</h3>
+            <p>
+                I'm a scientist, that's why I know how much men are affected by embarrassment and self-worth issues in their
+                daily lives. Unfortunately, I can't make your penis grow by itself, nor give multiple orgasms to your
+                partner in your
+                name. What I can do is, help you take the best choice. That's why I'm giving you this simple offer, no
+                tricks.
+            </p>
+            <p><strong> In 7 days your dick will grow at least 1.6 inches and you'll be able to give up to 5 orgasms to
+                    your girl.</strong></p>
+            <center>
+                <a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px;" src="assets/ruka.jpg"></a>
+            </center>
+            <p>Is the simplest offer that exists; you pay only for results, not for promises. To take this offer, just fill
+                the order form.</p>
+            <div class="secret_box">
+                <h3 id="trans-quest">What you need to know:</h3>
+                <p style="text-align: center; font-size: 18px;">
+                    <strong>100% discretion guaranteed.</strong> The orders are packaged in a grey cardboard box, with no
+                    logos or any kind of seal or inscriptions that reveal the content of the package. The adhesive tape used
+                    is brown colored,
+                    also, without any description.
+                </p>
+            </div>
+            <p>
+                In the case Vialophin doesn't work for you, I recommend going to the doctor to check if there's something
+                wrong with your penis. If you have no serious issues with the structure of the cavernosa, then there's
+                nothing that could
+                stop you from getting this incredible results. Absolutely nothing!
+            </p>
+            <p>Can there be a safer choice? Just remember, the quantity of the product is limited. This offer is unique and
+                won't ever be repeated, that's why you need to TAKE ACTION!</p>
+        </div>
+        <div class="es">
+            <h3>¡Pruebe Vialophin bajo mi propia responsabilidad!</h3>
+            <p>Soy un científico, por eso sé cuánto a los hombres les afectan la vergüenza y los problemas de autoestima en
+                su vida diaria. Desafortunadamente, no puedo hacer que su pene crezca solo, ni darle orgasmos múltiples a su
+                pareja en su nombre. Lo que puedo hacer es ayudarlo a tomar la mejor decisión. Por eso te doy esta simple
+                oferta, sin trucos.
+            </p>
+            <center><a href="{offer_link}" target="_blank" rel="noopener"><img style="width: 100%; max-width: 400px" src="assets/ruka.jpg"></a></center>
+            <p>Es la oferta más sencilla que existe; pagas solo por los resultados, no por las promesas. Para aceptar esta
+                oferta, simplemente complete el formulario de pedido.
+            </p>
+            <div class="secret_box">
+                <h3>Lo que necesitas saber:</h3>
+                <p style="text-align: center;font-size:18px;"><strong>100% discreción garantizada.</strong> Los pedidos se
+                empaquetan en una caja de cartón gris, sin logotipos ni ningún tipo de precinto o inscripciones que
+                revelen el contenido del paquete. La cinta adhesiva utilizada es de color marrón, también, sin
+                descripción alguna.</p>
+            </div>
+            <p>En el caso de que Vialophin no funcione para usted, le recomiendo que vaya al médico para verificar si hay
+            algún problema con su pene. Si no tiene problemas serios con la estructura de la cavernosa, entonces no hay
+            nada que pueda evitar que obtenga estos increíbles resultados. ¡Absolutamente nada!</p>
+            <p>¿Puede haber una opción más segura? Solo recuerde, la cantidad de producto es limitada. Esta oferta es única
+            y no se repetirá nunca, ¡es por eso que debes TOMAR ACCIÓN!</p>
+        </div>
+        <div id="bottle">
+            <a href="{offer_link}" target="_blank" rel="noopener"><img src="assets/prod.png" style="margin: 50px auto 0px;" alt=""></a>
+        </div>
+        <div class="container" id="content">
+            <a href="{offer_link}" target="_blank" id="ssbutton" style="max-width: 510px; margin: 0 auto;" rel="noopener">
+                <span class="en">
+                    Get FREE trial Bottle
+                </span>
+                <span class="es">
+                    Haga clic aquí para ordenar Vialophin
+                </span>
+            </a>
+        </div>
+        <div id="quest-box"></div>
+
+        <div id="inpost" style="display: none;">
+            <div class="wrapper">
+                <div class="border">
+                    <div id="inpostClose">Zamknij</div>
+                    <div id="menu">
+                        <h4>Wybierz paczkomat</h4>
+                        <ul>
+                            <li>
+                                <select id="addressesProvinces">
+                                    <option value="-1" selected="">Wybierz województwo</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select id="addressesCities">
+                                    <option value="-1" selected="">Wybierz miasto</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select id="addressesMachines">
+                                    <option value="-1" selected="">Wybierz paczkomat</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="inpostPhone">Telefon komórkowy</label>
+                                <input id="inpostPhone" value="">
+                            </li>
+                            <li>
+                                <button id="chooseMachine" type="button">Wybierz</button>
+                                <button id="chooseMachineCancel" type="button">Anuluj</button>
+                            </li>
+                            <li>
+                                <div id="selectedMachine"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="map-canvas"></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="index-h22">
+            <div id="copyright">
+                                <p>Copyright © 2021. All Rights Reserved.</p>
+                <a href="{offer_link}" target="_blank" rel="noopener">Privacy Policy</a> | <a href="{offer_link}" target="_blank" rel="noopener">Rules</a> |
+                <a href="{offer_link}" target="_blank" rel="noopener">Contact</a> | <a href="{offer_link}" target="_blank" rel="noopener">Join Us</a>
+            </div>
+        </div>
+
+        <div class="legal_testim en">
+            Due to security reasons and to provide the best customer service, the owner of this web site reserves the
+            right to do any changes to the privacy policies. This is done to keep safe the client's identity, so to
+            protect them, we
+            changed the names and last names of the people mentioned here. Also, the site's owner declares that any
+            resemblance to real people is by pure coincidence and wasn't done on purpose.
+        </div>
+        <div class="legal_testim es">
+            Por razones de seguridad y para brindar el mejor servicio al cliente, el propietario de este sitio web se
+            reserva el derecho de realizar cambios en las políticas de privacidad. Esto se hace para mantener segura la
+            identidad del cliente, por lo que para protegerlo, cambiamos los nombres y apellidos de las personas
+            mencionadas aquí. Además, el propietario del sitio declara que cualquier parecido con personas reales es por
+            pura coincidencia y no se hizo a propósito.
+        </div>
+    </div>
+
+<style>
+    /*----comeback---*/
+.comeback_layout{display:none;position:fixed;color:#000;left:0;top:0;width:100%;height:100%;z-index:20000000;background:rgba(0,0,0,.75);overflow-y:scroll;-ms-overflow-style:none;overflow:-moz-scrollbars-none}.comeback_layout::-webkit-scrollbar{width:0}.comeback_wrapper{width:100%;max-width:550px;margin:0 auto}.comeback_container{background:#fff;background-image:url(assets/comebackground.jpg);padding:25px;margin-top:2%;text-align:center;border-radius:25px;background-size:100% 100%}.comeback_container h1{font-size:40px}.comeback_container .form-group{width:90%;max-width:400px;margin:0 auto;text-align:left}.comeback_container .btn{display:block;width:240px;color:#fff;background:#f82a5e;text-transform:uppercase;padding:10px 0;font-size:19px;font-weight:400;line-height:1.42857143;text-align:center;vertical-align:middle;border:1px solid transparent;border-radius:4px;margin:0 auto;text-decoration:none}.comeback_img{width:100%;margin:10px auto;max-width:200px}.form-horizontal span{display:block;margin:20px 0}.comeback_close{float:right;cursor:pointer}#comeback p{font-size:16px}@media (max-width:700px){.comeback_container h1{line-height:18px;font-size:16px}.comeback_img{margin:5px auto}.comeback_container p{line-height:14px;font-size:15px}.comeback_container{padding:15px}}#block1{float:left;display:block;width:130px;margin:2px}#block2{float:left;display:block;width:165px;margin:2px}
+</style>
+<div id="comeback" class="comeback_layout">
+    <div class="comeback_wrapper">
+        <div class="comeback_container center-block">
+            <span class="comeback_close" onclick="document.getElementById(&#39;comeback&#39;).style.display = &#39;none&#39;;"><img src="assets/cross.png" width="21" height="21" class="cross"></span>
+            <h1 class="en" style="margin: 0 auto; width: 300px;text-align:center;color: crimson;">Wait!</h1>
+            <h1 class="es" style="margin: 0 auto; width: 300px;text-align:center;color: crimson;">Espere!</h1>
+            <p class="en" style="line-height: 6px;">Are you sure you want to leave?</p>
+            <p class="es" style="line-height: 6px;">Estás seguro que quieres irte?</p>
+            <p class="en" style="text-transform: uppercase;"><b>Don't miss out on this exclusive offer</b></p>
+            <p class="es" style="text-transform: uppercase;"><b>No te pierdas esta oferta exclusiva</b></p>
+            <br>
+            <div style="position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;margin-right:auto;margin-left:auto;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;">
+                <div id="block1"><a href="{offer_link}" target="_blank" rel="noopener"><img class="comeback_img" src="assets/prod.png"></a></div>
+                <div id="block2">
+                    <p class="en" style="text-transform: uppercase; font-size: 31px; line-height: 33px;margin: 41px 5px;"><b>PAY <span style="color: crimson;">$6.95!!</span> ONLY FOR SHIPPING</b></p>
+                    <p class="es" style="text-transform: uppercase; font-size: 27px; line-height: 33px;margin: 41px 5px;"><b>PAGUE <span style="color: crimson;">$6.95</span> SOLO POR EL ENVÍO</b></p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <a class="btn" href="{offer_link}" target="_blank" rel="noopener">
+                <span class="en">
+                    Get FREE bottle
+                </span>
+                <span style="font-size:0.9em" class="es">
+                    Obtener botella GRATIS
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-wrap">
+        <div id="emc-progress"></div>
+        <button id="next-min" data-scroll="#next-quest" class="next-min"><div class="fa fa-arrow-right"></div></button>
+        <a href="{offer_link}" id="progress-button" target="_blank" rel="noopener">
+            <span class="en">
+                Get your FREE trial bottle
+            </span>
+            <span class="es" style="font-size:0.85em">
+                Obtener botella GRATIS
+            </span>
+        </a>
+    </div>
+</footer>
+
+
+<script src="assets/lang-switch.js"></script>
+<!-- <script>
+    let offerDomain = "binomoprimer.com"
+</script> -->
+<script src="assets/script.js"></script>
+<!-- <script type="text/javascript" src="assets/bvz-showcase.js"></script> -->
+
+
+</body></html>

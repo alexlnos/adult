@@ -1,0 +1,3639 @@
+2021-11-21 00:01:53 
+Request:
+Array
+(
+    [tel] => 0792868109
+    [client] => عبد الرحمان 
+    [ip] => 162.158.94.205
+    [subid] => cfaf4fyg5ibfn081
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => oznpgEQz
+    [lead_id] => 13357732
+    [lead_key] => 7442100014727738
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:02:56 
+Request:
+Array
+(
+    [tel] => 0775903448
+    [client] => Mnaoir 
+    [ip] => 162.158.91.104
+    [subid] => 9c443fyg5xrib86f
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 439
+    [error_msg] => Превышен лимит запросов (1 запрос в секунду)
+    [request_params] => Array
+        (
+            [action] => order.add
+            [api_key] => b9ac07a8a9f29604ea2ef26bd998d265
+            [format] => json
+        )
+
+)
+
+
+2021-11-21 00:02:56 
+Request:
+Array
+(
+    [tel] => 0775903448
+    [client] => Mnaoir 
+    [ip] => 162.158.91.104
+    [subid] => 9c443fyg5xrib86f
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => EPcfwgFC
+    [lead_id] => 13357737
+    [lead_key] => 7442100014727743
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:04:04 
+Request:
+Array
+(
+    [tel] => 0775903448
+    [client] => Mnaoir 
+    [ip] => 162.158.91.104
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:09:49 
+Request:
+Array
+(
+    [tel] => 0773091950
+    [client] => fahem
+    [ip] => 162.158.94.83
+    [subid] => 61ba5fy8wa3a1a54
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => GgaEzTMQ
+    [lead_id] => 13357746
+    [lead_key] => 7442100014727752
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:15:40 
+Request:
+Array
+(
+    [tel] => 0659082153
+    [client] => مشقف اسكندر
+    [ip] => 162.158.90.171
+    [subid] => 57014fy8w8r3z39e
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => LehejyeP
+    [lead_id] => 13357754
+    [lead_key] => 7442100014727760
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:15:41 
+Request:
+Array
+(
+    [tel] => 0659082153
+    [client] => مشقف اسكندر
+    [ip] => 162.158.90.171
+    [subid] => 57014fy8w8r3z39e
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:16:28 
+Request:
+Array
+(
+    [tel] => 0773669134
+    [client] => بن زقان محمد
+    [ip] => 162.158.89.42
+    [subid] => 4cd0afy8wcitla72
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => OYzBUfOT
+    [lead_id] => 13357755
+    [lead_key] => 7442100014727761
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:18:28 
+Request:
+Array
+(
+    [tel] => 0779087663
+    [client] => Mouh
+    [ip] => 162.158.90.41
+    [subid] => 2a445fy8wh9ci81c
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => acFjdviQ
+    [lead_id] => 13357757
+    [lead_key] => 7442100014727763
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:21:38 
+Request:
+Array
+(
+    [tel] => 0549174212
+    [client] => قندولي
+    [ip] => 162.158.88.225
+    [subid] => 305f3fy8wb4myfbe
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ChYLTSEG
+    [lead_id] => 13357761
+    [lead_key] => 7442100014727767
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:25:09 
+Request:
+Array
+(
+    [tel] => 0662332879
+    [client] => ختير ياسين
+    [ip] => 162.158.94.235
+    [subid] => 4c850fy8wvch9879
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => HEQEjBCX
+    [lead_id] => 13357764
+    [lead_key] => 7442100014727770
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:26:25 
+Request:
+Array
+(
+    [tel] => 0556892064
+    [client] => Bouretba amine
+    [ip] => 162.158.88.251
+    [subid] => 327a5fy8wqebga1b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => oKdpjwAe
+    [lead_id] => 13357768
+    [lead_key] => 7442100014727774
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:28:41 
+Request:
+Array
+(
+    [tel] => 213557849058
+    [client] => فتحي
+    [ip] => 162.158.94.83
+    [subid] => 0718cfy8wg56j12f
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => xyJtJgYy
+    [lead_id] => 13357772
+    [lead_key] => 7442100014727778
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:29:42 
+Request:
+Array
+(
+    [tel] => 0778489996
+    [client] => صدام
+    [ip] => 162.158.89.80
+    [subid] => 945c3fy8w1nhqc72
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CJEfiDzY
+    [lead_id] => 13357775
+    [lead_key] => 7442100014727782
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:29:42 
+Request:
+Array
+(
+    [tel] => 0778489996
+    [client] => صدام
+    [ip] => 162.158.89.80
+    [subid] => 945c3fy8w1nhqc72
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => MdpDuEei
+    [lead_id] => 13357776
+    [lead_key] => 7442100014727781
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:31:14 
+Request:
+Array
+(
+    [tel] => 0793472077
+    [client] => Mehdi 
+    [ip] => 162.158.88.251
+    [subid] => b0510fy8w1m7v52d
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 439
+    [error_msg] => Превышен лимит запросов (1 запрос в секунду)
+    [request_params] => Array
+        (
+            [action] => order.add
+            [api_key] => b9ac07a8a9f29604ea2ef26bd998d265
+            [format] => json
+        )
+
+)
+
+
+2021-11-21 00:31:15 
+Request:
+Array
+(
+    [tel] => 0793472077
+    [client] => Mehdi 
+    [ip] => 162.158.88.251
+    [subid] => b0510fy8w1m7v52d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => wmditcga
+    [lead_id] => 13357778
+    [lead_key] => 7442100014727786
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:31:15 
+Request:
+Array
+(
+    [tel] => 0793472077
+    [client] => Mehdi 
+    [ip] => 162.158.88.251
+    [subid] => b0510fy8w1m7v52d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => MqNTnnqb
+    [lead_id] => 13357779
+    [lead_key] => 7442100014727784
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:31:15 
+Request:
+Array
+(
+    [tel] => 0793472077
+    [client] => Mehdi 
+    [ip] => 162.158.88.251
+    [subid] => b0510fy8w1m7v52d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => lZpHjLTy
+    [lead_id] => 13357780
+    [lead_key] => 7442100014727785
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:31:34 
+Request:
+Array
+(
+    [tel] => 0697132511
+    [client] => ميسي محمد
+    [ip] => 162.158.90.183
+    [subid] => 003dbfy8wxia6319
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ZBNTUESf
+    [lead_id] => 13357781
+    [lead_key] => 7442100014727787
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:33:32 
+Request:
+Array
+(
+    [tel] => 0782753183
+    [client] => Yacine
+    [ip] => 162.158.94.205
+    [subid] => d28cbfy8wc8b78fa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => fzhMFzLd
+    [lead_id] => 13357784
+    [lead_key] => 7442100014727791
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:34:42 
+Request:
+Array
+(
+    [tel] => 0782753183
+    [client] => مديمد
+    [ip] => 162.158.94.205
+    [subid] => d28cbfy8wc8b78fa
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:35:31 
+Request:
+Array
+(
+    [tel] => 0782753183
+    [client] => مديمد
+    [ip] => 162.158.94.205
+    [subid] => d28cbfy8wc8b78fa
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:38:25 
+Request:
+Array
+(
+    [tel] => 0668488274
+    [client] => تيتو
+    [ip] => 162.158.94.235
+    [subid] => 3d75cfy8wkta86e5
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => PkLDtnVB
+    [lead_id] => 13357792
+    [lead_key] => 7442100014727799
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:38:59 
+Request:
+Array
+(
+    [tel] => 0647295517
+    [client] => حمزا
+    [ip] => 162.158.90.225
+    [subid] => 37af1fy8wfytlac5
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => YzBRvvpK
+    [lead_id] => 13357794
+    [lead_key] => 7442100014727801
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:40:37 
+Request:
+Array
+(
+    [tel] => 0671644399
+    [client] => Rabah Arab
+    [ip] => 162.158.89.42
+    [subid] => b8b86fy8wx98p406
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => xqFqFyvf
+    [lead_id] => 13357797
+    [lead_key] => 7442100014727804
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:45:36 
+Request:
+Array
+(
+    [tel] => 0665665769
+    [client] => عماد الدين 
+    [ip] => 162.158.94.235
+    [subid] => 3229cfysca3p2f94
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => JLoEeJmd
+    [lead_id] => 13357803
+    [lead_key] => 7442100014727810
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:46:10 
+Request:
+Array
+(
+    [tel] => 0557943137
+    [client] => محمد
+    [ip] => 162.158.90.183
+    [subid] => 1768cfysca5h9e53
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => yJRQqMJe
+    [lead_id] => 13357808
+    [lead_key] => 7442100014727815
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:46:54 
+Request:
+Array
+(
+    [tel] => 0541988818
+    [client] => Ibrahmabouhara
+    [ip] => 162.158.90.41
+    [subid] => 83b82fysca9k2230
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => JLKEzsCQ
+    [lead_id] => 13357810
+    [lead_key] => 7442100014727817
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:48:23 
+Request:
+Array
+(
+    [tel] => 0798908671
+    [client] => كمال
+    [ip] => 162.158.90.183
+    [subid] => 354d5fyscq5a0d7a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => hNorFCuj
+    [lead_id] => 13357812
+    [lead_key] => 7442100014727819
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:50:20 
+Request:
+Array
+(
+    [tel] => 0550365900
+    [client] => حمدان 
+    [ip] => 162.158.90.183
+    [subid] => 1768cfysca5h9e53
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => VkzeFUQy
+    [lead_id] => 13357816
+    [lead_key] => 7442100014727824
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:50:20 
+Request:
+Array
+(
+    [tel] => 0550365900
+    [client] => حمدان 
+    [ip] => 162.158.90.183
+    [subid] => 1768cfysca5h9e53
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => dbBuhqWg
+    [lead_id] => 13357817
+    [lead_key] => 7442100014727823
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:50:20 
+Request:
+Array
+(
+    [tel] => 0550365900
+    [client] => حمدان 
+    [ip] => 162.158.90.183
+    [subid] => 1768cfysca5h9e53
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => AUBEBeaO
+    [lead_id] => 13357818
+    [lead_key] => 7442100014727825
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:51:31 
+Request:
+Array
+(
+    [tel] => 2
+    [client] => ه
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => YMybasfS
+    [lead_id] => 13357819
+    [lead_key] => 7442100014727826
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:51:32 
+Request:
+Array
+(
+    [tel] => 2
+    [client] => ه
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:54:57 
+Request:
+Array
+(
+    [tel] => 0668297787
+    [client] => مالايت
+    [ip] => 162.158.89.42
+    [subid] => 941a8fyscgm5me88
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => JxLVnuec
+    [lead_id] => 13357827
+    [lead_key] => 7442100014727835
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:56:14 
+Request:
+Array
+(
+    [tel] => 0551568858
+    [client] => khaled
+    [ip] => 162.158.94.97
+    [subid] => 75f20fyscojg52fe
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 00:57:13 
+Request:
+Array
+(
+    [tel] => 0555161009
+    [client] => لونيس شعلال
+    [ip] => 162.158.90.183
+    [subid] => 85ed0fyscntrn5b2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => chiONdPS
+    [lead_id] => 13357834
+    [lead_key] => 7442100014727842
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 00:58:25 
+Request:
+Array
+(
+    [tel] => 0778333781
+    [client] => منايعية
+    [ip] => 162.158.94.97
+    [subid] => 4abf4fyscir8w7fc
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CbPKnAzw
+    [lead_id] => 13357836
+    [lead_key] => 7442100014727844
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:06:46 
+Request:
+Array
+(
+    [tel] => 20552517491
+    [client] => براهيم 
+    [ip] => 162.158.94.97
+    [subid] => 21acdfyscdvgh60e
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => IPJXURIy
+    [lead_id] => 13357844
+    [lead_key] => 7442100014727852
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:07:41 
+Request:
+Array
+(
+    [tel] => 0554242283
+    [client] => Miloud sayah
+    [ip] => 162.158.88.251
+    [subid] => 3ea34fyscdva827a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => yJsWwxQM
+    [lead_id] => 13357847
+    [lead_key] => 7442100014727855
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:13:00 
+Request:
+Array
+(
+    [tel] => 0667065719
+    [client] => وسيم
+    [ip] => 162.158.90.183
+    [subid] => 4caa3fyscm7oc1ae
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ySPtukJu
+    [lead_id] => 13357851
+    [lead_key] => 7442100014727859
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:16:26 
+Request:
+Array
+(
+    [tel] => +213 696 10 92 05
+    [client] => علي
+    [ip] => 162.158.94.97
+    [subid] => c1dd1fyscqng53ac
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => nTjgxdiL
+    [lead_id] => 13357854
+    [lead_key] => 7442100014727862
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:17:07 
+Request:
+Array
+(
+    [tel] => 0663253493
+    [client] => كشيدة عامر
+    [ip] => 162.158.89.42
+    [subid] => c5062fysc15j63b4
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => AiDIyYrO
+    [lead_id] => 13357855
+    [lead_key] => 7442100014727863
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:17:09 
+Request:
+Array
+(
+    [tel] => +213 696 10 92 05
+    [client] => علي
+    [ip] => 162.158.94.97
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:17:36 
+Request:
+Array
+(
+    [tel] => 0659298469
+    [client] => Saif
+    [ip] => 162.158.90.65
+    [subid] => d7ec8fyscqqdvd12
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => sMlLpLJZ
+    [lead_id] => 13357857
+    [lead_key] => 7442100014727865
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:20:36 
+Request:
+Array
+(
+    [tel] => 0659298469
+    [client] => Saif
+    [ip] => 162.158.90.65
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:21:22 
+Request:
+Array
+(
+    [tel] => 0659298469
+    [client] => Saif
+    [ip] => 162.158.90.65
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:22:17 
+Request:
+Array
+(
+    [tel] => 0663478704
+    [client] => عبد القادر 
+    [ip] => 162.158.88.225
+    [subid] => 768d1fymy2tfy463
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => UXZeVUSq
+    [lead_id] => 13357863
+    [lead_key] => 7442100014727871
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:22:29 
+Request:
+Array
+(
+    [tel] => 0656189727
+    [client] => Mohmad
+    [ip] => 162.158.88.225
+    [subid] => 23eeafymyh9qd8d1
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => YgsaOIPx
+    [lead_id] => 13357864
+    [lead_key] => 7442100014727872
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:24:28 
+Request:
+Array
+(
+    [tel] => 0663478704
+    [client] => عبد القادر 
+    [ip] => 162.158.91.14
+    [subid] => 768d1fymy2tfy463
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:25:13 
+Request:
+Array
+(
+    [tel] => 0663478704
+    [client] => عبد القادر 
+    [ip] => 162.158.94.235
+    [subid] => 768d1fymy2tfy463
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:28:38 
+Request:
+Array
+(
+    [tel] => 0797061785
+    [client] => Saci daoud
+    [ip] => 162.158.91.104
+    [subid] => 3eb4afymy4ka33b6
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => QWCKObYw
+    [lead_id] => 13357871
+    [lead_key] => 7442100014727880
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:31:23 
+Request:
+Array
+(
+    [tel] => 0655600637
+    [client] => Abdo
+    [ip] => 162.158.94.97
+    [subid] => 9fbbcfymygmojb32
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => bgFKKWqG
+    [lead_id] => 13357879
+    [lead_key] => 7442100014727888
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:33:22 
+Request:
+Array
+(
+    [tel] => 0663478704
+    [client] => عبد القادر 
+    [ip] => 162.158.89.42
+    [subid] => c3540fymyvcm7eb4
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:34:29 
+Request:
+Array
+(
+    [tel] => 0663478704
+    [client] => عبد القادر 
+    [ip] => 162.158.94.97
+    [subid] => c3540fymyvcm7eb4
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:35:08 
+Request:
+Array
+(
+    [tel] => 0656717498
+    [client] => Flosa
+    [ip] => 162.158.90.171
+    [subid] => eb644fymyftgx776
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => GDWxAGgz
+    [lead_id] => 13357882
+    [lead_key] => 7442100014727892
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:35:38 
+Request:
+Array
+(
+    [tel] => 0655600637
+    [client] => Abdo
+    [ip] => 162.158.90.183
+    [subid] => 9fbbcfymygmojb32
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 01:35:56 
+Request:
+Array
+(
+    [tel] => 0770336210
+    [client] => فريد
+    [ip] => 162.158.90.41
+    [subid] => 054ecfymy1nqqacf
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => WKYERHyH
+    [lead_id] => 13357883
+    [lead_key] => 7442100014727893
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:36:44 
+Request:
+Array
+(
+    [tel] => 0550477044
+    [client] => Amine
+    [ip] => 162.158.94.109
+    [subid] => 18146fymye2x9e43
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => fJVckXLQ
+    [lead_id] => 13357884
+    [lead_key] => 7442100014727894
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 01:47:13 
+Request:
+Array
+(
+    [tel] => 0558727675
+    [client] => azez abd
+    [ip] => 162.158.90.41
+    [subid] => 2e7c7fymyc8bz10a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => Abzsfmwk
+    [lead_id] => 13357899
+    [lead_key] => 7442100014727910
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:03:05 
+Request:
+Array
+(
+    [tel] => 0673128942
+    [client] => عبد العزيز 
+    [ip] => 162.158.94.109
+    [subid] => 3e91cfyuqu3u37aa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => fOsGcofx
+    [lead_id] => 13357912
+    [lead_key] => 7442100014727926
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:03:05 
+Request:
+Array
+(
+    [tel] => 0673128942
+    [client] => عبد العزيز 
+    [ip] => 162.158.94.109
+    [subid] => 3e91cfyuqu3u37aa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => kGAuHeUZ
+    [lead_id] => 13357913
+    [lead_key] => 7442100014727927
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:08:25 
+Request:
+Array
+(
+    [tel] => 0555313328
+    [client] => محمد فضيل
+    [ip] => 162.158.90.183
+    [subid] => 77a04fyuqy9ho662
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => unapXDiv
+    [lead_id] => 13357919
+    [lead_key] => 7442100014727934
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:10:53 
+Request:
+Array
+(
+    [tel] => 0555313328
+    [client] => محمد فضيل
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 02:39:24 
+Request:
+Array
+(
+    [tel] => 0655881311
+    [client] => NABIL
+    [ip] => 162.158.91.82
+    [subid] => 85b4efyxibzb436c
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => STMtQtfE
+    [lead_id] => 13357963
+    [lead_key] => 7442100014727979
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:43:26 
+Request:
+Array
+(
+    [tel] => 0776026966
+    [client] => Islam 
+    [ip] => 162.158.90.65
+    [subid] => f55b4fyxiqd52fdd
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => oPOIEclC
+    [lead_id] => 13357967
+    [lead_key] => 7442100014727984
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:56:36 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.94.83
+    [subid] => 2e1d3fyxiscx936a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => yFWUlsZi
+    [lead_id] => 13357982
+    [lead_key] => 7442100014727999
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 02:56:36 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.94.83
+    [subid] => 2e1d3fyxiscx936a
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 02:57:08 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.94.83
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 02:58:34 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.94.83
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 03:00:18 
+Request:
+Array
+(
+    [tel] => 0778280600
+    [client] => شوقي 
+    [ip] => 162.158.94.109
+    [subid] => 2a76dfyxihqqdb1b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => PjpjmBRT
+    [lead_id] => 13357987
+    [lead_key] => 7442100014728005
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 03:04:29 
+Request:
+Array
+(
+    [tel] => 0778280600
+    [client] => شوقي 
+    [ip] => 162.158.94.109
+    [subid] => 7ff6cfyxirnd5ce0
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 03:25:20 
+Request:
+Array
+(
+    [tel] => 0659815736
+    [client] => حسان
+    [ip] => 162.158.94.83
+    [subid] => 08debfydva9gm9ae
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => niXnXxMK
+    [lead_id] => 13358032
+    [lead_key] => 7442100014728051
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 03:26:50 
+Request:
+Array
+(
+    [tel] => 0659815736
+    [client] => حسان
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 04:02:14 
+Request:
+Array
+(
+    [tel] => 0666163225
+    [client] => Jamel 
+    [ip] => 162.158.90.225
+    [subid] => ee512fyj6a2uo3c8
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => pfKZFtow
+    [lead_id] => 13358092
+    [lead_key] => 7442100014728115
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 04:54:07 
+Request:
+Array
+(
+    [tel] => 0561399034
+    [client] => حسين
+    [ip] => 162.158.89.42
+    [subid] => 35bdefyzwcia5f9b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => cerwddeV
+    [lead_id] => 13358204
+    [lead_key] => 7442100014728230
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 04:57:04 
+Request:
+Array
+(
+    [tel] => 0
+    [client] => Moussa
+    [ip] => 162.158.90.183
+    [subid] => 71ffbfyzwci8p0d4
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CNFUuHUQ
+    [lead_id] => 13358209
+    [lead_key] => 7442100014728235
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 04:58:49 
+Request:
+Array
+(
+    [tel] => 0796004855
+    [client] => Moussa
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ImJqdqKL
+    [lead_id] => 13358211
+    [lead_key] => 7442100014728237
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:06:49 
+Request:
+Array
+(
+    [tel] => 0561116724
+    [client] => يوسف 
+    [ip] => 162.158.88.251
+    [subid] => a3b9ffyzw9la0521
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => uGJllhAT
+    [lead_id] => 13358234
+    [lead_key] => 7442100014728260
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:08:24 
+Request:
+Array
+(
+    [tel] => 0561116724
+    [client] => يوسف 
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:14:23 
+Request:
+Array
+(
+    [tel] => 0778089657
+    [client] => بوهني
+    [ip] => 162.158.94.109
+    [subid] => a3f24fyzw46u3d06
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => EoiYTIFd
+    [lead_id] => 13358254
+    [lead_key] => 7442100014728280
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:24:13 
+Request:
+Array
+(
+    [tel] => 0774204085
+    [client] => احمد
+    [ip] => 162.158.90.183
+    [subid] => c77a1fyzw15j6ae9
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => GzNffNfH
+    [lead_id] => 13358277
+    [lead_key] => 7442100014728303
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:31:39 
+Request:
+Array
+(
+    [tel] => 0776683907
+    [client] => عبدالنور
+    [ip] => 162.158.89.42
+    [subid] => c55f3fyhqa8b4360
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => foetUwsO
+    [lead_id] => 13358289
+    [lead_key] => 7442100014728317
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:32:40 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.90.65
+    [subid] => 3da61fyhq2tus33a
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:34:19 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.90.65
+    [subid] => 3da61fyhq2tus33a
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:37:14 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.90.65
+    [subid] => 6aca1fyhqqd52084
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:39:07 
+Request:
+Array
+(
+    [tel] => 0550223846
+    [client] => Rshid0
+    [ip] => 162.158.89.80
+    [subid] => 82346fyhqq5177b2
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => uMuqldaI
+    [lead_id] => 13358311
+    [lead_key] => 7442100014728339
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 05:39:26 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:39:26 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.90.65
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 05:56:39 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.89.42
+    [subid] => bbfc7fyd5a1sc1b8
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 06:01:47 
+Request:
+Array
+(
+    [tel] => 0670496600
+    [client] =>   بن. عطوي. زايد
+    [ip] => 162.158.94.109
+    [subid] => 6db31fyhqa38r8fe
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => TOnMWuAB
+    [lead_id] => 13358375
+    [lead_key] => 7442100014728403
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 06:05:44 
+Request:
+Array
+(
+    [tel] => 0770919132
+    [client] => Farid
+    [ip] => 162.158.94.109
+    [subid] => 44d32fyd54k46d69
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => vokesZOT
+    [lead_id] => 13358390
+    [lead_key] => 7442100014728418
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 06:23:04 
+Request:
+Array
+(
+    [tel] => 0669344652
+    [client] => مصطفي
+    [ip] => 162.158.90.183
+    [subid] => 00c55fyd5ejgheed
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => cPFGQqcx
+    [lead_id] => 13358432
+    [lead_key] => 7442100014728461
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 06:25:01 
+Request:
+Array
+(
+    [tel] => 0669344652
+    [client] => مصطفي
+    [ip] => 162.158.90.183
+    [subid] => 00c55fyd5ejgheed
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 06:26:01 
+Request:
+Array
+(
+    [tel] => 0669344652
+    [client] => مصطفي
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 06:34:05 
+Request:
+Array
+(
+    [tel] => 0561475100
+    [client] => 
+    [ip] => 162.158.94.97
+    [subid] => 0fd1efy1m1nik55a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => QKNpFucg
+    [lead_id] => 13358472
+    [lead_key] => 7442100014728503
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:02:56 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جمال
+    [ip] => 162.158.90.183
+    [subid] => 3d47ffy46d5dvf4f
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => hxUMSjrW
+    [lead_id] => 13358541
+    [lead_key] => 7442100014728574
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:04:30 
+Request:
+Array
+(
+    [tel] => 0771330955
+    [client] => Ahmed
+    [ip] => 162.158.90.65
+    [subid] => ead14fy46sypm469
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => LPNcDjnV
+    [lead_id] => 13358549
+    [lead_key] => 7442100014728582
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:06:01 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جمال
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 07:07:22 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جمال
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 07:08:03 
+Request:
+Array
+(
+    [tel] => 
+    [client] => 
+    [ip] => 162.158.90.183
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 403
+    [error_msg] => Required parameter is missing.
+)
+
+
+2021-11-21 07:08:15 
+Request:
+Array
+(
+    [tel] => 0772276352
+    [client] => رابح
+    [ip] => 162.158.94.97
+    [subid] => 4a27cfy46x9522aa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => RSBsdaFh
+    [lead_id] => 13358560
+    [lead_key] => 7442100014728593
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:08:59 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جمال
+    [ip] => 162.158.90.183
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 07:16:25 
+Request:
+Array
+(
+    [tel] => 12334567890
+    [client] => Ghdgddgwd
+    [ip] => 162.158.89.42
+    [subid] => 7cb48fyp2fnfy5fc
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => YxbWvabP
+    [lead_id] => 13358596
+    [lead_key] => 7442100014728630
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:30:45 
+Request:
+Array
+(
+    [tel] => 0794038400
+    [client] => Kamel
+    [ip] => 162.158.89.80
+    [subid] => 82ef3fyp2c8vc1da
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => uzKEHmmW
+    [lead_id] => 13358635
+    [lead_key] => 7442100014728669
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:33:30 
+Request:
+Array
+(
+    [tel] => 0794038400
+    [client] => Kamel
+    [ip] => 162.158.94.83
+    [subid] => 4daa7fyp23vbg080
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 07:38:51 
+Request:
+Array
+(
+    [tel] => 00 213 (0) 5 49822185
+    [client] => Wiam
+    [ip] => 162.158.94.97
+    [subid] => 1387dfyp2slc8c0d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => zvwYiDag
+    [lead_id] => 13358662
+    [lead_key] => 7442100014728696
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 07:59:56 
+Request:
+Array
+(
+    [tel] => 0552184215
+    [client] => جمال 
+    [ip] => 162.158.94.109
+    [subid] => 848a5fytlsy1me43
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => JLvrYyHD
+    [lead_id] => 13358723
+    [lead_key] => 7442100014728760
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:00:45 
+Request:
+Array
+(
+    [tel] => 0775626462
+    [client] => Mourad
+    [ip] => 162.158.89.80
+    [subid] => bf966fytlwha0682
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => IMaOJNYP
+    [lead_id] => 13358727
+    [lead_key] => 7442100014728764
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:16:33 
+Request:
+Array
+(
+    [tel] => 0696990426
+    [client] => عبد السلام
+    [ip] => 162.158.94.97
+    [subid] => f1bfafytlq54p7cd
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => uhhmMVJB
+    [lead_id] => 13358774
+    [lead_key] => 7442100014728813
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:18:38 
+Request:
+Array
+(
+    [tel] => 0668287989
+    [client] => Djafar
+    [ip] => 162.158.90.41
+    [subid] => f14c6fyc86jgmb0e
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => IabDZoqT
+    [lead_id] => 13358778
+    [lead_key] => 7442100014728817
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:19:28 
+Request:
+Array
+(
+    [tel] => 0668287989
+    [client] => Djafar
+    [ip] => 162.158.90.41
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:32:28 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.89.42
+    [subid] => b0b33fyeja6a4745
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => FBypFSQS
+    [lead_id] => 13358828
+    [lead_key] => 7442100014728868
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:33:26 
+Request:
+Array
+(
+    [tel] => 0540527436
+    [client] => سمير
+    [ip] => 162.158.88.251
+    [subid] => a8463fyejxs4kbf1
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => OMwDNOFb
+    [lead_id] => 13358831
+    [lead_key] => 7442100014728871
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:34:48 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.89.42
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:35:25 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.94.97
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:35:34 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.94.97
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:35:36 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.94.97
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:36:10 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.89.42
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:37:37 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.89.80
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:37:50 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Hamid
+    [ip] => 162.158.89.80
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:40:09 
+Request:
+Array
+(
+    [tel] => 0774396370
+    [client] => Kamal
+    [ip] => 162.158.90.41
+    [subid] => 384fafyeju3u35cb
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => BOFXmHVl
+    [lead_id] => 13358856
+    [lead_key] => 7442100014728897
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:44:39 
+Request:
+Array
+(
+    [tel] => 0669315813
+    [client] => Mido
+    [ip] => 162.158.94.109
+    [subid] => dcc8cfyej1z9z598
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 08:45:37 
+Request:
+Array
+(
+    [tel] => 0556079028
+    [client] => علي 
+    [ip] => 162.158.90.183
+    [subid] => b38bafyej1za7d17
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => qjAAUiMd
+    [lead_id] => 13358872
+    [lead_key] => 7442100014728913
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 08:48:12 
+Request:
+Array
+(
+    [tel] => 0779529371
+    [client] => Mohamed 
+    [ip] => 162.158.89.42
+    [subid] => c6f25fyeje25mf4f
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => UGWXYule
+    [lead_id] => 13358881
+    [lead_key] => 7442100014728922
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:03:52 
+Request:
+Array
+(
+    [tel] => 078808090
+    [client] => عماد
+    [ip] => 162.158.90.65
+    [subid] => 0d669fyej4poj1e4
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => dzkRCLFL
+    [lead_id] => 13358917
+    [lead_key] => 7442100014728958
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:04:20 
+Request:
+Array
+(
+    [tel] => 0774907541
+    [client] => Nassim
+    [ip] => 162.158.94.109
+    [subid] => 0645afyejj2xi894
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => SPMkvplp
+    [lead_id] => 13358918
+    [lead_key] => 7442100014728959
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:08:33 
+Request:
+Array
+(
+    [tel] => 0658939338
+    [client] => حسين
+    [ip] => 162.158.90.171
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => tSeAEsWc
+    [lead_id] => 13358935
+    [lead_key] => 7442100014728976
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:15:59 
+Request:
+Array
+(
+    [tel] => 0658477401
+    [client] => عبد القادر
+    [ip] => 162.158.88.251
+    [subid] => cb768fysyciduc7e
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => fxHaVJIJ
+    [lead_id] => 13358961
+    [lead_key] => 7442100014729003
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:24:43 
+Request:
+Array
+(
+    [tel] => 0656105267
+    [client] => سامي
+    [ip] => 162.158.88.251
+    [subid] => c3bcafysy9lgmf02
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => DTyjrHMY
+    [lead_id] => 13358986
+    [lead_key] => 7442100014729028
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:25:54 
+Request:
+Array
+(
+    [tel] => 0656105267
+    [client] => سامي
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 09:26:37 
+Request:
+Array
+(
+    [tel] => 0656105267
+    [client] => سامي
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 09:39:22 
+Request:
+Array
+(
+    [tel] => 0549412665
+    [client] => طارق
+    [ip] => 162.158.90.65
+    [subid] => 38726fysyibxoc52
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => pWjEkBiT
+    [lead_id] => 13359030
+    [lead_key] => 7442100014729072
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:46:08 
+Request:
+Array
+(
+    [tel] => 0549667959
+    [client] => Sadam 
+    [ip] => 162.158.89.80
+    [subid] => e52fafyx9a48r5db
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CslMxHxC
+    [lead_id] => 13359050
+    [lead_key] => 7442100014729093
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:56:34 
+Request:
+Array
+(
+    [tel] => 0672831995
+    [client] =>  سلطان
+    [ip] => 162.158.94.235
+    [subid] => 165aefyx9gm8ra75
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => lMkFdFVx
+    [lead_id] => 13359077
+    [lead_key] => 7442100014729120
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:58:38 
+Request:
+Array
+(
+    [tel] => 0665146551
+    [client] => Kadi
+    [ip] => 162.158.94.235
+    [subid] => d60d2fyx9wfe8251
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => hsnYSNrX
+    [lead_id] => 13359085
+    [lead_key] => 7442100014729128
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 09:59:53 
+Request:
+Array
+(
+    [tel] => 0662320670
+    [client] => Omar mehmel
+    [ip] => 162.158.89.42
+    [subid] => ce787fyx9lp8w3c5
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => PfAWFctx
+    [lead_id] => 13359089
+    [lead_key] => 7442100014729132
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 10:04:50 
+Request:
+Array
+(
+    [tel] => 0799887402
+    [client] => عباس كمال
+    [ip] => 162.158.94.185
+    [subid] => 8a93cfyx9b7ydf5d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => fcFpQZoN
+    [lead_id] => 13359104
+    [lead_key] => 7442100014729148
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 10:11:15 
+Request:
+Array
+(
+    [tel] => 0665425526
+    [client] => Zoz
+    [ip] => 162.158.94.235
+    [subid] => 22817fyx9d5sl663
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => cTlmWKvK
+    [lead_id] => 13359119
+    [lead_key] => 7442100014729163
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 10:41:01 
+Request:
+Array
+(
+    [tel] => 0775027595
+    [client] => حكيم 
+    [ip] => 162.158.89.42
+    [subid] => 15a7afy37ghb432b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => WBXQoAkt
+    [lead_id] => 13359218
+    [lead_key] => 7442100014729263
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 10:41:49 
+Request:
+Array
+(
+    [tel] => 0660449546
+    [client] => Ahcene
+    [ip] => 162.158.89.42
+    [subid] => 08bb4fy37y9c8397
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ISvMhVSO
+    [lead_id] => 13359220
+    [lead_key] => 7442100014729265
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 10:49:45 
+Request:
+Array
+(
+    [tel] => 0774434962
+    [client] => عبد النور اودية 
+    [ip] => 162.158.89.34
+    [subid] => 425cafy37hox96ec
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => iTIOsAzW
+    [lead_id] => 13359249
+    [lead_key] => 7442100014729294
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:00:54 
+Request:
+Array
+(
+    [tel] => 0559618499
+    [client] => حوالي ياسين
+    [ip] => 162.158.89.80
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:03:28 
+Request:
+Array
+(
+    [tel] => 0676797183
+    [client] => وليد
+    [ip] => 162.158.88.225
+    [subid] => e9cc8fy37j28w3b3
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => RQeKzYTM
+    [lead_id] => 13359295
+    [lead_key] => 7442100014729340
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:03:29 
+Request:
+Array
+(
+    [tel] => 0676797183
+    [client] => وليد
+    [ip] => 162.158.88.225
+    [subid] => e9cc8fy37j28w3b3
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:17:42 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.94.205
+    [subid] => 4b3f4fybg17a3635
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => ildCtlRj
+    [lead_id] => 13359330
+    [lead_key] => 7442100014729377
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:19:48 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.94.219
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:20:28 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.94.205
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:21:36 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.90.41
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:25:05 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.94.205
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:27:57 
+Request:
+Array
+(
+    [tel] => 06590088
+    [client] => جمال
+    [ip] => 162.158.90.171
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:28:31 
+Request:
+Array
+(
+    [tel] => 0778074346
+    [client] => Rami
+    [ip] => 162.158.91.82
+    [subid] => bdec7fybgqentbf6
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CwuPcaSJ
+    [lead_id] => 13359361
+    [lead_key] => 7442100014729408
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:29:11 
+Request:
+Array
+(
+    [tel] => 0671037444
+    [client] => العياشي
+    [ip] => 162.158.90.65
+    [subid] => c6f9cfybggh7s0f1
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => jJVeYQft
+    [lead_id] => 13359363
+    [lead_key] => 7442100014729410
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:30:38 
+Request:
+Array
+(
+    [tel] => 0671037444
+    [client] => العياشي
+    [ip] => 162.158.94.109
+    [subid] => c6f9cfybggh7s0f1
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:31:50 
+Request:
+Array
+(
+    [tel] => 0673120383
+    [client] => سمير
+    [ip] => 162.158.94.97
+    [subid] => 61d39fybggx1m2aa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => DvZsNqGY
+    [lead_id] => 13359370
+    [lead_key] => 7442100014729419
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:33:34 
+Request:
+Array
+(
+    [tel] => 0671037444
+    [client] => العياشي
+    [ip] => 162.158.94.83
+    [subid] => c6f9cfybggh7s0f1
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 11:36:24 
+Request:
+Array
+(
+    [tel] => 0793736055
+    [client] => Rayen 
+    [ip] => 162.158.88.251
+    [subid] => 7e7defybg9rd508c
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => AbXkdVOK
+    [lead_id] => 13359385
+    [lead_key] => 7442100014729433
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:42:18 
+Request:
+Array
+(
+    [tel] => 0657838162
+    [client] => قورشال عبدالقادر
+    [ip] => 162.158.94.219
+    [subid] => 70152fybgxik2cc4
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => vRDSZusC
+    [lead_id] => 13359401
+    [lead_key] => 7442100014729450
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 11:44:38 
+Request:
+Array
+(
+    [tel] => 0657838162
+    [client] => قورشال عبدالقادر
+    [ip] => 162.158.94.205
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 12:12:29 
+Request:
+Array
+(
+    [tel] => 0781659662
+    [client] => علي
+    [ip] => 162.158.90.183
+    [subid] => 536eefyrnxswhb6a
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => FoBPVgzE
+    [lead_id] => 13359499
+    [lead_key] => 7442100014729550
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 12:17:17 
+Request:
+Array
+(
+    [tel] => 0660646447
+    [client] => مراد رزقي
+    [ip] => 162.158.94.97
+    [subid] => b6e65fyrny9uo73b
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => rXLALBuO
+    [lead_id] => 13359514
+    [lead_key] => 7442100014729566
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 12:19:15 
+Request:
+Array
+(
+    [tel] => 0665415458
+    [client] => رحمي.بوداود
+    [ip] => 162.158.94.97
+    [subid] => 9eae8fyrny9hec06
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => gXQJQZFA
+    [lead_id] => 13359517
+    [lead_key] => 7442100014729569
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 12:19:40 
+Request:
+Array
+(
+    [tel] => 0541207150
+    [client] => Mohamed
+    [ip] => 162.158.89.80
+    [subid] => 09a71fyrnwfa5ace
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => rTUJAlsd
+    [lead_id] => 13359519
+    [lead_key] => 7442100014729571
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 12:19:41 
+Request:
+Array
+(
+    [tel] => 0541207150
+    [client] => Mohamed
+    [ip] => 162.158.89.80
+    [subid] => 09a71fyrnwfa5ace
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 12:20:09 
+Request:
+Array
+(
+    [tel] => 0541207150
+    [client] => Mohamed
+    [ip] => 162.158.94.109
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 12:21:36 
+Request:
+Array
+(
+    [tel] => 0793895081
+    [client] => 
+    [ip] => 162.158.94.83
+    [subid] => c7ed1fyrnnt8r4d0
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => yfrqjHXS
+    [lead_id] => 13359527
+    [lead_key] => 7442100014729579
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 12:31:05 
+Request:
+Array
+(
+    [tel] => 0779551127
+    [client] => محمود امين
+    [ip] => 162.158.90.171
+    [subid] => 6109dfyrnb75mdaa
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => UIYmUrZB
+    [lead_id] => 13359555
+    [lead_key] => 7442100014729607
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 14:01:31 
+Request:
+Array
+(
+    [tel] => 0797769352
+    [client] => 
+    [ip] => 162.158.89.80
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => FjGESZkR
+    [lead_id] => 13359832
+    [lead_key] => 7442100014729889
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 16:52:37 
+Request:
+Array
+(
+    [tel] => 0671037444
+    [client] => العياشي بطل الطلب
+    [ip] => 162.158.88.251
+    [subid] => faee5fyxrm79rd60
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => PcXWDBPW
+    [lead_id] => 13360308
+    [lead_key] => 7442100014730378
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 16:53:00 
+Request:
+Array
+(
+    [tel] => 0671037444
+    [client] => العياشي بطل الطلب
+    [ip] => 162.158.88.251
+    [subid] => faee5fyxrm79rd60
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-21 17:01:39 
+Request:
+Array
+(
+    [tel] => 0555214253
+    [client] => Salah edin
+    [ip] => 162.158.94.97
+    [subid] => d455afyfya7a1a02
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => UMEHNGUl
+    [lead_id] => 13360335
+    [lead_key] => 7442100014730405
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-21 22:29:31 
+Request:
+Array
+(
+    [tel] => 213669700844
+    [client] => كمال
+    [ip] => 162.158.91.82
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => klTvrWJm
+    [lead_id] => 13361180
+    [lead_key] => 7442100014731271
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

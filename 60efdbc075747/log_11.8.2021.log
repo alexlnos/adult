@@ -1,0 +1,88 @@
+August 11, 2021, 7:51 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Jasmin Edulan
+    [phone] => 09282961155
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 2001:4455:27f:4f00:414:1bb:7cde:5819
+    [utm_campaign] => 762
+    [utm_content] => 28
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => 8def6dva6gma990a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+August 11, 2021, 12:33 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => roel
+    [phone] => 09619980922
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 136.158.78.52
+    [utm_campaign] => 762
+    [utm_content] => 28
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => bf042dva952ik0b2
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+August 11, 2021, 3:29 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Angelita portmann
+    [phone] => 09217422036
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 49.150.107.65
+    [utm_campaign] => 762
+    [utm_content] => 28
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => ebf1cdvgxq54p07d
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+August 11, 2021, 3:40 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Joe Roderick S Manzano
+    [phone] => 09356619589
+    [email] => admin@admin.com
+    [domain] => http://adltmedia.com/landers/60efdbc075747/limon.php
+    [ip] => 49.151.173.34
+    [utm_campaign] => 762
+    [utm_content] => 28
+    [utm_medium] => 
+    [utm_source] => GVIC
+    [utm_term] => 
+    [clickid] => 78488dvgxhep2199
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

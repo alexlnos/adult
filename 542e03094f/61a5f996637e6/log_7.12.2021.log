@@ -1,0 +1,44 @@
+December 7, 2021, 2:55 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Jonep Dacumos
+    [phone] => 09777582634
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/542e03094f/61a5f996637e6/limon.php
+    [ip] => 2405:8d40:ca0:3b5c:16be:ef3:e564:34c7
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 22c30du4kib1714e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 7, 2021, 3:22 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Reo
+    [phone] => 09918273251
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/542e03094f/61a5f996637e6/limon.php
+    [ip] => 131.226.65.221
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => f2a7dduwfa8b4ee1
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

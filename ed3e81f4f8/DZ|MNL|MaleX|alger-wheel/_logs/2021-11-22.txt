@@ -1,0 +1,79 @@
+2021-11-22 06:41:43 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جامال
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => QlOfLnuu
+    [lead_id] => 13361914
+    [lead_key] => 7442100014732034
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
+2021-11-22 06:47:40 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جامال
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-22 06:48:00 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جامال
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+
+2021-11-22 06:49:33 
+Request:
+Array
+(
+    [tel] => 0669572816
+    [client] => جامال
+    [ip] => 162.158.88.251
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => error
+    [error_code] => 438
+    [error_msg] => Дубль номера телефона за последние 4 часа.
+)
+
+

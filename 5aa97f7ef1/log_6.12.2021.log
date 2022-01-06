@@ -1,0 +1,44 @@
+December 6, 2021, 12:56 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Jino
+    [phone] => 09631242887
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 175.176.92.174
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 6e785slsc1616b2e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 6, 2021, 1:08 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Amado
+    [phone] => 09978497412
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 49.144.63.113
+    [utm_campaign] => 920
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 324cbslschoik33f
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

@@ -1,0 +1,22 @@
+August 23, 2021, 10:48 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 7a096d9f-27cf-4f96-a0e6-9ce2a7448ed6
+    [fio] => Testing
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltracker.site/landers/7e7c49b8c7/limon.php
+    [ip] => 62.217.184.49
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => CHS
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

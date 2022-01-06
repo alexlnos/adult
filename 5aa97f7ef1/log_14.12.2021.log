@@ -1,0 +1,22 @@
+December 14, 2021, 8:38 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => brian
+    [phone] => brian
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/5aa97f7ef1/limon.php
+    [ip] => 175.176.40.88
+    [utm_campaign] => {campaign}
+    [utm_content] => {trafficsource}
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => {clickid}
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

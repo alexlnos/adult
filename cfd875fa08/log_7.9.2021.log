@@ -1,0 +1,22 @@
+September 7, 2021, 11:09 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 7a096d9f-27cf-4f96-a0e6-9ce2a7448ed6
+    [fio] => Testing
+    [phone] => +910000000000
+    [email] => admin@admin.com
+    [domain] => http://adltracker.site/landers/cfd875fa08/limon.php
+    [ip] => 62.217.191.67
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

@@ -1,0 +1,302 @@
+
+
+(function (reason, options) {
+  class App {
+  constructor(reason, options) {
+    this._reason = reason;
+    this._options = options;
+  }
+
+  get id() {
+    return "ipp";
+  }
+
+  get initTimeout() {
+    return this.motivationContent.initTimeout;
+  }
+
+  get eventSystem() {
+    return window.ufApp.eventSystem;
+  }
+
+  get reason() {
+    return this._reason;
+  }
+
+  get placement() {
+    return this._options.placement;
+  }
+
+  get motivationContent() {
+    return this._options.motivationContent || null;
+  }
+
+  get htmlCode() {
+    return this.motivationContent.inline_html || "";
+  }
+
+  get cssCode() {
+    return this.motivationContent.inline_css || "";
+  }
+
+  get customEvents() {
+    return ["automatic", "on_any_click"];
+  }
+
+  get startEvent() {
+    return (this.customEvents.includes(this.motivationContent.behaviorToAction))
+      ? this.en(this.motivationContent.behaviorToAction)
+      : this.motivationContent.behaviorToAction;
+  }
+
+  get trackUrl() {
+    return this._options.trackUrl;
+  }
+
+  get clickUrl() {
+    return this._options.clickUrl;
+  }
+
+  /** -------- / getters part ------ */
+
+  // ====================================================
+  /** --------  init part ------ */
+  async init() {
+    if (this.reason) {
+      console.log(this.reason);
+      return;
+    }
+    await this.initListeners();
+
+    this.dispatch("automatic");
+    
+    if (window.ufApp && window.ufApp.webpush && Array.isArray(window.ufApp.webpush.processedEvents) && window.ufApp.webpush.processedEvents.length > 0) {
+      window.ufApp.webpush.processedEvents.forEach((eventName) => {
+        if (eventName === this.startEvent) {
+          this.start();
+        }
+      });
+    }
+  }
+
+  async initListeners() {
+    if (this.initTimeout) {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, this.initTimeout);
+      });
+    }
+
+    this.eventSystem.addEventListener(this.startEvent, (event) => {
+      this.start();
+    });
+
+    this.addEventListener("track", async (event) => {
+      if (!event.detail) {
+        throw new Error("No details for event");
+      }
+
+      const { eventName, message } = event.detail;
+
+      const data = this.getDataForTrack();
+      data.message = message;
+      const payload = {
+        eventName,
+        ...data,
+      };
+
+      await this._track(payload);
+    });
+
+    const eventList = [
+      "app_init",
+      "motivation_content",
+      "motivation_content_deny",
+      "click",
+      "error",
+    ];
+
+    for (const eventName of eventList) {
+      this.addEventListener(eventName, async (event) => {
+        const detail = event.detail || {};
+        this.dispatch("track", {
+          detail: {
+            ...detail,
+            eventName,
+          },
+        });
+
+        switch (eventName) {
+          case "click":
+            await this.click(event);
+            break;
+        }
+      });
+    }
+
+    document.getElementsByTagName("body")[0].addEventListener("click", (event) => {
+      this.dispatch("uf.ipp.on_any_click")
+    })
+  }
+
+  async start() {
+    try {
+      this.dispatch("app_init");
+      await this.prepareMotivationContent();
+    }
+    catch (err) {
+      console.error(err);
+      this.dispatch("error", {
+        detail: { message: err.message }
+      });
+    }
+  }
+
+  /** -------- / init part ------ */
+
+  // ====================================================
+  /** ------ motivation content inline part ------ */
+
+  async prepareMotivationContent() {
+    this.initCss();
+    this.popup = this.initHtml();
+    this.toggle(true);
+    this.popup.querySelector("#ipp_motivation_content_click").addEventListener("click", (event) => {
+      event.preventDefault();
+      this.toggle(false);
+      this.dispatch("click");
+    });
+    this.popup.querySelector("#ipp_motivation_content_deny").addEventListener("click", (event) => {
+      event.preventDefault();
+      this.toggle(false);
+      this.dispatch("motivation_content_deny");
+    });
+
+    this.dispatch("motivation_content");
+  }
+
+  initCss() {
+    const element = document.createElement("style");
+
+    const attributes = {
+      type: "text/css",
+      innerHTML: this.cssCode,
+    };
+    for (const key in attributes) {
+      if (element[key] !== void 0) {
+        element[key] = attributes[key];
+      }
+      else {
+        element.setAttribute(key, attributes[key]);
+      }
+    }
+    const [docHead] = document.getElementsByTagName("head");
+    docHead.appendChild(element);
+
+    return element;
+  }
+
+  initHtml() {
+    const element = document.createElement("div");
+    const attributes = {
+      innerHTML: this.htmlCode,
+    };
+    for (const key in attributes) {
+      if (element[key] !== void 0) {
+        element[key] = attributes[key];
+      }
+      else {
+        element.setAttribute(key, attributes[key]);
+      }
+    }
+    const [docBody] = document.getElementsByTagName("body");
+    docBody.appendChild(element);
+
+    return element;
+  }
+
+  toggle(display = true) {
+    this.popup.style.display = display ? "block" : "none";
+  }
+
+  async click(event) {
+    location.href = this._options.clickUrl;
+  }
+
+  /** ---- / motivation content inline part ----- */
+
+  // ====================================================
+  /** ------ tracking part ------- */
+
+  getDataForTrack() {
+    const result = {
+      query: this._options.query,
+      info: this._options.info,
+      placement: this.placement,
+      motivationContentId: this.motivationContent.id,
+      campaignId: this._options.campaignId
+    };
+    return result;
+  }
+
+  async _track(data) {
+    const response = await fetch(this.trackUrl, {
+      method: "POST",
+      mode: "cors",
+      cache: "no-cache",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      redirect: "follow",
+      body: JSON.stringify(data),
+    });
+    return response.json();
+  }
+
+  en(eventName) {
+    return `uf.${this.id}.${eventName}`;
+  }
+
+  dispatch(eventName, data) {
+    const fullEventName = this.en(eventName);
+    this.eventSystem.dispatchEvent(new CustomEvent(fullEventName, data));
+  }
+
+  addEventListener(eventName, cb) {
+    const fullEventName = this.en(eventName);
+    this.eventSystem.addEventListener(fullEventName, cb);
+  }
+
+  /** ------ / tracking part ------- */
+
+  /** ========== END OF APP ========== */
+}
+
+
+  new Promise((resolve, reject) => {
+    let counter = 0
+    const interval = setInterval(() => {
+      if (window.ufApp) {
+        clearInterval(interval)
+        resolve(window.ufApp)
+      } else if (counter > 10) {
+        clearInterval(interval)
+        reject(new Error('The UF App is not started in 10 sec'))
+      }
+
+      counter++
+    }, 1000)
+  })
+    .then((ufApp) => {
+      ufApp.ipp = new App(reason, options).init()
+    })
+    .catch((err) => console.log(err.message))
+
+})(`Can't find ipp targeting for attributes:
+            - placement lp
+            - browserLanguageId: 5b4c93b95155ec7afbb74449
+            - data1: b3929sch`, {})
+
+

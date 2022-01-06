@@ -1,0 +1,22 @@
+2021-12-03 12:03:57 
+Request:
+Array
+(
+    [tel] => 0665069436
+    [client] => كشرود
+    [ip] => 162.158.94.171
+    [subid] => 2ce0f15ibp2a3791
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => nLlrnPjf
+    [lead_id] => 13411139
+    [lead_key] => 7442100014782378
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

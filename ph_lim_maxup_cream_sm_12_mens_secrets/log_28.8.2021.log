@@ -1,0 +1,22 @@
+August 28, 2021, 3:22 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Faith
+    [phone] => 09307371616
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/ph_lim_maxup_cream_sm_12_mens_secrets/limon.php
+    [ip] => 120.29.69.220
+    [utm_campaign] => 510
+    [utm_content] => 26
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 3925fhqqddva968f
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

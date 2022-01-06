@@ -1,0 +1,66 @@
+December 8, 2021, 12:56 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Darwin camagon
+    [phone] => 639268631650
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/ph_lad_dozex_mk/61a5f13d522bf/limon.php
+    [ip] => 110.54.152.35
+    [utm_campaign] => 919
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => ff5badu9r46a5160
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 8, 2021, 12:58 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Russell b toledo
+    [phone] => 09558311068
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/ph_lad_dozex_mk/61a5f13d522bf/limon.php
+    [ip] => 112.211.44.192
+    [utm_campaign] => 919
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 5a5e6g6fnoctle7e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+December 8, 2021, 8:31 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 9c4fe23b-37ea-4954-945b-29067b0d5c0e
+    [fio] => Junejune
+    [phone] => 09706274438
+    [email] => admin@admin.com
+    [domain] => http://enlargene.com/landers/ph_lad_dozex_mk/61a5f13d522bf/limon.php
+    [ip] => 175.176.53.157
+    [utm_campaign] => 919
+    [utm_content] => 42
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => f706ag61z3vrn050
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

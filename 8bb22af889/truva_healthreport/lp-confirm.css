@@ -1,0 +1,171 @@
+#lp-confirm {
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 1px rgba(34, 28, 5, 0.3);
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-name: slideDown;
+  position: fixed;
+  top: 10px;
+  left: 5%;
+  width: 90%;
+  margin: 0;
+  font-size: 100%;
+  padding: 0;
+  height: auto;
+  background-color: #ffffff;
+  cursor: auto;
+  z-index: 99999999999;
+}
+#lp-confirm.center {
+  left: 50%;
+  margin: 0 0 0 -220px;
+}
+#lp-confirm.right {
+  right: 30px;
+  left: auto;
+  margin: 0;
+}
+#lp-confirm .lp-confirm-wrap {
+  position: relative;
+  padding: 20px 15px 10px 15px;
+  z-index: 13000;
+}
+#lp-confirm .lp-confirm-logo {
+  border-radius: 3px;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+#lp-confirm .lp-confirm-img {
+  max-width: 100%;
+  overflow: hidden;
+}  
+#lp-confirm .lp-confirm-logo:before {
+background-color: #37e103;
+  content: "";
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+#lp-confirm .lp-confirm-img {
+  border-radius: 50%;
+}
+#lp-confirm .lp-confirm-content {
+  padding: 0 0 0 80px;
+  text-align: left;
+}
+#lp-confirm .lp-confirm-title {
+  color: #212121;
+  margin: 0 0 5px;
+  padding: 0;
+  font: 700 14px/20px Open Sans;
+  min-height: 20px;
+  width: auto;
+  height: auto;
+}
+#lp-confirm .lp-confirm-text {
+  padding: 0;
+  color: #212121;
+  margin: 0 0 7px;
+  font: 400 12px/16px Open Sans;
+  min-height: 20px;
+  width: auto;
+  height: auto;
+}
+#lp-confirm .lp-confirm-btns {
+  position: relative;
+  font-size: 0;
+  text-align: right;
+}
+#lp-confirm .lp-confirm-btn {
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: background-color, color 0.2s ease-in;
+  background-image: none;
+  background-color: transparent;
+  text-transform: none;
+  padding: 0 10px;
+  margin: 0 15px 10px 0;
+  font: 400 12px/24px Open Sans;
+  height: 26px;
+  max-width: 170px;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+}
+#lp-confirm .lp-confirm-btn:focus {
+  outline: 0;
+}
+#lp-confirm .lp-confirm-btn-allow:hover {
+  text-decoration: none;
+  background-color: #ffe850 !important;
+  border-color: rgba(34, 28, 5, 0.4) !important;
+  color: #212121 !important;
+  cursor: pointer;
+}
+#lp-confirm .lp-confirm-btn-close:hover {
+  text-decoration: none;
+  background-color: #d2d2d2 !important;
+  border-color: rgba(34, 28, 5, 0.4) !important;
+  color: #212121 !important;
+  cursor: pointer;
+}
+#lp-confirm .lp-confirm-btn-close {
+  background: none;
+  color: black;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid black;
+}
+#lp-confirm .lp-confirm-btn-allow {
+  border: none;
+  min-width: 100px;
+  font-weight: bold;
+  background: #ff7854;
+  background: -moz-linear-gradient(to bottom,#ff7800 0,#ff1f02 100%);
+  background: -webkit-linear-gradient(to bottom,#ff7800 0,#ff1f02 100%);
+  background: linear-gradient(to bottom,#ff7800 0,#ff1f02 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7854', endColorstr='#d9349f', GradientType=1);
+  color: #fff;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.27);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.27);
+}
+@media only screen and (min-width: 480px) {
+  #lp-confirm {
+    top: 15px;
+    left: 30px;
+    width: 420px;
+  }
+  #lp-confirm .lp-confirm-wrap {
+    padding: 20px 20px 10px 20px;
+  }
+  #lp-confirm .lp-confirm-btns {
+    padding-left: 110px;
+    text-align: left;
+  }
+  #lp-confirm .lp-confirm-btn {
+    margin: 0 20px 0 0;
+    padding: 0 15px;
+  }
+  #lp-confirm .lp-confirm-btns {
+    padding-left: 115px;
+  }
+  #lp-confirm .lp-confirm-btn-allow {
+    margin-right: 0;
+  }

@@ -1,0 +1,22 @@
+2021-11-25 00:51:16 
+Request:
+Array
+(
+    [tel] => 0655661513
+    [client] => Kamal
+    [ip] => 162.158.88.29
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => YXnHcQeQ
+    [lead_id] => 13373847
+    [lead_key] => 7442100014744270
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

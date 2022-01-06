@@ -1,0 +1,22 @@
+July 30, 2021, 2:04 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 5876bfb5-5f26-4de9-8784-ec27e3449920
+    [fio] => Niño Rommel Dave Ando 
+    [phone] => +639106427465
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/ph_lim_maxup_cream_sm_12_mens_secrets/limon.php
+    [ip] => 110.54.174.189
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 97dc3my17gm6j817
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

@@ -1,0 +1,66 @@
+2021-12-07 11:49:02 
+Request:
+Array
+(
+    [tel] => 0552138463
+    [client] => Murad
+    [ip] => 162.158.90.27
+    [subid] => ad423ducifnho732
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => XmoyarWP
+    [lead_id] => 13428230
+    [lead_key] => 7442100014799866
+    [profit] => 4.00
+    [currency] => USD
+)
+
+
+2021-12-07 15:51:37 
+Request:
+Array
+(
+    [tel] => 0671393020
+    [client] => Sayf
+    [ip] => 162.158.94.171
+    [subid] => 324cfdub4a3uo233
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => dOseHQMw
+    [lead_id] => 13429340
+    [lead_key] => 7442100014800991
+    [profit] => 4.00
+    [currency] => USD
+)
+
+
+2021-12-07 23:07:00 
+Request:
+Array
+(
+    [tel] => 0660425223
+    [client] => اسلام
+    [ip] => 162.158.94.183
+    [subid] => 1fd86due2b4gx97d
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => sTHqGOcT
+    [lead_id] => 13430695
+    [lead_key] => 7442100014802372
+    [profit] => 4.00
+    [currency] => USD
+)
+
+

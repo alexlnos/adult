@@ -1,0 +1,22 @@
+2021-10-29 13:35:14 
+Request:
+Array
+(
+    [tel] => 123123123
+    [client] => test
+    [ip] => 5.138.235.52
+    [subid] => {clickid}
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => qUPbZeap
+    [lead_id] => 13271173
+    [lead_key] => 7290700014639330
+    [profit] => 5.00
+    [currency] => USD
+)
+
+

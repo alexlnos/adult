@@ -1,0 +1,968 @@
+July 30, 2021, 12:03 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Pa parao
+    [phone] => +918790830827
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:4e00:645c:f43c:d8fc:bb86:f49b
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 92f60my8wftej635
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 12:42 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Raj
+    [phone] => +917076183567
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4061:2c0a:cdd8::108a:1508
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 40a3amy8wfyu3026
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 12:48 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Nikhil Kumar
+    [phone] => +917247334258
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:1bc8:2c6e:e216:6196:58f1:12f8
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 12d33my8wj27v941
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 12:48 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Umer Farooq
+    [phone] => +919622355266
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:3118:2a64:0:62:c0d2:7101
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 66dcfmy8w15q5a13
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 12:49 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Nikhil Kumar
+    [phone] => +917247334258
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:1bc8:2c6e:e216:6196:58f1:12f8
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 12d33my8wj27v941
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:55 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Aarish
+    [phone] => +919310478085
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4050:2e30:2b80:c3b1:2c69:3893:86b6
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 70b1bmyxiftci243
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 9:05 am
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Wajed Ali
+    [phone] => +918104189154
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:1202:d84:1:2:8612:f5da
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 87661mydvqdb4879
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:44 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Hasinkhan
+    [phone] => +917383509901
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:5041:b89e:1:1:2c38:138
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 6542bmy1ma73v5e2
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:46 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Kamal
+    [phone] => +919770963313
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4043:78f:513b::17e9:60a0
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 2a369my1mpm166f7
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:47 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Pravin chad
+    [phone] => +919644575682
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4043:2390:dc39::1bd7:b0a5
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 483b8my1mxs3727a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:48 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Pravin chad
+    [phone] => +919644575682
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4043:2390:dc39::1bd7:b0a5
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 483b8my1mxs3727a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:48 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Pravin chad
+    [phone] => +919644575682
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4043:2390:dc39::1bd7:b0a5
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 483b8my1mxs3727a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:48 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => syaam sunbr 
+    [phone] => +918826915246
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4050:2ec5:4246::9888:90e
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 3b2b8my1mfnzwa20
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:49 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => syaam sunbr 
+    [phone] => +918826915246
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4050:2ec5:4246::9888:90e
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 3b2b8my1mfnzwa20
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:50 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => syaam sunbr 
+    [phone] => +918826915246
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4050:2ec5:4246::9888:90e
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 3b2b8my1mfnzwa20
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:58 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => 7546
+    [phone] => +919560107546
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 223.225.58.20
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 93af0my1mntscf2e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 3:59 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => 7546
+    [phone] => +919560107546
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 223.225.58.20
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 93af0my1mntscf2e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 4:02 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Tad
+    [phone] => +919560107546
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 223.225.58.20
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => ffc5cmy1mvcqq4e4
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 4:27 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Dileepkumar
+    [phone] => +919334106026
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4064:2d13:eecc::5c4a:470d
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 41264my1mocqq79e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 4:28 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Hyderabad
+    [phone] => +919618414326
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:4e16:7228:38aa:fbb8:7a75:53d1
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => e6845my46a2nt052
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 4:30 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Dileepkumar
+    [phone] => +919334106026
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4064:2d13:eecc::5c4a:470d
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 41264my1mocqq79e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:04 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Sudeesh 
+    [phone] => +918601950221
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4063:239a:3aed:e9a6:6429:df52:4cbc
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => d458fmy46qnntfbc
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:06 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => N. G
+    [phone] => +917823886196
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:39b0:8960:7dd5:5e7f:c014:1f9
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => ecfc0my46sl1n39b
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:09 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Mukesh
+    [phone] => +919925245831
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2405:205:c92b:3bb1:bc7c:a3e6:bd60:e6a
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => ceb84my46g69l996
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:36 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Binod keshari 7903230426
+    [phone] => +917903230426
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 157.35.74.76
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 1ab29myp2iblp113
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:58 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Nifbf
+    [phone] => +916895956
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4062:113:2784::1023:c8a1
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => a1a42mytl9rm7082
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:58 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Nifbf
+    [phone] => +916895956
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4062:113:2784::1023:c8a1
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => a1a42mytl9rm7082
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 5:59 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Bipin Kumar 
+    [phone] => +916290883122
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4060:e98:859f:63da:122c:a090:8b69
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => c5ab2mytl8w171b2
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:19 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => B.k
+    [phone] => +919509230967
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2405:204:a026:1d97::2af8:f0a0
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 47729myc8gxrn727
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:21 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Gopal rana
+    [phone] => +917976647896
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4040:d00:f452::ffc9:f700
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 0c1a8myc8xs8p40a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:29 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Suresh
+    [phone] => +919772417410
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4052:4e83:c52e:5027:8be6:9b0d:d96c
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 55a3dmyc8b4fn78e
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:34 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Shersingh 
+    [phone] => +918219772405
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4056:e93:3c11:2175:7c3b:8e10:eb18
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 93625myc85me8d70
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:42 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Amrendra Gautam
+    [phone] => +919554330497
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4063:4d0e:650a:b09a:f6ed:a7cd:aa4d
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 13d73myc8e2a82bf
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:46 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => ਆਮਨ ਸਿੰਘ ਮ
+    [phone] => +917814586786
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 106.220.110.134
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => b6ec1myc8rnsy58a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 6:56 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Rankumar
+    [phone] => +917897359639
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:4713:99ea:0:4f:3526:4a01
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 03b98myc8qna971d
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:02 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Tuygh
+    [phone] => +917575858369
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4071:d8f:f07b::5e89:8113
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 670cemyej1746a63
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:07 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Alok Kumar maurya
+    [phone] => +918381993370
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:4719:d31a:fd54:50a:1556:3f06
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => dba87myejoja4e2f
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:08 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Alok Kumar maurya
+    [phone] => +918381993370
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:4719:d31a:fd54:50a:1556:3f06
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => dba87myejoja4e2f
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:16 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Manpreet singh
+    [phone] => +919780050697
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 223.185.22.14
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 4a4cdmyejk2j6431
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 7:28 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Sakib
+    [phone] => +919663944561
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2405:204:5014:7fbf::18bf:88a4
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 5eca7myej1ma524a
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 8:10 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Sandeep kumar
+    [phone] => +919724440310
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:53dc:fc83:19cf:4a3e:9487:2518
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => f4f14mysyvc15444
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 8:55 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Ramu kumar
+    [phone] => +918115435238
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:5aa6:c02c:dfc6:691a:a482:6bf
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 1aeb6myx9178wc42
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 8:57 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Ramu kumar
+    [phone] => +918115435238
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2401:4900:5aa6:c02c:dfc6:691a:a482:6bf
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => 1aeb6myx9178wc42
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------
+July 30, 2021, 11:57 pm
+----------- DATA -------------
+Array
+(
+    [offerId] => 444e972d-e501-4625-8cb3-6aead5d7cc8c
+    [fio] => Akshya
+    [phone] => +916302689216
+    [email] => admin@admin.com
+    [domain] => http://adltnews.com/landers/60feb0c5e48be/limon.php
+    [ip] => 2409:4070:2d96:5250:f2ee:e62c:2469:64e8
+    [utm_campaign] => 
+    [utm_content] => 
+    [utm_medium] => 
+    [utm_source] => SM
+    [utm_term] => 
+    [clickid] => bac31mybgb47v2c4
+    [fbpxl] => 
+)
+
+----------- RESPONSE ---------
+{"result":"ok"}
+----------- END --------------

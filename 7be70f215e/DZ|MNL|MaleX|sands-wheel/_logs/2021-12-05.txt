@@ -1,0 +1,22 @@
+2021-12-05 12:44:11 
+Request:
+Array
+(
+    [tel] => 0774089480
+    [client] => علي
+    [ip] => 162.158.90.27
+    [subid] => 2c92b9z1552a8502
+)
+
+Answer:
+Array
+(
+    [status] => ok
+    [lead_hash] => CUNmNSOq
+    [lead_id] => 13419324
+    [lead_key] => 7442100014790773
+    [profit] => 5.00
+    [currency] => USD
+)
+
+
